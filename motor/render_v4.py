@@ -252,7 +252,7 @@ def desenha_textos(fr, eventos, t, faixa=False):
         ti = e.get('ti')
         if 'conta' in e:
             v0, v1, mold, dc = e['conta']
-            n = round((v0 + (v1 - v0) * ease_out(clamp(u / dc))) / 10) * 10 if v1 >= 100 else round(v0 + (v1 - v0) * clamp(u / dc))
+            n = round((v0 + (v1 - v0) * ease_out(clamp(u / dc))) / 10) * 10 if v1 >= 100 and v1 % 10 == 0 else round(v0 + (v1 - v0) * clamp(u / dc))
             ti = mold.format(fmt_km(n))
         # pedido do Nei (10/10/2026): letreiro de centro sobe para o topo, para não cobrir a foto; 'meio' = posição antiga
         if pos == 'c' and faixa:  # fotos em linha (Faixa, tipo filme): o meio é livre, o letreiro fica no centro
