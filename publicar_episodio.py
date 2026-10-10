@@ -113,6 +113,10 @@ def publicar(pasta, sem_email=False):
     pasta = os.path.abspath(os.path.expanduser(pasta))
     ep = json.load(open(f'{pasta}/EPISODIO.json'))
     ep['pasta'] = pasta
+    ep['idmat'] = int(ep['idmat'])  # o produtor às vezes grava como texto
+    ep['notificar'] = [int(i) for i in ep.get('notificar', [])] or None
+    if ep['notificar'] is None:
+        ep.pop('notificar')
     cand = {c['idmat']: c for c in jload(f'{P}/candidatos.json', [])}
     c = cand.get(ep['idmat'], {})
     ep.setdefault('assunto', c.get('assunto', ep['titulo_curto']))
