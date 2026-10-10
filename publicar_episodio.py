@@ -11,6 +11,7 @@ YT = os.path.expanduser('~/projetos/yt-pubx')
 HIST = os.path.expanduser('~/.local/share/yt-pubx/historico.jsonl')
 RCLONE = os.path.expanduser('~/projetos/inemabk/rclone/rclone')
 CANAL = 'https://www.youtube.com/@aventurasinema'
+NAO_AVISAR = {4819}  # o próprio Nei. Regra de 10/10/2026: avisar TODAS as pessoas ligadas à matéria
 NUM = [('dois mil e onze', '2011'), ('dois mil e dez', '2010'), ('dois mil e nove', '2009'), ('dois mil e oito', '2008'),
        ('dois mil e sete', '2007'), ('dois mil e seis', '2006'), ('dois mil e cinco', '2005'), ('dois mil e quatro', '2004'),
        ('dois mil e três', '2003'), ('dois mil e dois', '2002'), ('dois mil e um', '2001'), ('dois mil', '2000')]
@@ -162,7 +163,7 @@ def publicar(pasta, sem_email=False):
         enviados = s.setdefault('emails', {})
         voltou = set(jload(f'{P}/emails_voltaram.json', []))
         for p in c.get('pessoas', []):
-            if p.get('email') and str(p['idf']) not in enviados and p['email'] not in voltou and p['idf'] in ep.get('notificar', [p['idf']]):
+            if p.get('email') and str(p['idf']) not in enviados and p['email'] not in voltou and p['idf'] not in NAO_AVISAR:
                 enviados[str(p['idf'])] = email(p, ep, s['yt'], s['b2'])
                 jsave(f'{P}/estado_pub.json', est)
     if not any(e['slug'] == ep['slug'] for e in eps):

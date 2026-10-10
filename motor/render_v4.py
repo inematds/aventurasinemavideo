@@ -232,6 +232,16 @@ def fmt_km(n):
     return f'{n:,}'.replace(',', '.')
 
 
+def scrim_topo():
+    def f():
+        y = np.mgrid[0:H, 0:W][0].astype(np.float32)
+        a = np.clip(1 - y / (H * .42), 0, 1) ** 1.6 * .72
+        im = np.zeros((H, W, 4), np.uint8)
+        im[..., 3] = (a * 255).astype(np.uint8)
+        return Image.fromarray(im, 'RGBA')
+    return cached('scrim_topo', f)
+
+
 def desenha_textos(fr, eventos, t):
     for e in eventos:
         u, d = t - e['t'], e['d']
@@ -244,12 +254,15 @@ def desenha_textos(fr, eventos, t):
             v0, v1, mold, dc = e['conta']
             n = round((v0 + (v1 - v0) * ease_out(clamp(u / dc))) / 10) * 10 if v1 >= 100 else round(v0 + (v1 - v0) * clamp(u / dc))
             ti = mold.format(fmt_km(n))
-        colar(fr, scrim(pos), W / 2, H / 2, alpha * e.get('sc', 1))
-        tx = bloco_texto(e.get('k'), ti, e.get('body'), e.get('size', 128 if pos == 'c' else 92), 'c' if pos == 'c' else 'l')
-        if pos == 'c':
+        # pedido do Nei (10/10/2026): letreiro de centro sobe para o topo, para não cobrir a foto; 'meio' = posição antiga
+        centro = pos in ('c', 'meio')
+        colar(fr, scrim_topo() if pos == 'c' else scrim('c' if pos == 'meio' else pos), W / 2, H / 2, alpha * e.get('sc', 1))
+        tx = bloco_texto(e.get('k'), ti, e.get('body'), e.get('size', (104 if pos == 'c' else 128) if centro else 92), 'c' if centro else 'l')
+        if centro:
             s = 1.12 - .12 * ease_out(clamp(u / .35))
             im = tx if s == 1 else tx.resize((round(tx.width * s), round(tx.height * s)), Image.BILINEAR)
-            colar(fr, im, W / 2, H / 2 + e.get('dy', 0), alpha)
+            y = (60 + tx.height / 2) if pos == 'c' else H / 2 + e.get('dy', 0)
+            colar(fr, im, W / 2, y, alpha)
         elif pos == 'tr':
             caixa = cached(('caixa', tx.width, tx.height), lambda: caixa_escura(tx.width + 50, tx.height + 30))
             colar(fr, caixa, W - 110 - tx.width / 2, 90 + tx.height / 2, alpha)

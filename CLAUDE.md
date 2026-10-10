@@ -20,4 +20,6 @@ When I correct you, or you catch yourself making a mistake: before continuing, a
 - Fotos do acervo: as grandes (533x400) estão em `albuns/<id>/al1/`; a raiz do álbum só tem miniaturas de 150 px; apagar o `Album.txt` de `al1/`. (10/10/2026)
 - Whisper parte milhar em dois tokens ("4", ".800"): âncora é `Wd(b,'4')`, não '4800'. Antes de renderizar, rodar `python3 -c "import filme;filme.blocos()"`: âncora errada dá SystemExit dentro do Pool e o render trava sem erro (#7, 10/10/2026).
 - `conta=(v0, v1, …)` do render_v4 contava errado com v0 > 0 ("27.300 METROS"); fórmula corrigida no motor em 10/10. (10/10/2026)
+- Âncora `Wd` tem que ser a palavra como o Whisper escreveu, não a do roteiro: "camioneta" virou "caminhoneta", "CTG" virou "setegui"/"etag"; conferir em palavras.json antes de escolher a âncora (#8, 10/10/2026).
+- Letreiro de centro cobria a foto: desde 10/10 o padrão (`pos=c`) fica no topo; e-mail vai a TODAS as pessoas da matéria (menos o Nei). (10/10/2026)
 - Canal novo do YouTube não verificado: sem capa, sem link externo clicável e teto diário baixo; publicar com `--sem-thumb`. (10/10/2026)
