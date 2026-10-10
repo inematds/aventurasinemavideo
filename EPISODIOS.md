@@ -14,6 +14,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 7 | 10/10/2026 | Gilmar Calais Assafrão — 10.000 km de moto até o Chile (2008) | [idmat102835](https://aventura.inema.club/mat/idmat102835.htm) | 0082666 | https://www.youtube.com/watch?v=D51W3HSt2bQ | `memorias/gilmar-chile-2008/` | `output/memorias-aventura-gilmar-chile-2008` |
 | 8 | 10/10/2026 | Luciana Heitelvan e José Antonio Ferreira — III Cavalgada No Caminho das Pipas (2007) | [idmat091915](https://aventura.inema.club/mat/idmat091915.htm) | 0074414 | https://www.youtube.com/watch?v=JBta5pk459o | `memorias/jose-cavalgada-pipas-2007/` | `output/memorias-aventura-jose-cavalgada-pipas-2007` |
 | 9 | 10/10/2026 | Nei Maldaner e João Viana Aragones — Expedição à Antártida (2004) | [idmat022993](https://aventura.inema.club/mat/idmat022993.htm) | 0039336 | https://www.youtube.com/watch?v=j3HahI14nmU | `memorias/antartida-2004/` | `output/memorias-aventura-antartida-2004` |
+| 10 | 10/10/2026 | Naoki Arima — a criação da Sauro, agarras de escalada (2003) | [idmat018404](https://aventura.inema.club/mat/idmat018404.htm) | 0022233 | https://www.youtube.com/watch?v=SZF4ANrMQiI | `memorias/naoki-sauro/` | `output/memorias-aventura-naoki-sauro` |
 
 ## Próximos
 
