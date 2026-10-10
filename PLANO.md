@@ -19,7 +19,7 @@ O que isso significa na operação:
 | De não assinantes | 4 por dia, variando os assuntos (moto, trilha, escalada, jipe, cavalgada, viagem…). **No máximo 1 vídeo por pessoa** |
 | Publicação | sempre no canal Aventuras INEMA, sem capa enquanto o canal não for verificado |
 | Aviso | e-mail a **todas** as pessoas ligadas à matéria (autor, participantes, fotógrafos; assinante ou não; menos o próprio Nei), com o link do vídeo, do download (B2) e do canal (regra de 10/10/2026) |
-| Letreiros | o título que antes ficava no meio vai para o **topo** da tela, para não cobrir a foto (pedido de 10/10/2026; `pos='meio'` só com motivo) |
+| Letreiros | o título que antes ficava no meio vai para o **topo** da tela, para não cobrir a foto (pedido de 10/10/2026). Exceção: sobre as fotos em linha (beat `Faixa`, tipo filme) o letreiro continua no centro, automático |
 | Meta | toda matéria do acervo com relato e imagens vira vídeo |
 | Sem assinante disponível | completar o dia com não assinantes e anotar em EPISODIOS.md |
 

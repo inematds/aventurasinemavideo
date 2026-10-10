@@ -242,7 +242,7 @@ def scrim_topo():
     return cached('scrim_topo', f)
 
 
-def desenha_textos(fr, eventos, t):
+def desenha_textos(fr, eventos, t, faixa=False):
     for e in eventos:
         u, d = t - e['t'], e['d']
         if u < 0 or u > d:
@@ -255,6 +255,8 @@ def desenha_textos(fr, eventos, t):
             n = round((v0 + (v1 - v0) * ease_out(clamp(u / dc))) / 10) * 10 if v1 >= 100 else round(v0 + (v1 - v0) * clamp(u / dc))
             ti = mold.format(fmt_km(n))
         # pedido do Nei (10/10/2026): letreiro de centro sobe para o topo, para não cobrir a foto; 'meio' = posição antiga
+        if pos == 'c' and faixa:  # fotos em linha (Faixa, tipo filme): o meio é livre, o letreiro fica no centro
+            pos = 'meio'
         centro = pos in ('c', 'meio')
         colar(fr, scrim_topo() if pos == 'c' else scrim('c' if pos == 'meio' else pos), W / 2, H / 2, alpha * e.get('sc', 1))
         tx = bloco_texto(e.get('k'), ti, e.get('body'), e.get('size', (104 if pos == 'c' else 128) if centro else 92), 'c' if centro else 'l')
@@ -400,7 +402,7 @@ def render_bloco(b):
             fr = Image.blend(pbeat.frame(t - ptb, tb - ptb + XF).convert('RGB'), fr.convert('RGB'),
                              ease_io((t - tb) / XF)).convert('RGBA')
         fr = fr.copy() if fr.mode == 'RGBA' else fr.convert('RGBA')
-        desenha_textos(fr, B['txt'], t)
+        desenha_textos(fr, B['txt'], t, isinstance(beat, Faixa))
         a = np.asarray(fr.convert('RGB')).astype(np.float32)
         ent = ENTRADA.get(b)
         if ent == 'chicote' and t < .3:  # entra deslizando com borrão de movimento
