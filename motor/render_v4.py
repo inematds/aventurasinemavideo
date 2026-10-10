@@ -402,7 +402,7 @@ def render_bloco(b):
             fr = Image.blend(pbeat.frame(t - ptb, tb - ptb + XF).convert('RGB'), fr.convert('RGB'),
                              ease_io((t - tb) / XF)).convert('RGBA')
         fr = fr.copy() if fr.mode == 'RGBA' else fr.convert('RGBA')
-        desenha_textos(fr, B['txt'], t, isinstance(beat, Faixa))
+        desenha_textos(fr, B['txt'], t, isinstance(beat, Faixa) or b == ks[-1])  # fecho também no meio (Nei, 10/10)
         a = np.asarray(fr.convert('RGB')).astype(np.float32)
         ent = ENTRADA.get(b)
         if ent == 'chicote' and t < .3:  # entra deslizando com borrão de movimento
