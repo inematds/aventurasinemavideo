@@ -12,6 +12,7 @@ Não publica no YouTube, não sobe no B2 e não manda e-mail. Quem faz isso é o
    (filme.py, roteiro.md, linha.json) e `~/projetos/output/memorias-aventura-ana/`. Leia o filme.py de um deles antes de escrever o seu.
 2. **Texto**: `~/projetos/aventurasinemavideo/privado/textos/<idmat>.txt`. Se a matéria tiver "Parte 2…", junte as partes.
 3. **Fotos**: `~/projetos/inemabk/rclone/rclone copy b2:inemaaventura/albuns/<album>/al1/ fotos-all/` (apague `Album.txt`).
+   **Fotos principais = as que aparecem na própria matéria** (`<img>` em https://f005.backblazeb2.com/file/inemaaventura/mat/idmatXXXXXX.htm, versão grande em `al1/`): use TODAS. Outras fotos do álbum ou de álbuns vizinhos do mesmo evento entram só como enfeite (fundo, mosaico, faixa). Regra do Nei, 10/10/2026.
    Classifique as fotos com um subagente `model: haiku` (categorias da história + nota 1–3 + "ruim") → `classificacao.json`.
 4. **roteiro.md**: de 9 a 15 blocos (B01 = gancho com o ganho/emoção da história; último bloco = "…continua guardada no acervo do INEMA Aventura").
    Use só fatos do relato e o que as fotos mostram. Não invente nome de lugar nem de pessoa.
