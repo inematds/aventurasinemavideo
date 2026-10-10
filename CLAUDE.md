@@ -22,6 +22,7 @@ When I correct you, or you catch yourself making a mistake: before continuing, a
 - `conta=(v0, v1, …)` do render_v4 contava errado com v0 > 0 ("27.300 METROS"); fórmula corrigida no motor em 10/10. (10/10/2026)
 - Âncora `Wd` tem que ser a palavra como o Whisper escreveu, não a do roteiro: "camioneta" virou "caminhoneta", "CTG" virou "setegui"/"etag"; conferir em palavras.json antes de escolher a âncora (#8, 10/10/2026).
 - Letreiro de centro cobria a foto: desde 10/10 o padrão (`pos=c`) fica no topo; e-mail vai a TODAS as pessoas da matéria (menos o Nei). (10/10/2026)
+- Voz `nei` erra nomes: "Eliandra", "Ilha das Couves", "Blue" (blu-e), "El Tatio", "San Antonio de los Cobres": deixar só no letreiro. (10/10/2026)
 - Canal novo do YouTube não verificado: sem capa, sem link externo clicável e teto diário baixo; publicar com `--sem-thumb`. (10/10/2026)
 - Remaster Codex inventa: trocou "BOULDER" por "BOLICHE" num adesivo e virou agarras sujas de magnésio em pelúcia (duas vezes). Olhar TODO remaster em folha antes do render; texto/objeto mudado = refazer uma vez, senão usar o original como cópia em papel (#10, 10/10/2026).
 - O álbum dado pode ser só UM capítulo do evento: ler `Album.txt` (IdEv) e os álbuns vizinhos antes de classificar. No #9 o 0039336 era "11Ushuaia" (zero Antártida); as fotos da viagem estavam em 0039337–0039350. Fotos extras entram em fotos-all com prefixo que ordena DEPOIS (`zz_`), senão os índices mudam. (#9, 10/10/2026)
