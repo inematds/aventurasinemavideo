@@ -66,6 +66,8 @@ Gerador: `montar_descricoes.py` (acrescentar o episódio novo em `EPS`/`REGISTRO
 
 ## Limites conhecidos (medir antes de prometer)
 
+- **Medido em 10/10/2026:** o canal aceitou 10 uploads em ~24 h (6 republicados + #7 a #10) e recusou o 11º com `uploadLimitExceeded`. Episódio pronto entra em `privado/fila_publicar.txt`; o `fila_publicar.sh` (unit `aventuras-fila`) tenta de hora em hora e commita o registro.
+
 - **Canal não verificado** (youtube.com/verify pendente): sem capa, links externos sem clique e teto diário de upload baixo. Em 10/10 subiram 6 sem barrar, mas isso é observação, não garantia.
 - **Cota da YouTube Data API**: 10.000 unidades/dia por padrão. Um upload custa cerca de 1.600, então 6 uploads quase esgotam o dia. Edições e repetições também gastam. `quotaExceeded` = tentar no dia seguinte (fila). Aumento de cota é pedido pelo Nei no console do projeto aventuras-511207.
 - **Codex image_gen**: ~12 remasters × 6 vídeos = 72 imagens por dia. Medir no 1º dia.

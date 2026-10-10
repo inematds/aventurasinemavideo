@@ -1,0 +1,22 @@
+#!/bin/bash
+# Publica os episódios prontos da fila (privado/fila_publicar.txt, uma pasta por linha), em ordem.
+# Saída 75 do publicar_episodio.py = limite do YouTube: espera 1 h e tenta de novo. Outro erro: para e avisa no log.
+# Uso: systemd-run --user --unit aventuras-fila ./fila_publicar.sh
+cd "$(dirname "$0")" || exit 1
+FILA=privado/fila_publicar.txt
+LOG=privado/fila_publicar.log
+while true; do
+  pasta=$(grep -v '^\s*$' "$FILA" 2>/dev/null | head -1)
+  [ -z "$pasta" ] && { echo "$(date '+%F %T') fila vazia, fim" >> "$LOG"; exit 0; }
+  echo "$(date '+%F %T') publicando $pasta" >> "$LOG"
+  python3 publicar_episodio.py "$pasta" >> "$LOG" 2>&1
+  rc=$?
+  if [ $rc -eq 0 ]; then
+    grep -vxF "$pasta" "$FILA" > "$FILA.tmp"; mv "$FILA.tmp" "$FILA"
+    git add EPISODIOS.md descricoes/ && git commit -qm "Episódio publicado: $(basename "$pasta")" && git push -q
+  elif [ $rc -eq 75 ]; then
+    echo "$(date '+%F %T') limite do YouTube, nova tentativa em 1 h" >> "$LOG"; sleep 3600
+  else
+    echo "$(date '+%F %T') ERRO $rc em $pasta, fila parada" >> "$LOG"; exit $rc
+  fi
+done
