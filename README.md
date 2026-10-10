@@ -1,5 +1,19 @@
 # aventurasinemavideo
 
+[![Memórias de Aventura](guia/assets/banner.jpg)](https://inematds.github.io/aventurasinemavideo/guia/)
+
+**🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
+
+## O que é
+
+O **aventurasinemavideo** é o projeto que produz a série **Memórias de Aventura**. Ele pega matérias reais do acervo do INEMA Aventura (aventura.inema.club, de 2001 a 2012), com o relato e as fotos que os próprios aventureiros enviaram, e transforma cada uma num filme narrado de um a três minutos. Serve para quem viveu aquelas histórias e para quem gosta de aventura: os filmes saem de graça no canal [Aventuras INEMA](https://www.youtube.com/@aventurasinema) no YouTube. Para assistir, basta abrir o canal; o repositório guarda as regras e o motor que monta os filmes.
+
+## 📖 Guia de uso
+
+Guia completo (landing + passo a passo): **https://inematds.github.io/aventurasinemavideo/guia/**
+
+## Como funciona
+
 Transforma os relatos e as fotos do acervo **INEMA Aventura** (aventura.inema.club, 2001–2012) em
 filmes narrados da série **Memórias de Aventura**. Os filmes são publicados no canal
 [Aventuras INEMA](https://www.youtube.com/@aventurasinema).

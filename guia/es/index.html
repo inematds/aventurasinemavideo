@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Memorias de Aventura — relatos del archivo INEMA Aventura se convierten en películas</title>
+<meta name="description" content="aventurasinemavideo transforma relatos y fotos del archivo INEMA Aventura (2001–2012) en películas narradas de la serie Memorias de Aventura, publicadas en el canal Aventuras INEMA en YouTube.">
+<link rel="alternate" hreflang="pt-BR" href="https://inematds.github.io/aventurasinemavideo/guia/">
+<link rel="alternate" hreflang="en" href="https://inematds.github.io/aventurasinemavideo/guia/en/">
+<link rel="alternate" hreflang="es" href="https://inematds.github.io/aventurasinemavideo/guia/es/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0c0c10; --bg2:#14141b; --card:#16161e; --line:#272730;
+    --txt:#e9e9ee; --mut:#9a9aa6; --amb:#E2A23B; --amb2:#f0c070; --sky:#38bdf8; --pro:#cbd5e1;
+    color-scheme:dark;
+  }
+  body.light{
+    --bg:#f6f7f9; --bg2:#eceef2; --card:#ffffff; --line:#e1e3ea;
+    --txt:#1a1a22; --mut:#5b5b68; --amb:#b9791d; --amb2:#a16207; --sky:#0369a1; --pro:#b45309;
+    color-scheme:light;
+  }
+  body.light .hero .glow{opacity:.5}
+  body.light pre{background:#0e0e14;color:#d6d6e0}
+  body.light pre .c{color:#8a8a98}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.65 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:Sora,sans-serif;line-height:1.15;margin:0}
+  a{color:var(--amb);text-decoration:none}
+  code,pre{font-family:"JetBrains Mono",monospace}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 22px}
+  .mut{color:var(--mut)} .amb{color:var(--amb)}
+  .chip{display:inline-block;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amb);font-weight:600;font-family:Sora}
+  nav{position:sticky;top:0;z-index:30;backdrop-filter:blur(12px);background:rgba(12,12,16,.78);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;align-items:center;gap:22px;height:60px}
+  nav .brand{display:flex;align-items:center;gap:8px;font-family:Sora;font-weight:800;letter-spacing:-.02em;color:var(--amb)}
+  nav .brand .emoji{font-size:1.25rem}
+  nav .sep{color:var(--mut);opacity:.45}
+  nav .inema{color:var(--sky);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .inema:hover{filter:brightness(1.15)}
+  nav .pro{color:var(--pro);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .pro:hover{filter:brightness(1.15)}
+  nav .clubpro{display:inline-flex;align-items:center;gap:6px}
+  nav .links{margin-left:auto;display:flex;align-items:center;gap:20px;font-size:.92rem}
+  nav .links a.sec{color:var(--mut)} nav .links a.sec:hover{color:var(--txt)}
+  .lang{display:inline-flex;gap:2px;font-family:Sora;font-size:.78rem}
+  .lang a{color:var(--mut);padding:.2em .45em;border-radius:6px} .lang a.on{color:var(--amb);background:rgba(226,162,59,.12)}
+  .tgl{background:var(--bg2);border:1px solid var(--line);color:var(--txt);width:38px;height:38px;border-radius:10px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;font-size:1.05rem}
+  .tgl:hover{border-color:var(--amb)}
+  .btn{display:inline-block;background:var(--amb);color:#1a1206;font-weight:600;padding:.6em 1.05em;border-radius:10px;font-family:Sora}
+  .btn.ghost{background:transparent;color:var(--txt);border:1px solid var(--line)}
+  @media(max-width:760px){nav .links a.sec{display:none}}
+  @media(max-width:520px){nav .wrap{gap:8px;padding:8px 14px;height:auto;flex-wrap:wrap} nav .links{gap:8px;margin-left:0;width:100%;justify-content:space-between} nav .btn{padding:.45em .7em;font-size:.82rem} .tgl{width:34px;height:34px}}
+  .hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+  .hero .glow{position:absolute;inset:-40% -20% auto auto;width:70%;height:600px;background:radial-gradient(closest-side,rgba(226,162,59,.22),transparent 70%);pointer-events:none}
+  .hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding:74px 22px}
+  .hero h1{font-size:clamp(2.2rem,5vw,3.5rem);font-weight:800;letter-spacing:-.025em}
+  .hero p.lead{font-size:1.18rem;color:var(--mut);margin:1.1em 0 1.6em;max-width:34ch}
+  .hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+  .hero figure{margin:0;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 30px 80px -30px #000}
+  .hero figure img{width:100%;display:block}
+  .resumo{padding:38px 0 34px;border-bottom:1px solid var(--line)}
+  .resumo p{font-size:1.12rem;line-height:1.7;max-width:74ch;margin:.55em 0 0}
+  @media(max-width:780px){.hero .wrap{grid-template-columns:1fr;padding:48px 22px}}
+  section{padding:62px 0;border-bottom:1px solid var(--line)}
+  section h2{font-size:clamp(1.5rem,3.4vw,2.1rem);font-weight:800;letter-spacing:-.02em}
+  section .sub{color:var(--mut);margin:.6em 0 2em;max-width:62ch}
+  .grid{display:grid;gap:16px}
+  .g3{grid-template-columns:repeat(3,1fr)} .g4{grid-template-columns:repeat(4,1fr)} .g2{grid-template-columns:repeat(2,1fr)}
+  @media(max-width:820px){.g3,.g4{grid-template-columns:1fr 1fr}}
+  @media(max-width:540px){.g2,.g3,.g4{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+  .card h3{font-size:1.05rem;margin-bottom:.4em}
+  .card p{color:var(--mut);font-size:.92rem;margin:0}
+  .num{display:inline-flex;width:30px;height:30px;align-items:center;justify-content:center;border-radius:8px;background:rgba(226,162,59,.14);color:var(--amb);font-family:Sora;font-weight:800;font-size:.9rem;margin-bottom:.7em}
+  .flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px}
+  .flow span{background:var(--bg2);border:1px solid var(--line);border-radius:999px;padding:.45em .9em;font-size:.85rem;font-family:Sora;font-weight:600}
+  .flow .arr{color:var(--amb);border:none;background:none;padding:0 .1em}
+  pre{background:#0a0a0e;border:1px solid var(--line);border-radius:12px;padding:16px 18px;overflow:auto;font-size:.86rem;line-height:1.6;color:#d6d6e0}
+  pre .c{color:#6f6f7c} pre .k{color:var(--amb2)} pre .s{color:#9ece6a}
+  .step{display:grid;grid-template-columns:46px minmax(0,1fr);gap:16px;margin-bottom:26px}
+  .step>div,.card{min-width:0}
+  p code,li code,td code{overflow-wrap:anywhere}
+  .step .b{width:46px;height:46px;border-radius:12px;background:var(--amb);color:#1a1206;font-family:Sora;font-weight:800;font-size:1.25rem;display:flex;align-items:center;justify-content:center}
+  .step h3{font-size:1.12rem;margin-bottom:.3em}
+  .step p{color:var(--mut);margin:.2em 0 .7em}
+  .ex{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  @media(max-width:680px){.ex{grid-template-columns:1fr}}
+  .ex figure{margin:0;border-radius:14px;overflow:hidden;border:1px solid var(--line)}
+  .ex figure img{width:100%;display:block}
+  .ex figcaption{padding:12px 14px;font-size:.88rem;color:var(--mut);background:var(--card)}
+  .phase{display:flex;gap:14px;padding:16px 0;border-bottom:1px solid var(--line)}
+  .phase:last-child{border:none}
+  .phase .tag{flex:0 0 92px;font-family:Sora;font-weight:800;color:var(--amb)}
+  .phase .d strong{display:block;margin-bottom:.2em}
+  .phase .d span{color:var(--mut);font-size:.92rem}
+  footer{padding:46px 0;text-align:center;color:var(--mut);font-size:.9rem}
+  .pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:.3em .8em;font-size:.78rem;color:var(--mut);margin:0 4px}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+  <a class="brand" href="#top"><span class="emoji">🎞️</span> Memorias de Aventura</a>
+  <span class="sep">|</span>
+  <span class="clubpro">
+    <a class="inema" href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a>
+    <span class="sep">-</span>
+    <a class="pro" href="https://inema.pro" target="_blank" rel="noopener">PRO</a>
+  </span>
+  <div class="links">
+    <a class="sec" href="#oque">Qué es</a>
+    <a class="sec" href="#fluxo">Cómo funciona</a>
+    <a class="sec" href="#regra">La regla del día</a>
+    <a class="sec" href="#episodios">Episodios</a>
+    <a class="sec" href="#guia">Paso a paso</a>
+    <span class="lang"><a href="../">PT</a><a href="../en/">EN</a><a class="on" href="./">ES</a></span>
+    <button class="tgl" id="themeToggle" aria-label="Cambiar tema" title="Cambiar tema">🌙</button>
+    <a class="btn" href="https://github.com/inematds/aventurasinemavideo" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</div></nav>
+
+<header class="hero" id="top">
+  <div class="glow"></div>
+  <div class="wrap">
+    <div>
+      <span class="chip">Serie Memorias de Aventura · archivo 2001–2012</span>
+      <h1>Relatos antiguos de aventura se convierten en <span class="amb">películas</span></h1>
+      <p class="lead">Viajes en moto, expediciones en jeep y escaladas narradas en INEMA Aventura cobran voz, fotos restauradas y movimiento, y llegan a YouTube.</p>
+      <div class="cta">
+        <a class="btn" href="https://www.youtube.com/@aventurasinema" target="_blank" rel="noopener">Ver el canal Aventuras INEMA</a>
+        <a class="btn ghost" href="#episodios">Ver los episodios</a>
+      </div>
+    </div>
+    <figure><img src="../assets/banner-es.jpg" alt="Banner Memorias de Aventura: relatos de 2001–2012 se convierten en películas"></figure>
+  </div>
+</header>
+
+<section id="resumo" class="resumo"><div class="wrap">
+  <span class="chip">En resumen</span>
+  <p><strong>aventurasinemavideo</strong> es el proyecto que produce la serie <strong>Memorias de Aventura</strong>. Toma artículos reales del archivo de INEMA Aventura (aventura.inema.club, de 2001 a 2012), con el relato y las fotos que enviaron los propios aventureros, y convierte cada uno en una película narrada de uno a tres minutos. Es para quienes vivieron esas historias y para quienes disfrutan de la aventura: las películas se publican gratis en el canal <a href="https://www.youtube.com/@aventurasinema" target="_blank" rel="noopener">Aventuras INEMA</a> en YouTube. Para verlas, basta con abrir el canal; el repositorio guarda las reglas y el motor que monta las películas.</p>
+</div></section>
+
+<section id="oque"><div class="wrap">
+  <span class="chip">Qué es</span>
+  <h2>Un archivo de 20 años que vuelve a contarse</h2>
+  <p class="sub">Entre 2001 y 2012, INEMA Aventura reunió relatos y álbumes de fotos de motociclistas, aficionados a los jeeps, escaladores y viajeros. Esta serie saca esas historias del archivo y las vuelve a contar en video.</p>
+  <figure style="margin:0 0 26px;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 30px 80px -30px #000"><img src="../assets/banner-grade-es.jpg" alt="Relato, fotos restauradas, narración, movimiento 2.5D, YouTube y 6 videos al día" loading="lazy" style="width:100%;display:block"></figure>
+  <div class="grid g3">
+    <div class="card"><h3>📖 Solo lo que ocurrió</h3><p>El guion parte del relato original y de las fotos del álbum. No se inventa nada más allá de lo que muestran el texto y las imágenes.</p></div>
+    <div class="card"><h3>📷 Fotos antiguas renovadas</h3><p>Las fotos de cámaras digitales de los años 2000 se restauran y cobran movimiento: profundidad, pilas, franjas y mosaicos.</p></div>
+    <div class="card"><h3>🎙️ La voz de Nei</h3><p>La narración usa la voz de Nei Maldaner, creador de INEMA, y cada historia recibe banda sonora y rótulos.</p></div>
+  </div>
+</div></section>
+
+<section id="fluxo"><div class="wrap">
+  <span class="chip">Cómo funciona</span>
+  <h2>Del artículo al video en el canal</h2>
+  <p class="sub">Cada episodio pasa por las mismas etapas. En palabras sencillas:</p>
+  <div class="flow">
+    <span>Elegir el artículo</span><span class="arr">→</span>
+    <span>Seleccionar las mejores fotos</span><span class="arr">→</span>
+    <span>Escribir el guion</span><span class="arr">→</span>
+    <span>Grabar la narración</span><span class="arr">→</span>
+    <span>Restaurar las fotos</span><span class="arr">→</span>
+    <span>Dar movimiento</span><span class="arr">→</span>
+    <span>Montar la película</span><span class="arr">→</span>
+    <span>Publicar en YouTube</span><span class="arr">→</span>
+    <span>Avisar al autor</span>
+  </div>
+  <div class="grid g3" style="margin-top:26px">
+    <div class="card"><div class="num">1</div><h3>Artículo con relato y fotos</h3><p>Solo se incluye un artículo con texto propio sobre la aventura (al menos 250 palabras) y un álbum con al menos 12 fotos grandes.</p></div>
+    <div class="card"><div class="num">2</div><h3>Guion y voz</h3><p>El relato se convierte en 9 a 15 bloques de narración. Los años y números se escriben con letras, y la narración se revisa palabra por palabra antes de continuar.</p></div>
+    <div class="card"><div class="num">3</div><h3>Imagen y montaje</h3><p>Se restauran unas 12 fotos, se les añade un mapa de profundidad para el efecto 2.5D y se montan con la voz, la música y los rótulos.</p></div>
+  </div>
+  <div class="ex" style="margin-top:26px">
+    <figure><img src="../assets/pilha.jpg" alt="Fotograma de un episodio con fotos del álbum apiladas" loading="lazy"><figcaption>Las fotos del álbum aparecen en pilas, franjas y mosaicos; aquí, en el episodio de Telmo Machado da Silva.</figcaption></figure>
+    <figure><img src="../assets/ep1-telmo.jpg" alt="Carretera serpenteante en los Andes, foto restaurada con movimiento" loading="lazy"><figcaption>Foto restaurada con movimiento de profundidad: la carretera de los Andes durante el viaje en moto de 2004.</figcaption></figure>
+  </div>
+</div></section>
+
+<section id="regra"><div class="wrap">
+  <span class="chip">La regla del día</span>
+  <h2>6 videos al día, hasta agotar el archivo</h2>
+  <p class="sub">La meta es convertir en video cada artículo del archivo que tenga relato e imágenes. Para lograrlo, la serie sigue un ritmo fijo.</p>
+  <div class="grid g4">
+    <div class="card"><div class="num">6</div><h3>Videos al día</h3><p>Se publican seis episodios al día en el canal Aventuras INEMA.</p></div>
+    <div class="card"><div class="num">2</div><h3>De suscriptores</h3><p>Dos videos al día basados en artículos de suscriptores del archivo. Se cuenta el artículo, no la persona.</p></div>
+    <div class="card"><div class="num">4</div><h3>De otros autores</h3><p>Cuatro videos sobre distintos temas (moto, senderismo, escalada, jeep, cabalgata, viaje), como máximo uno por persona.</p></div>
+    <div class="card"><div class="num">✉️</div><h3>Aviso al autor</h3><p>Quien envió la historia recibe por correo electrónico el enlace del video, el enlace de descarga y el enlace del canal.</p></div>
+  </div>
+</div></section>
+
+<section id="episodios"><div class="wrap">
+  <span class="chip">Episodios publicados</span>
+  <h2>Los primeros 6 episodios</h2>
+  <p class="sub">Todos están en el canal <a href="https://www.youtube.com/@aventurasinema" target="_blank" rel="noopener">Aventuras INEMA</a>. Haz clic en la imagen para verlos.</p>
+  <div class="ex">
+    <figure><a href="https://www.youtube.com/watch?v=sZ6PUmt_jp0" target="_blank" rel="noopener"><img src="../assets/ep1-telmo.jpg" alt="Episodio 1: Telmo Machado da Silva" loading="lazy"></a><figcaption><strong>#1 · Telmo Machado da Silva</strong> — 6.700 km en moto por Sudamérica (2004). <a href="https://www.youtube.com/watch?v=sZ6PUmt_jp0" target="_blank" rel="noopener">Ver ▸</a></figcaption></figure>
+    <figure><a href="https://www.youtube.com/watch?v=V9MKId8SaIc" target="_blank" rel="noopener"><img src="../assets/ep2-lameiros.jpg" alt="Episodio 2: Lameiros do Sul" loading="lazy"></a><figcaption><strong>#2 · Lameiros do Sul</strong> — 11 jeeps hasta Bonito y el Pantanal (2006). <a href="https://www.youtube.com/watch?v=V9MKId8SaIc" target="_blank" rel="noopener">Ver ▸</a></figcaption></figure>
+    <figure><a href="https://www.youtube.com/watch?v=4TIIarV5qoc" target="_blank" rel="noopener"><img src="../assets/ep3-naoki.jpg" alt="Episodio 3: Naoki Arima y Ricardo Rutz" loading="lazy"></a><figcaption><strong>#3 · Naoki Arima y Ricardo Rutz</strong> — escalada en Chile (2002). <a href="https://www.youtube.com/watch?v=4TIIarV5qoc" target="_blank" rel="noopener">Ver ▸</a></figcaption></figure>
+    <figure><a href="https://www.youtube.com/watch?v=LDSdt3WCwhk" target="_blank" rel="noopener"><img src="../assets/ep4-natan.jpg" alt="Episodio 4: Natan Smaniotto" loading="lazy"></a><figcaption><strong>#4 · Natan Smaniotto</strong> — de padre a hijo en las pistas (2002–2005). <a href="https://www.youtube.com/watch?v=LDSdt3WCwhk" target="_blank" rel="noopener">Ver ▸</a></figcaption></figure>
+    <figure><a href="https://www.youtube.com/watch?v=cvu0vQpm_SQ" target="_blank" rel="noopener"><img src="../assets/ep5-ana.jpg" alt="Episodio 5: Ana Cristina Sommer" loading="lazy"></a><figcaption><strong>#5 · Ana Cristina Sommer</strong> — ropa para mujeres motociclistas (2002). <a href="https://www.youtube.com/watch?v=cvu0vQpm_SQ" target="_blank" rel="noopener">Ver ▸</a></figcaption></figure>
+    <figure><a href="https://www.youtube.com/watch?v=ZeFrkHhlhuY" target="_blank" rel="noopener"><img src="../assets/ep6-guilherme.jpg" alt="Episodio 6: Guilherme Borges" loading="lazy"></a><figcaption><strong>#6 · Guilherme Borges</strong> — Andes Kids Expedition (2003). <a href="https://www.youtube.com/watch?v=ZeFrkHhlhuY" target="_blank" rel="noopener">Ver ▸</a></figcaption></figure>
+  </div>
+</div></section>
+
+<section id="guia"><div class="wrap">
+  <span class="chip">Paso a paso · entre bastidores</span>
+  <h2>Cómo se monta un episodio</h2>
+  <p class="sub">Para quienes quieran entender (o reproducir) el proceso. Los scripts están en la carpeta <code>motor/</code> del repositorio; el ejemplo completo es el episodio 6 (<code>motor/filme_exemplo_guilherme.py</code> y <code>motor/roteiro_exemplo_guilherme.md</code> (x). Todo se ejecuta en el ordenador local, con voz y restauración de imágenes mediante la suscripción.</p>
+
+  <div class="step"><div class="b">1</div><div>
+    <h3>Preparar el artículo y el álbum</h3>
+    <p>Cada episodio tiene su propia carpeta, copiada de un episodio terminado. Se reúnen el texto del artículo y las fotos grandes del álbum, que se clasifican por categoría y puntuación.</p>
+<pre><span class="c"># carpeta del episodio, a partir de uno terminado</span>
+<span class="k">cp -r</span> ~/projetos/output/memorias-aventura-guilherme ~/projetos/output/memorias-aventura-&lt;slug&gt;</pre>
+  </div></div>
+
+  <div class="step"><div class="b">2</div><div>
+    <h3>Escribir el guion</h3>
+    <p>El archivo <code>roteiro.md</code> (x) tiene de 9 a 15 bloques y solo incluye lo que cuentan el relato y las fotos. Los años y números se escriben con letras en la narración para que la voz no se equivoque.</p>
+<pre><span class="c"># plantilla de guion</span>
+<span class="k">cat</span> motor/roteiro_exemplo_guilherme.md</pre>
+  </div></div>
+
+  <div class="step"><div class="b">3</div><div>
+    <h3>Grabar y revisar la narración</h3>
+    <p>Un audio por bloque, con la voz de Nei. Después se recorta, se ajustan el ritmo y el volumen, y se transcribe palabra por palabra. Si hay una palabra equivocada, se reescribe la frase y se graba de nuevo.</p>
+<pre><span class="k">bash</span> motor/tts.sh        <span class="c"># narración por bloque (voz nei)</span>
+<span class="k">python3</span> motor/pos_voz.py  <span class="c"># recorte, ritmo, volumen y transcripción</span></pre>
+  </div></div>
+
+  <div class="step"><div class="b">4</div><div>
+    <h3>Línea de tiempo, música y fotos</h3>
+    <p>Se montan la línea de tiempo y la banda sonora (voz + música); las fotos antiguas se restauran y reciben un mapa de profundidad para el movimiento 2.5D.</p>
+<pre><span class="k">python3</span> motor/linha.py
+<span class="k">bash</span> motor/mixar_trilha.sh
+<span class="k">python3</span> motor/remaster_codex.py   <span class="c"># restaura ~12 fotos</span>
+<span class="k">python3</span> motor/preparar_rm.py
+<span class="k">node</span> motor/gerar_depth.mjs       <span class="c"># mapa de profundidad</span></pre>
+  </div></div>
+
+  <div class="step"><div class="b">5</div><div>
+    <h3>Montar la película e conferir</h3>
+    <p>La película se compone bloque a bloque (pila, franja, mosaico, profundidad y rótulos). Antes de publicarla, se revisan los fotogramas de cada bloque y la duración.</p>
+<pre><span class="k">python3</span> filme.py             <span class="c"># todos los bloques + montaje final</span>
+<span class="k">python3</span> filme.py B03         <span class="c"># vuelve a crear un solo bloque</span></pre>
+  </div></div>
+
+  <div class="step"><div class="b">6</div><div>
+    <h3>Publicar y avisar</h3>
+    <p>El video se sube al canal Aventuras INEMA con <a href="https://github.com/inematds/yt-pubx" target="_blank" rel="noopener">yt-pubx</a>, primero en modo de simulación para revisar el texto. Después se añade la descripción completa, se avisa al autor por correo electrónico y se registra el episodio en <code>EPISODIOS.md</code> (x).</p>
+<pre><span class="k">yt-pubx publicar</span> &lt;video.mp4&gt; --canal aventuras --dry-run
+<span class="k">yt-pubx publicar</span> &lt;video.mp4&gt; --canal aventuras --plano &lt;pasta&gt;/plano.json --sem-thumb
+<span class="k">python3</span> montar_descricoes.py &lt;ep&gt;   <span class="c"># descripción completa</span>
+<span class="k">python3</span> enviar_email.py &lt;ep&gt;        <span class="c"># aviso al autor</span></pre>
+  </div></div>
+</div></section>
+
+<section id="roadmap"><div class="wrap">
+  <span class="chip">Situación y próximos pasos</span>
+  <h2>En qué punto está la serie</h2>
+  <p class="sub">Lo que ya se hizo y lo que todavía limita el ritmo.</p>
+  <div class="phase"><div class="tag">Hecho</div><div class="d"><strong>6 episodios publicados</strong><span>Las seis primeras películas se publicaron en el canal Aventuras INEMA los días 9 y 10 de octubre de 2026.</span></div></div>
+  <div class="phase"><div class="tag">Ahora</div><div class="d"><strong>Ritmo de 6 al día</strong><span>Cola de publicación con un nuevo intento automático cuando YouTube alcanza el límite diario de subidas.</span></div></div>
+  <div class="phase"><div class="tag">Límites</div><div class="d"><strong>Canal nuevo y cuota de YouTube</strong><span>Mientras no se verifique el canal, los videos se publican sin miniatura personalizada y con un límite diario bajo de subidas; la cuota diaria de la API de YouTube también limita cuántos videos se pueden subir al día.</span></div></div>
+  <div class="phase"><div class="tag">Meta</div><div class="d"><strong>Todo el archivo en video</strong><span>Cada artículo de INEMA Aventura con relato e imágenes se convierte en un episodio de la serie.</span></div></div>
+</div></section>
+
+<footer>
+  <div class="wrap">
+    <div class="pill">Python</div><div class="pill">ffmpeg</div><div class="pill">YouTube</div>
+    <p style="margin-top:18px">Memorias de Aventura · archivo INEMA Aventura 2001–2012 ·
+      <a href="https://www.youtube.com/@aventurasinema" target="_blank" rel="noopener">Canal Aventuras INEMA</a> ·
+      <a href="https://github.com/inematds/aventurasinemavideo">inematds/aventurasinemavideo</a> ·
+      <a href="https://inema.club">INEMA.CLUB</a></p>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var KEY='aventurasinemavideo-theme';
+    var b=document.body, t=document.getElementById('themeToggle');
+    try{ if(localStorage.getItem(KEY)==='light'){ b.classList.add('light'); t.textContent='☀️'; } }catch(e){}
+    t.addEventListener('click',function(){
+      var light=b.classList.toggle('light');
+      t.textContent=light?'☀️':'🌙';
+      try{ localStorage.setItem(KEY, light?'light':'dark'); }catch(e){}
+    });
+  })();
+</script>
+</body>
+</html>

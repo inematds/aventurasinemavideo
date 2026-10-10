@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adventure Memories — stories from the INEMA Aventura archive become films</title>
+<meta name="description" content="aventurasinemavideo turns stories and photos from the INEMA Aventura archive (2001–2012) into narrated films in the Adventure Memories series, published on the Aventuras INEMA YouTube channel.">
+<link rel="alternate" hreflang="pt-BR" href="https://inematds.github.io/aventurasinemavideo/guia/">
+<link rel="alternate" hreflang="en" href="https://inematds.github.io/aventurasinemavideo/guia/en/">
+<link rel="alternate" hreflang="es" href="https://inematds.github.io/aventurasinemavideo/guia/es/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0c0c10; --bg2:#14141b; --card:#16161e; --line:#272730;
+    --txt:#e9e9ee; --mut:#9a9aa6; --amb:#E2A23B; --amb2:#f0c070; --sky:#38bdf8; --pro:#cbd5e1;
+    color-scheme:dark;
+  }
+  body.light{
+    --bg:#f6f7f9; --bg2:#eceef2; --card:#ffffff; --line:#e1e3ea;
+    --txt:#1a1a22; --mut:#5b5b68; --amb:#b9791d; --amb2:#a16207; --sky:#0369a1; --pro:#b45309;
+    color-scheme:light;
+  }
+  body.light .hero .glow{opacity:.5}
+  body.light pre{background:#0e0e14;color:#d6d6e0}
+  body.light pre .c{color:#8a8a98}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.65 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:Sora,sans-serif;line-height:1.15;margin:0}
+  a{color:var(--amb);text-decoration:none}
+  code,pre{font-family:"JetBrains Mono",monospace}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 22px}
+  .mut{color:var(--mut)} .amb{color:var(--amb)}
+  .chip{display:inline-block;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amb);font-weight:600;font-family:Sora}
+  nav{position:sticky;top:0;z-index:30;backdrop-filter:blur(12px);background:rgba(12,12,16,.78);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;align-items:center;gap:22px;height:60px}
+  nav .brand{display:flex;align-items:center;gap:8px;font-family:Sora;font-weight:800;letter-spacing:-.02em;color:var(--amb)}
+  nav .brand .emoji{font-size:1.25rem}
+  nav .sep{color:var(--mut);opacity:.45}
+  nav .inema{color:var(--sky);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .inema:hover{filter:brightness(1.15)}
+  nav .pro{color:var(--pro);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .pro:hover{filter:brightness(1.15)}
+  nav .clubpro{display:inline-flex;align-items:center;gap:6px}
+  nav .links{margin-left:auto;display:flex;align-items:center;gap:20px;font-size:.92rem}
+  nav .links a.sec{color:var(--mut)} nav .links a.sec:hover{color:var(--txt)}
+  .lang{display:inline-flex;gap:2px;font-family:Sora;font-size:.78rem}
+  .lang a{color:var(--mut);padding:.2em .45em;border-radius:6px} .lang a.on{color:var(--amb);background:rgba(226,162,59,.12)}
+  .tgl{background:var(--bg2);border:1px solid var(--line);color:var(--txt);width:38px;height:38px;border-radius:10px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;font-size:1.05rem}
+  .tgl:hover{border-color:var(--amb)}
+  .btn{display:inline-block;background:var(--amb);color:#1a1206;font-weight:600;padding:.6em 1.05em;border-radius:10px;font-family:Sora}
+  .btn.ghost{background:transparent;color:var(--txt);border:1px solid var(--line)}
+  @media(max-width:760px){nav .links a.sec{display:none}}
+  @media(max-width:520px){nav .wrap{gap:8px;padding:8px 14px;height:auto;flex-wrap:wrap} nav .links{gap:8px;margin-left:0;width:100%;justify-content:space-between} nav .btn{padding:.45em .7em;font-size:.82rem} .tgl{width:34px;height:34px}}
+  .hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+  .hero .glow{position:absolute;inset:-40% -20% auto auto;width:70%;height:600px;background:radial-gradient(closest-side,rgba(226,162,59,.22),transparent 70%);pointer-events:none}
+  .hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding:74px 22px}
+  .hero h1{font-size:clamp(2.2rem,5vw,3.5rem);font-weight:800;letter-spacing:-.025em}
+  .hero p.lead{font-size:1.18rem;color:var(--mut);margin:1.1em 0 1.6em;max-width:34ch}
+  .hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+  .hero figure{margin:0;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 30px 80px -30px #000}
+  .hero figure img{width:100%;display:block}
+  .resumo{padding:38px 0 34px;border-bottom:1px solid var(--line)}
+  .resumo p{font-size:1.12rem;line-height:1.7;max-width:74ch;margin:.55em 0 0}
+  @media(max-width:780px){.hero .wrap{grid-template-columns:1fr;padding:48px 22px}}
+  section{padding:62px 0;border-bottom:1px solid var(--line)}
+  section h2{font-size:clamp(1.5rem,3.4vw,2.1rem);font-weight:800;letter-spacing:-.02em}
+  section .sub{color:var(--mut);margin:.6em 0 2em;max-width:62ch}
+  .grid{display:grid;gap:16px}
+  .g3{grid-template-columns:repeat(3,1fr)} .g4{grid-template-columns:repeat(4,1fr)} .g2{grid-template-columns:repeat(2,1fr)}
+  @media(max-width:820px){.g3,.g4{grid-template-columns:1fr 1fr}}
+  @media(max-width:540px){.g2,.g3,.g4{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+  .card h3{font-size:1.05rem;margin-bottom:.4em}
+  .card p{color:var(--mut);font-size:.92rem;margin:0}
+  .num{display:inline-flex;width:30px;height:30px;align-items:center;justify-content:center;border-radius:8px;background:rgba(226,162,59,.14);color:var(--amb);font-family:Sora;font-weight:800;font-size:.9rem;margin-bottom:.7em}
+  .flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px}
+  .flow span{background:var(--bg2);border:1px solid var(--line);border-radius:999px;padding:.45em .9em;font-size:.85rem;font-family:Sora;font-weight:600}
+  .flow .arr{color:var(--amb);border:none;background:none;padding:0 .1em}
+  pre{background:#0a0a0e;border:1px solid var(--line);border-radius:12px;padding:16px 18px;overflow:auto;font-size:.86rem;line-height:1.6;color:#d6d6e0}
+  pre .c{color:#6f6f7c} pre .k{color:var(--amb2)} pre .s{color:#9ece6a}
+  .step{display:grid;grid-template-columns:46px minmax(0,1fr);gap:16px;margin-bottom:26px}
+  .step>div,.card{min-width:0}
+  p code,li code,td code{overflow-wrap:anywhere}
+  .step .b{width:46px;height:46px;border-radius:12px;background:var(--amb);color:#1a1206;font-family:Sora;font-weight:800;font-size:1.25rem;display:flex;align-items:center;justify-content:center}
+  .step h3{font-size:1.12rem;margin-bottom:.3em}
+  .step p{color:var(--mut);margin:.2em 0 .7em}
+  .ex{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  @media(max-width:680px){.ex{grid-template-columns:1fr}}
+  .ex figure{margin:0;border-radius:14px;overflow:hidden;border:1px solid var(--line)}
+  .ex figure img{width:100%;display:block}
+  .ex figcaption{padding:12px 14px;font-size:.88rem;color:var(--mut);background:var(--card)}
+  .phase{display:flex;gap:14px;padding:16px 0;border-bottom:1px solid var(--line)}
+  .phase:last-child{border:none}
+  .phase .tag{flex:0 0 92px;font-family:Sora;font-weight:800;color:var(--amb)}
+  .phase .d strong{display:block;margin-bottom:.2em}
+  .phase .d span{color:var(--mut);font-size:.92rem}
+  footer{padding:46px 0;text-align:center;color:var(--mut);font-size:.9rem}
+  .pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:.3em .8em;font-size:.78rem;color:var(--mut);margin:0 4px}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+  <a class="brand" href="#top"><span class="emoji">🎞️</span> Adventure Memories</a>
+  <span class="sep">|</span>
+  <span class="clubpro">
+    <a class="inema" href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a>
+    <span class="sep">-</span>
+    <a class="pro" href="https://inema.pro" target="_blank" rel="noopener">PRO</a>
+  </span>
+  <div class="links">
+    <a class="sec" href="#oque">About</a>
+    <a class="sec" href="#fluxo">How it works</a>
+    <a class="sec" href="#regra">The daily rule</a>
+    <a class="sec" href="#episodios">Episodes</a>
+    <a class="sec" href="#guia">Step by step</a>
+    <span class="lang"><a href="../">PT</a><a class="on" href="./">EN</a><a href="../es/">ES</a></span>
+    <button class="tgl" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">🌙</button>
+    <a class="btn" href="https://github.com/inematds/aventurasinemavideo" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</div></nav>
+
+<header class="hero" id="top">
+  <div class="glow"></div>
+  <div class="wrap">
+    <div>
+      <span class="chip">Adventure Memories series · archive 2001–2012</span>
+      <h1>Old adventure stories become <span class="amb">films</span></h1>
+      <p class="lead">Motorcycle trips, jeep expeditions, and climbs told on INEMA Aventura come alive with narration, restored photos, and motion — then head to YouTube.</p>
+      <div class="cta">
+        <a class="btn" href="https://www.youtube.com/@aventurasinema" target="_blank" rel="noopener">Watch the Aventuras INEMA channel</a>
+        <a class="btn ghost" href="#episodios">Watch the episodes</a>
+      </div>
+    </div>
+    <figure><img src="../assets/banner-en.jpg" alt="Adventure Memories banner: stories from 2001–2012 become films"></figure>
+  </div>
+</header>
+
+<section id="resumo" class="resumo"><div class="wrap">
+  <span class="chip">In short</span>
+  <p><strong>aventurasinemavideo</strong> is the project that produces the <strong>Adventure Memories</strong> series. It takes real stories from the INEMA Aventura archive (aventura.inema.club, from 2001 to 2012), along with accounts and photos sent by the adventurers themselves, and turns each one into a one-to-three-minute narrated film. The films are for people who lived those stories and anyone who loves adventure: they are free to watch on the <a href="https://www.youtube.com/@aventurasinema" target="_blank" rel="noopener">Aventuras INEMA</a> YouTube channel. Just open the channel to watch; the repository holds the rules and the engine that assembles the films.</p>
+</div></section>
+
+<section id="oque"><div class="wrap">
+  <span class="chip">About</span>
+  <h2>A 20-year archive, told again</h2>
+  <p class="sub">From 2001 to 2012, INEMA Aventura collected stories and photo albums from motorcyclists, jeepers, climbers, and travelers. This series brings those stories out of the archive and tells them again in video.</p>
+  <figure style="margin:0 0 26px;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 30px 80px -30px #000"><img src="../assets/banner-grade-en.jpg" alt="Story, restored photos, narration, 2.5D motion, YouTube, and 6 videos per day" loading="lazy" style="width:100%;display:block"></figure>
+  <div class="grid g3">
+    <div class="card"><h3>📖 Only what happened</h3><p>The script comes from the original account and the album photos. Nothing is made up beyond what the text and images show.</p></div>
+    <div class="card"><h3>📷 Old photos renewed</h3><p>Digital camera photos from the 2000s are restored and brought to life with depth, stacks, strips, and mosaics.</p></div>
+    <div class="card"><h3>🎙️ Nei's voice</h3><p>Narration uses the voice of Nei Maldaner, INEMA's creator, and each story gets a soundtrack and title cards.</p></div>
+  </div>
+</div></section>
+
+<section id="fluxo"><div class="wrap">
+  <span class="chip">How it works</span>
+  <h2>From story to video on the channel</h2>
+  <p class="sub">Every episode goes through the same steps. In plain language:</p>
+  <div class="flow">
+    <span>Choose the story</span><span class="arr">→</span>
+    <span>Select the best photos</span><span class="arr">→</span>
+    <span>Write the script</span><span class="arr">→</span>
+    <span>Record the narration</span><span class="arr">→</span>
+    <span>Restore the photos</span><span class="arr">→</span>
+    <span>Add motion</span><span class="arr">→</span>
+    <span>Assemble the film</span><span class="arr">→</span>
+    <span>Publish on YouTube</span><span class="arr">→</span>
+    <span>Notify the author</span>
+  </div>
+  <div class="grid g3" style="margin-top:26px">
+    <div class="card"><div class="num">1</div><h3>Story with an account and photos</h3><p>Only stories with an original adventure account (at least 250 words) and an album with at least 12 full-size photos are included.</p></div>
+    <div class="card"><div class="num">2</div><h3>Script and voice</h3><p>The account becomes 9 to 15 spoken sections. Years and numbers are written out, and every word of the narration is checked before moving on.</p></div>
+    <div class="card"><div class="num">3</div><h3>Images and editing</h3><p>About 12 photos are restored, given a depth map for the 2.5D effect, and assembled with the voice, soundtrack, and title cards.</p></div>
+  </div>
+  <div class="ex" style="margin-top:26px">
+    <figure><img src="../assets/pilha.jpg" alt="Frame from an episode with stacked album photos" loading="lazy"><figcaption>Album photos appear in stacks, strips, and mosaics — here, in the episode about Telmo Machado da Silva.</figcaption></figure>
+    <figure><img src="../assets/ep1-telmo.jpg" alt="Winding road in the Andes, restored photo with motion" loading="lazy"><figcaption>Restored photo with depth motion: the Andes road on a 2004 motorcycle trip.</figcaption></figure>
+  </div>
+</div></section>
+
+<section id="regra"><div class="wrap">
+  <span class="chip">The daily rule</span>
+  <h2>6 videos a day, until the archive runs out</h2>
+  <p class="sub">The goal is to turn every story in the archive with an account and images into a video. To do that, the series follows a steady pace.</p>
+  <div class="grid g4">
+    <div class="card"><div class="num">6</div><h3>Videos per day</h3><p>Six episodes published each day on the Aventuras INEMA channel.</p></div>
+    <div class="card"><div class="num">2</div><h3>From subscribers</h3><p>Two videos a day from stories by archive subscribers. The count is by story, not person.</p></div>
+    <div class="card"><div class="num">4</div><h3>By other authors</h3><p>Four videos across different subjects (motorcycles, trails, climbing, jeeps, horseback riding, travel), at most one per person.</p></div>
+    <div class="card"><div class="num">✉️</div><h3>Notify the author</h3><p>Whoever sent the story gets the video link, download link, and channel link by email.</p></div>
+  </div>
+</div></section>
+
+<section id="episodios"><div class="wrap">
+  <span class="chip">Published episodes</span>
+  <h2>The first 6 episodes</h2>
+  <p class="sub">All on the <a href="https://www.youtube.com/@aventurasinema" target="_blank" rel="noopener">Aventuras INEMA</a> channel. Click an image to watch.</p>
+  <div class="ex">
+    <figure><a href="https://www.youtube.com/watch?v=sZ6PUmt_jp0" target="_blank" rel="noopener"><img src="../assets/ep1-telmo.jpg" alt="Episode 1: Telmo Machado da Silva" loading="lazy"></a><figcaption><strong>#1 · Telmo Machado da Silva</strong> — 6,700 km by motorcycle across South America (2004). <a href="https://www.youtube.com/watch?v=sZ6PUmt_jp0" target="_blank" rel="noopener">Watch ▸</a></figcaption></figure>
+    <figure><a href="https://www.youtube.com/watch?v=V9MKId8SaIc" target="_blank" rel="noopener"><img src="../assets/ep2-lameiros.jpg" alt="Episode 2: Lameiros do Sul" loading="lazy"></a><figcaption><strong>#2 · Lameiros do Sul</strong> — 11 jeeps to Bonito and the Pantanal (2006). <a href="https://www.youtube.com/watch?v=V9MKId8SaIc" target="_blank" rel="noopener">Watch ▸</a></figcaption></figure>
+    <figure><a href="https://www.youtube.com/watch?v=4TIIarV5qoc" target="_blank" rel="noopener"><img src="../assets/ep3-naoki.jpg" alt="Episode 3: Naoki Arima and Ricardo Rutz" loading="lazy"></a><figcaption><strong>#3 · Naoki Arima and Ricardo Rutz</strong> — climbing in Chile (2002). <a href="https://www.youtube.com/watch?v=4TIIarV5qoc" target="_blank" rel="noopener">Watch ▸</a></figcaption></figure>
+    <figure><a href="https://www.youtube.com/watch?v=LDSdt3WCwhk" target="_blank" rel="noopener"><img src="../assets/ep4-natan.jpg" alt="Episode 4: Natan Smaniotto" loading="lazy"></a><figcaption><strong>#4 · Natan Smaniotto</strong> — from father to son on the tracks (2002–2005). <a href="https://www.youtube.com/watch?v=LDSdt3WCwhk" target="_blank" rel="noopener">Watch ▸</a></figcaption></figure>
+    <figure><a href="https://www.youtube.com/watch?v=cvu0vQpm_SQ" target="_blank" rel="noopener"><img src="../assets/ep5-ana.jpg" alt="Episode 5: Ana Cristina Sommer" loading="lazy"></a><figcaption><strong>#5 · Ana Cristina Sommer</strong> — riding gear for women motorcyclists (2002). <a href="https://www.youtube.com/watch?v=cvu0vQpm_SQ" target="_blank" rel="noopener">Watch ▸</a></figcaption></figure>
+    <figure><a href="https://www.youtube.com/watch?v=ZeFrkHhlhuY" target="_blank" rel="noopener"><img src="../assets/ep6-guilherme.jpg" alt="Episode 6: Guilherme Borges" loading="lazy"></a><figcaption><strong>#6 · Guilherme Borges</strong> — Andes Kids Expedition (2003). <a href="https://www.youtube.com/watch?v=ZeFrkHhlhuY" target="_blank" rel="noopener">Watch ▸</a></figcaption></figure>
+  </div>
+</div></section>
+
+<section id="guia"><div class="wrap">
+  <span class="chip">Step by step · behind the scenes</span>
+  <h2>How an episode is assembled</h2>
+  <p class="sub">For anyone who wants to understand (or reproduce) the process. The scripts are in the repository's <code>motor/</code> folder; the complete example is episode 6 (<code>motor/filme_exemplo_guilherme.py</code> and <code>motor/roteiro_exemplo_guilherme.md</code> [Portuguese]). Everything runs on the local computer, using the subscription for voice and image restoration.</p>
+
+  <div class="step"><div class="b">1</div><div>
+    <h3>Find the story and album</h3>
+    <p>Each episode gets its own folder, copied from a finished episode. The story text and full-size album photos are gathered, then the photos are sorted by category and rating.</p>
+<pre><span class="c"># episode folder, copied from a finished one</span>
+<span class="k">cp -r</span> ~/projetos/output/memorias-aventura-guilherme ~/projetos/output/memorias-aventura-&lt;slug&gt;</pre>
+  </div></div>
+
+  <div class="step"><div class="b">2</div><div>
+    <h3>Write the script</h3>
+    <p><code>roteiro.md</code> [Portuguese] has 9 to 15 sections, using only what the account and photos tell. Years and numbers are spelled out in the spoken text so the voice reads them correctly.</p>
+<pre><span class="c"># script template</span>
+<span class="k">cat</span> motor/roteiro_exemplo_guilherme.md</pre>
+  </div></div>
+
+  <div class="step"><div class="b">3</div><div>
+    <h3>Record and check the narration</h3>
+    <p>One audio file per section, in Nei's voice. Then the audio is cut, paced, and leveled, and transcribed word for word. Wrong word = rewrite the sentence and record it again.</p>
+<pre><span class="k">bash</span> motor/tts.sh        <span class="c"># narration by section (nei voice)</span>
+<span class="k">python3</span> motor/pos_voz.py  <span class="c"># cuts, pacing, volume, and transcription</span></pre>
+  </div></div>
+
+  <div class="step"><div class="b">4</div><div>
+    <h3>Timeline, soundtrack, and photos</h3>
+    <p>The timeline and soundtrack (voice + music) are assembled; old photos are restored and given a depth map for 2.5D motion.</p>
+<pre><span class="k">python3</span> motor/linha.py
+<span class="k">bash</span> motor/mixar_trilha.sh
+<span class="k">python3</span> motor/remaster_codex.py   <span class="c"># restores ~12 photos</span>
+<span class="k">python3</span> motor/preparar_rm.py
+<span class="k">node</span> motor/gerar_depth.mjs       <span class="c"># depth map</span></pre>
+  </div></div>
+
+  <div class="step"><div class="b">5</div><div>
+    <h3>Assemble and review the film</h3>
+    <p>The film is built section by section (stacks, strips, mosaics, depth, and title cards). Before publishing, each section's frames and duration are checked.</p>
+<pre><span class="k">python3</span> filme.py             <span class="c"># all sections + final assembly</span>
+<span class="k">python3</span> filme.py B03         <span class="c"># rebuild just one section</span></pre>
+  </div></div>
+
+  <div class="step"><div class="b">6</div><div>
+    <h3>Publish and notify</h3>
+    <p>The video is uploaded to the Aventuras INEMA channel with <a href="https://github.com/inematds/yt-pubx" target="_blank" rel="noopener">yt-pubx</a>, first as a dry run to check the text. Then the full description is added, the author gets an email, and the episode is logged in <code>EPISODIOS.md</code> [Portuguese].</p>
+<pre><span class="k">yt-pubx publicar</span> &lt;video.mp4&gt; --canal aventuras --dry-run
+<span class="k">yt-pubx publicar</span> &lt;video.mp4&gt; --canal aventuras --plano &lt;pasta&gt;/plano.json --sem-thumb
+<span class="k">python3</span> montar_descricoes.py &lt;ep&gt;   <span class="c"># full description</span>
+<span class="k">python3</span> enviar_email.py &lt;ep&gt;        <span class="c"># notify the author</span></pre>
+  </div></div>
+</div></section>
+
+<section id="roadmap"><div class="wrap">
+  <span class="chip">Status and next steps</span>
+  <h2>Where the series stands</h2>
+  <p class="sub">What is done and what still limits the pace.</p>
+  <div class="phase"><div class="tag">Done</div><div class="d"><strong>6 episodes live</strong><span>The first six films were published on the Aventuras INEMA channel on October 9 and 10, 2026.</span></div></div>
+  <div class="phase"><div class="tag">Now</div><div class="d"><strong>6 per day</strong><span>Publishing queue with an automatic retry when YouTube reaches its daily upload limit.</span></div></div>
+  <div class="phase"><div class="tag">Limits</div><div class="d"><strong>New channel and YouTube quota</strong><span>Until the channel is verified, videos go up without custom thumbnails and with a low daily upload cap; the YouTube API daily quota also limits how many videos can be uploaded each day.</span></div></div>
+  <div class="phase"><div class="tag">Goal</div><div class="d"><strong>The entire archive on video</strong><span>Every INEMA Aventura story with an account and images becomes an episode in the series.</span></div></div>
+</div></section>
+
+<footer>
+  <div class="wrap">
+    <div class="pill">Python</div><div class="pill">ffmpeg</div><div class="pill">YouTube</div>
+    <p style="margin-top:18px">Adventure Memories · INEMA Aventura archive 2001–2012 ·
+      <a href="https://www.youtube.com/@aventurasinema" target="_blank" rel="noopener">Aventuras INEMA channel</a> ·
+      <a href="https://github.com/inematds/aventurasinemavideo">inematds/aventurasinemavideo</a> ·
+      <a href="https://inema.club">INEMA.CLUB</a></p>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var KEY='aventurasinemavideo-theme';
+    var b=document.body, t=document.getElementById('themeToggle');
+    try{ if(localStorage.getItem(KEY)==='light'){ b.classList.add('light'); t.textContent='☀️'; } }catch(e){}
+    t.addEventListener('click',function(){
+      var light=b.classList.toggle('light');
+      t.textContent=light?'☀️':'🌙';
+      try{ localStorage.setItem(KEY, light?'light':'dark'); }catch(e){}
+    });
+  })();
+</script>
+</body>
+</html>
