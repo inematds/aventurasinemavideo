@@ -1,0 +1,14 @@
+# dados pessoais e de assinantes: nunca no git
+privado/
+subs.json
+estado.json
+fila.json
+candidatos.json
+email_*.txt
+!email_modelo_*.txt
+levantamento.md
+ana-cristina-sommer/
+jose-antonio-ferreira/
+natan-smaniotto/
+planos-aventuras/
+__pycache__/
