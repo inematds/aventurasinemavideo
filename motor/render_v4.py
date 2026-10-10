@@ -242,7 +242,7 @@ def desenha_textos(fr, eventos, t):
         ti = e.get('ti')
         if 'conta' in e:
             v0, v1, mold, dc = e['conta']
-            n = round(v0 + (v1 - v0) * ease_out(clamp(u / dc)) / 10) * 10 if v1 >= 100 else round(v1 * clamp(u / dc))
+            n = round((v0 + (v1 - v0) * ease_out(clamp(u / dc))) / 10) * 10 if v1 >= 100 else round(v0 + (v1 - v0) * clamp(u / dc))
             ti = mold.format(fmt_km(n))
         colar(fr, scrim(pos), W / 2, H / 2, alpha * e.get('sc', 1))
         tx = bloco_texto(e.get('k'), ti, e.get('body'), e.get('size', 128 if pos == 'c' else 92), 'c' if pos == 'c' else 'l')
