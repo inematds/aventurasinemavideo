@@ -14,7 +14,7 @@ O que isso significa na operação:
 
 | Item | Regra |
 |---|---|
-| Vídeos por dia | 6 |
+| Vídeos por dia | 6, também no upload: a fila (`fila_publicar.sh`) para no 6º do dia e retoma às 00:10 (regra de 11/10/2026) |
 | De assinantes pagos | 2 por dia. Conta **matérias**, não pessoas: um assinante pode ter vários vídeos, um por matéria com relato e fotos |
 | De não assinantes | 4 por dia, variando os assuntos (moto, trilha, escalada, jipe, cavalgada, viagem…). **No máximo 1 vídeo por pessoa** |
 | Publicação | sempre no canal Aventuras INEMA, sem capa enquanto o canal não for verificado |
