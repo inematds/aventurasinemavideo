@@ -2,7 +2,8 @@
 """Publica um episódio pronto (pasta com EPISODIO.json): B2 → YouTube (canal aventuras, sem capa) → descrição completa
 → e-mail às pessoas da matéria → registro (privado/episodios.json, EPISODIOS.md, candidatos.json) → aviso no bot.
 Retomável: cada passo grava em privado/estado_pub.json e não se repete.
-Uso: publicar_episodio.py <pasta-do-episodio> [--sem-email]"""
+Uso: publicar_episodio.py <pasta-do-episodio> [--sem-email] [--so-aviso]
+--so-aviso: sobe no B2 e manda o e-mail (download + canal) sem esperar o YouTube (regra de 11/10/2026)"""
 import html, json, os, re, subprocess, sys, urllib.parse, urllib.request
 
 D = os.path.dirname(os.path.abspath(__file__))
@@ -76,10 +77,12 @@ def email(pessoa, ep, yt_url, b2):
                if l.startswith('RESEND_API_KEY='))
     nome = pessoa['nome'].strip().split()[0].capitalize()
     txt = open(f'{D}/email_modelo_nao_assinante.txt').read()
-    for k, v in {'{NOME}': nome, '{TITULO}': ep['assunto'], '{ANO}': ep.get('ano', ''), '{B2}': b2, '{YT}': yt_url,
+    for k, v in {'{NOME}': nome, '{TITULO}': ep['assunto'], '{ANO}': ep.get('ano', ''), '{B2}': b2, '{YT}': yt_url or '',
                  '{IDMAT}': f"{ep['idmat']:06d}"}.items():
         txt = txt.replace(k, v)
     txt = txt.replace(', publicado em ,', ',')
+    if not yt_url:  # ainda na fila do YouTube: o e-mail sai com o download (B2) e o canal (Nei, 11/10/2026)
+        txt = txt.replace('No YouTube:\n\n\n', '')
     assert '{' not in txt, txt
     body = ''.join('<p>' + re.sub(r'(https?://\S+)', r'<a href="\1">\1</a>', html.escape(p).replace('\n', '<br>')) + '</p>'
                    for p in txt.strip().split('\n\n'))
@@ -110,7 +113,16 @@ def registrar_md(ep):
         open(f'{D}/EPISODIOS.md', 'w').write(s)
 
 
-def publicar(pasta, sem_email=False):
+def avisar(c, ep, s, est, yt_url):
+    enviados = s.setdefault('emails', {})
+    voltou = set(jload(f'{P}/emails_voltaram.json', []))
+    for p in c.get('pessoas', []):
+        if p.get('email') and str(p['idf']) not in enviados and p['email'] not in voltou and p['idf'] not in NAO_AVISAR:
+            enviados[str(p['idf'])] = email(p, ep, yt_url, s['b2'])
+            jsave(f'{P}/estado_pub.json', est)
+
+
+def publicar(pasta, sem_email=False, so_aviso=False):
     pasta = os.path.abspath(os.path.expanduser(pasta))
     ep = json.load(open(f'{pasta}/EPISODIO.json'))
     ep['pasta'] = pasta
@@ -132,7 +144,13 @@ def publicar(pasta, sem_email=False):
         jsave(f'{P}/estado_pub.json', est)
     if not s.get('yt'):
         s['yt'] = url_publicada(ep['video'])
+    if so_aviso:  # episódio ainda na fila do YouTube: só sobe no B2 e avisa as pessoas
+        if not sem_email:
+            avisar(c, ep, s, est, s.get('yt'))
+        print(ep['slug'], 'aviso antecipado, e-mails:', len(s.get('emails', {})))
+        return
     if not s.get('yt'):
+      try:
         if not s.get('plano'):
             ctx = (f"Memórias de Aventura #{ep['n']} (série do acervo INEMA Aventura, canal Aventuras INEMA). "
                    f"Matéria: {ep['assunto']}. Filme narrado com as fotos reais. Narração:\n" + narracao(pasta)[:3000])
@@ -147,6 +165,10 @@ def publicar(pasta, sem_email=False):
         if not s['yt']:
             raise SystemExit('publicação sem URL no histórico')
         jsave(f'{P}/estado_pub.json', est)
+      except Limite:
+        if not sem_email:  # avisa já, com o link do download e do canal; o do YouTube não é reenviado depois
+            avisar(c, ep, s, est, None)
+        raise
     eps = jload(f'{P}/episodios.json', [])
     ep_reg = {k: ep[k] for k in ('n', 'slug', 'idmat', 'album', 'titulo_curto')}
     ep_reg.update(yt=s['yt'], b2=s['b2'], data=__import__('time').strftime('%d/%m/%Y'))
@@ -160,12 +182,7 @@ def publicar(pasta, sem_email=False):
         s['descricao'] = True
         jsave(f'{P}/estado_pub.json', est)
     if not sem_email:
-        enviados = s.setdefault('emails', {})
-        voltou = set(jload(f'{P}/emails_voltaram.json', []))
-        for p in c.get('pessoas', []):
-            if p.get('email') and str(p['idf']) not in enviados and p['email'] not in voltou and p['idf'] not in NAO_AVISAR:
-                enviados[str(p['idf'])] = email(p, ep, s['yt'], s['b2'])
-                jsave(f'{P}/estado_pub.json', est)
+        avisar(c, ep, s, est, s['yt'])
     if not any(e['slug'] == ep['slug'] for e in eps):
         eps.append(ep_reg)
         jsave(f'{P}/episodios.json', eps)
@@ -182,7 +199,7 @@ def publicar(pasta, sem_email=False):
 
 if __name__ == '__main__':
     try:
-        publicar(sys.argv[1], '--sem-email' in sys.argv)
+        publicar(sys.argv[1], '--sem-email' in sys.argv, '--so-aviso' in sys.argv)
     except Limite as e:
         print('LIMITE do YouTube, tentar depois:', e)
         sys.exit(75)

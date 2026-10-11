@@ -8,6 +8,8 @@ LOG=privado/fila_publicar.log
 while true; do
   pasta=$(grep -v '^\s*$' "$FILA" 2>/dev/null | head -1)
   [ -z "$pasta" ] && { echo "$(date '+%F %T') fila vazia, fim" >> "$LOG"; exit 0; }
+  # Aviso antecipado (Nei, 11/10/2026): todo episódio da fila já ganha B2 + e-mail com o canal, mesmo antes do YouTube
+  grep -v '^\s*$' "$FILA" | while read -r p; do python3 publicar_episodio.py "$p" --so-aviso >> "$LOG" 2>&1; done
   # Teto do Nei (11/10/2026): no máximo 6 vídeos por dia no canal aventuras (conta o histórico do yt-pubx do dia)
   hoje=$(python3 -c "import json,os,time;d=time.strftime('%Y-%m-%d');print(sum(1 for l in open(os.path.expanduser('~/.local/share/yt-pubx/historico.jsonl')) if (r:=json.loads(l)).get('canal')=='aventuras' and r.get('url') and str(r.get('data','')).startswith(d)))")
   if [ "${hoje:-0}" -ge 6 ]; then
