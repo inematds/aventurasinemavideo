@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Publica um episódio pronto (pasta com EPISODIO.json): B2 → YouTube (canal aventuras, sem capa) → descrição completa
-→ e-mail às pessoas da matéria → registro (privado/episodios.json, EPISODIOS.md, candidatos.json) → aviso no bot.
+→ e-mail às pessoas da matéria → registro (privado/episodios.json, EPISODIOS.md, candidatos.json) → aviso no inemaytbot.
 Retomável: cada passo grava em privado/estado_pub.json e não se repete.
 Uso: publicar_episodio.py <pasta-do-episodio> [--sem-email] [--so-aviso]
 --so-aviso: sobe no B2 e manda o e-mail (download + canal) sem esperar o YouTube (regra de 11/10/2026)"""
@@ -96,8 +96,8 @@ def email(pessoa, ep, yt_url, b2):
 
 
 def telegram(msg):
-    tok = next(l.split('=', 1)[1].strip() for l in open(os.path.expanduser('~/projetos/openpcbotv3/.env'))
-               if l.startswith('TELEGRAM_BOT_TOKEN_V3='))
+    tok = next(l.split('=', 1)[1].strip().strip('"') for l in open(os.path.expanduser('~/projetos/yt-pub-livesx-master/config/.env'))
+               if l.startswith('TELEGRAM_NOTIFY_BOT_TOKEN='))  # inemaytbot (Nei, 11/10/2026), nunca o bot v3
     chat = os.environ.get('TELEGRAM_CHAT_ID') or open(os.path.expanduser('~/.config/aventurasinemavideo/telegram_chat')).read().strip()
     urllib.request.urlopen(f'https://api.telegram.org/bot{tok}/sendMessage',
                            data=urllib.parse.urlencode({'chat_id': chat, 'text': msg}).encode(), timeout=60)

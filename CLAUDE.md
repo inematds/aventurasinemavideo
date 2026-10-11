@@ -15,6 +15,7 @@ Aventuras INEMA). Antes de qualquer episódio, ler `PLANO.md` (regras do Nei, pi
 When I correct you, or you catch yourself making a mistake: before continuing, add the lesson as a one-line rule under ## Lessons, so it never happens again.
 
 ## Lessons
+- Mensagens da série (vídeo pronto, aviso de publicação) vão para o **inemaytbot** (`motor/enviar_bot.py`, token TELEGRAM_NOTIFY_BOT_TOKEN em yt-pub-livesx-master/config/.env), NUNCA para o bot v3. Regra do Nei em 11/10/2026: os episódios 15 a 20 tinham ido ao v3. (11/10/2026)
 
 - Voz `nei` lê ano em algarismo errado: na fala, ano e número sempre por extenso; conferir pelo Whisper (que devolve dígitos: `Wd(b,'12')`, não 'doze'). (10/10/2026)
 - Fotos do acervo: as grandes (533x400) estão em `albuns/<id>/al1/`; a raiz do álbum só tem miniaturas de 150 px; apagar o `Album.txt` de `al1/`. (10/10/2026)

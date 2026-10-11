@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Fila de publicação das Memórias de Aventura (autorizado pelo Nei em 10/10/2026).
-Para cada episódio de fila.json: publica no canal do item (padrão aventuras = INEMA Aventura, desde 10/10/2026; antes lives10) → aviso no bot v3.
+Para cada episódio de fila.json: publica no canal do item (padrão aventuras = INEMA Aventura, desde 10/10/2026; antes lives10) → aviso no inemaytbot.
 O e-mail ao assinante NÃO espera o YouTube (pedido do Nei 10/10): sai na hora com o link de download, por enviar_email.py. O lives10 (canal não verificado) tem teto diário de upload: com uploadLimitExceeded,
 espera 1 h e tenta de novo, no máximo 36 vezes. Estado em estado.json (não repete publicação nem e-mail).
 Uso: publicar_fila.py [--uma]   (--uma = uma rodada só, sem esperar)"""
@@ -33,8 +33,8 @@ def url_publicada(video, canal):
 
 
 def telegram(msg):
-    tok = next(l.split('=', 1)[1].strip() for l in open(os.path.expanduser('~/projetos/openpcbotv3/.env'))
-               if l.startswith('TELEGRAM_BOT_TOKEN_V3='))
+    tok = next(l.split('=', 1)[1].strip().strip('"') for l in open(os.path.expanduser('~/projetos/yt-pub-livesx-master/config/.env'))
+               if l.startswith('TELEGRAM_NOTIFY_BOT_TOKEN='))  # inemaytbot
     data = urllib.parse.urlencode({'chat_id': os.environ.get('TELEGRAM_CHAT_ID') or open(os.path.expanduser('~/.config/aventurasinemavideo/telegram_chat')).read().strip(), 'text': msg}).encode()
     urllib.request.urlopen(f'https://api.telegram.org/bot{tok}/sendMessage', data=data, timeout=60)
 

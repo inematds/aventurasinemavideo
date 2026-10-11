@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Manda o piloto (vídeo + roteiro) ao bot v3 (Telegram, chat do Nei). Uso: enviar_bot_v3.py <video.mp4> "<legenda>" """
+"""Manda o episódio (vídeo + roteiro) ao inemaytbot (Telegram, chat do Nei; regra de 11/10/2026: nada da série no bot v3). Uso: enviar_bot.py <video.mp4> "<legenda>" """
 import json, os, sys, uuid, urllib.request
 
 D = os.path.dirname(os.path.abspath(__file__))
 CHAT = os.environ.get('TELEGRAM_CHAT_ID') or open(os.path.expanduser('~/.config/aventurasinemavideo/telegram_chat')).read().strip()
-tok = next(l.split('=', 1)[1].strip() for l in open(os.path.expanduser('~/projetos/openpcbotv3/.env'))
-           if l.startswith('TELEGRAM_BOT_TOKEN_V3='))
+tok = next(l.split('=', 1)[1].strip().strip('"') for l in open(os.path.expanduser('~/projetos/yt-pub-livesx-master/config/.env'))
+           if l.startswith('TELEGRAM_NOTIFY_BOT_TOKEN='))  # inemaytbot
 api = f'https://api.telegram.org/bot{tok}'
 
 def post(method, fields, files=None):

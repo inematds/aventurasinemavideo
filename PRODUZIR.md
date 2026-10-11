@@ -8,7 +8,7 @@ Não publica no YouTube, não sobe no B2 e não manda e-mail. Quem faz isso é o
 
 1. **Pasta**: `mkdir ~/projetos/output/memorias-aventura-<slug>` e copie o motor de `~/projetos/aventurasinemavideo/motor/`
    (render_v3.py, render_v4.py, tts.sh, pos_voz.py, linha.py, mixar_trilha.sh, remaster_codex.py, preparar_rm.py,
-   gerar_depth.mjs, enviar_bot_v3.py). Use como referência o episódio pronto `~/projetos/output/memorias-aventura-guilherme/`
+   gerar_depth.mjs, enviar_bot.py). Use como referência o episódio pronto `~/projetos/output/memorias-aventura-guilherme/`
    (filme.py, roteiro.md, linha.json) e `~/projetos/output/memorias-aventura-ana/`. Leia o filme.py de um deles antes de escrever o seu.
 2. **Texto**: `~/projetos/aventurasinemavideo/privado/textos/<idmat>.txt`. Se a matéria tiver "Parte 2…", junte as partes.
 3. **Fotos**: `~/projetos/inemabk/rclone/rclone copy b2:inemaaventura/albuns/<album>/al1/ fotos-all/` (apague `Album.txt`).
@@ -27,7 +27,7 @@ Não publica no YouTube, não sobe no B2 e não manda e-mail. Quem faz isso é o
    `{"n": N, "slug", "idmat", "album", "titulo_curto": "<Nome — assunto (ano)>", "assunto": "<título da matéria>", "ano": "<ano da publicação>",
    "video": "<caminho absoluto do mp4>", "duracao_s", "registro": ["<linha: datas e roteiro da viagem>", "<linha: quem escreveu, quando foi publicado>", "<linha: fotos de quem>"],
    "notificar": [<idf das pessoas a avisar, recebido na tarefa>]}`.
-9. Mande ao bot: `python3 enviar_bot_v3.py <mp4> "Memórias de Aventura #N — <título>"`.
+9. Mande ao **inemaytbot** (nunca ao bot v3; regra do Nei, 11/10/2026): `python3 enviar_bot.py <mp4> "Memórias de Aventura #N — <título>"`.
 
 ## Regras
 

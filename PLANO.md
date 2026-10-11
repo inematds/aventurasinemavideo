@@ -46,7 +46,7 @@ Pasta `~/projetos/output/memorias-aventura-<slug>/`, copiada de um episódio pro
 2. **roteiro.md**: 9–15 blocos, a partir do relato, sem inventar nada além do texto e das fotos. Anos e números por extenso na fala.
 3. **Narração**: `tts.sh` (chatterbox, voz `nei`, 0.6/0.6) → `pos_voz.py` (corte, atempo 1,06, loudnorm, Whisper) → conferir a transcrição. Palavra errada = reescrever a frase.
 4. `linha.py` → `mixar_trilha.sh` → `remaster_codex.py` (Codex image_gen pela assinatura, 4 em paralelo, ~12 fotos) → `preparar_rm.py` → `gerar_depth.mjs` → `filme.py`.
-5. **Conferir**: frames de cada bloco e duração. Depois enviar ao bot v3 (`enviar_bot_v3.py`).
+5. **Conferir**: frames de cada bloco e duração. Depois enviar ao **inemaytbot** (`enviar_bot.py`). Toda mensagem da série (vídeo pronto, aviso de publicação) vai para o inemaytbot, nunca para o bot v3 (regra do Nei, 11/10/2026).
 6. **B2**: `memorias/<slug>/<arquivo>.mp4` (link público `https://f005.backblazeb2.com/file/inemaaventura/memorias/<slug>/<arquivo>.mp4`).
 7. **YouTube**: `yt-pubx publicar <mp4> --canal aventuras --dry-run` → conferir texto → `--plano <pasta>/plano.json --sem-thumb`. Depois aplicar a descrição completa (`montar_descricoes.py <ep>` + `yt-pubx atualizar`).
 8. **E-mail**: `enviar_email.py <ep>` (texto em `email_<ep>.txt`, com link do YouTube, do B2 e do canal).
