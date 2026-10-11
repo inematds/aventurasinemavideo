@@ -15,6 +15,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 8 | 10/10/2026 | Luciana Heitelvan e José Antonio Ferreira — III Cavalgada No Caminho das Pipas (2007) | [idmat091915](https://aventura.inema.club/mat/idmat091915.htm) | 0074414 | https://www.youtube.com/watch?v=JBta5pk459o | `memorias/jose-cavalgada-pipas-2007/` | `output/memorias-aventura-jose-cavalgada-pipas-2007` |
 | 9 | 10/10/2026 | Nei Maldaner e João Viana Aragones — Expedição à Antártida (2004) | [idmat022993](https://aventura.inema.club/mat/idmat022993.htm) | 0039336 | https://www.youtube.com/watch?v=j3HahI14nmU | `memorias/antartida-2004/` | `output/memorias-aventura-antartida-2004` |
 | 10 | 10/10/2026 | Naoki Arima — a criação da Sauro, agarras de escalada (2003) | [idmat018404](https://aventura.inema.club/mat/idmat018404.htm) | 0022233 | https://www.youtube.com/watch?v=SZF4ANrMQiI | `memorias/naoki-sauro/` | `output/memorias-aventura-naoki-sauro` |
+| 11 | 11/10/2026 | Humberto Lague — motociclista a cavalo na 19ª Cavalgada do Mar (2003) | [idmat016652](https://aventura.inema.club/mat/idmat016652.htm) | 0038153 | https://www.youtube.com/watch?v=lUtA4NO3p8A | `memorias/cavalgada-mar-2003-motociclista/` | `output/memorias-aventura-cavalgada-mar-2003-motociclista` |
 
 ## Próximos
 
