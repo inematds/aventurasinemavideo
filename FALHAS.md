@@ -2,6 +2,8 @@
 
 | data | o que quebrou | menor correção | prompt \| infra |
 |---|---|---|---|
+| 11/10/2026 | #19: voz `nei` gaguejou antes de citação com dois-pontos ("pergunta: Fei, vocês…") e leu "USB" como "os bi" | fala em discurso indireto sem dois-pontos e sigla escrita como se fala ("u-esse-bê"); citação literal só no letreiro | prompt |
+| 11/10/2026 | #17: render caiu com "box can't exceed original image size": `Pilha` sem `z` (zoom 1,012) e muitas cópias com `every` curto somam tremida maior que a margem | dar `z=(1.02, 1.08)` ou mais a toda `Pilha` com muitas cópias/tremida | infra |
 | 10/10/2026 | #13: última palavra do bloco ("jamanta") sumiu do WAV final: Whisper não a transcreveu no bruto e o `pos_voz` corta na última palavra transcrita | conferir a última palavra de cada bloco na transcrição; faltou = gerar o bloco de novo | infra |
 | 10/10/2026 | #13 (evitado): `conta=` com v1 ≥ 100 arredonda a dezenas, 273 vira "270 KM" | número que não termina em 0 vai como texto fixo, sem `conta` | infra |
 | 10/10/2026 | #13: mapa regional (~1,5°) com `MS` alto engrossa bordas e letreiros do `mapa_base` e o litoral do paises.geojson fica grosseiro | `mapa_base` próprio no filme.py com terra = uf.json e mar claro (rótulo escuro legível) | infra |
