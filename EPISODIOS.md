@@ -17,6 +17,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 10 | 10/10/2026 | Naoki Arima — a criação da Sauro, agarras de escalada (2003) | [idmat018404](https://aventura.inema.club/mat/idmat018404.htm) | 0022233 | https://www.youtube.com/watch?v=SZF4ANrMQiI | `memorias/naoki-sauro/` | `output/memorias-aventura-naoki-sauro` |
 | 11 | 11/10/2026 | Humberto Lague — motociclista a cavalo na 19ª Cavalgada do Mar (2003) | [idmat016652](https://aventura.inema.club/mat/idmat016652.htm) | 0038153 | https://www.youtube.com/watch?v=lUtA4NO3p8A | `memorias/cavalgada-mar-2003-motociclista/` | `output/memorias-aventura-cavalgada-mar-2003-motociclista` |
 | 12 | 12/10/2026 | Sérgio Rocha — expedição 4x4 ao Deserto do Atacama (2004) | [idmat031781](https://aventura.inema.club/mat/idmat031781.htm) | 0021170 | https://www.youtube.com/watch?v=lpCUefg__3M | `memorias/sergio-atacama-2004/` | `output/memorias-aventura-sergio-atacama-2004` |
+| 13 | 12/10/2026 | Paulo Endres — de bike de Arroio do Sal ao Cânion Fortaleza (2002) | [idmat009445](https://aventura.inema.club/mat/idmat009445.htm) | 0019182 | https://www.youtube.com/watch?v=I5PUBGROAm8 | `memorias/paulo-bike-canyon-fortaleza/` | `output/memorias-aventura-paulo-bike-canyon-fortaleza` |
 
 ## Próximos
 
