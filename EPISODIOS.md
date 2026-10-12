@@ -16,6 +16,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 9 | 10/10/2026 | Nei Maldaner e João Viana Aragones — Expedição à Antártida (2004) | [idmat022993](https://aventura.inema.club/mat/idmat022993.htm) | 0039336 | https://www.youtube.com/watch?v=j3HahI14nmU | `memorias/antartida-2004/` | `output/memorias-aventura-antartida-2004` |
 | 10 | 10/10/2026 | Naoki Arima — a criação da Sauro, agarras de escalada (2003) | [idmat018404](https://aventura.inema.club/mat/idmat018404.htm) | 0022233 | https://www.youtube.com/watch?v=SZF4ANrMQiI | `memorias/naoki-sauro/` | `output/memorias-aventura-naoki-sauro` |
 | 11 | 11/10/2026 | Humberto Lague — motociclista a cavalo na 19ª Cavalgada do Mar (2003) | [idmat016652](https://aventura.inema.club/mat/idmat016652.htm) | 0038153 | https://www.youtube.com/watch?v=lUtA4NO3p8A | `memorias/cavalgada-mar-2003-motociclista/` | `output/memorias-aventura-cavalgada-mar-2003-motociclista` |
+| 12 | 12/10/2026 | Sérgio Rocha — expedição 4x4 ao Deserto do Atacama (2004) | [idmat031781](https://aventura.inema.club/mat/idmat031781.htm) | 0021170 | https://www.youtube.com/watch?v=lpCUefg__3M | `memorias/sergio-atacama-2004/` | `output/memorias-aventura-sergio-atacama-2004` |
 
 ## Próximos
 
