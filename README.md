@@ -22,7 +22,7 @@ Cada episódio parte de uma matéria real do acervo: o relato vira roteiro, as f
 restauradas e ganham movimento (profundidade 2.5D, pilhas, faixas e mosaicos), e a narração usa a
 voz do Nei. O autor da história recebe o vídeo por e-mail.
 
-- **Regras de produção** (6 vídeos por dia, critério de matéria, publicação e aviso): [PLANO.md](PLANO.md)
+- **Regras de produção** (8 vídeos por dia, um a cada 2 h, critério de matéria, publicação e aviso): [PLANO.md](PLANO.md)
 - **Episódios já feitos**: [EPISODIOS.md](EPISODIOS.md)
 - **Motor do filme**: [motor/](motor/), com o exemplo completo do episódio 6 (`filme_exemplo_guilherme.py`, `roteiro_exemplo_guilherme.md`)
 

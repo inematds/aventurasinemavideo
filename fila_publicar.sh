@@ -14,11 +14,10 @@ while true; do
   [ -z "$pasta" ] && { echo "$(date '+%F %T') fila vazia, fim" >> "$LOG"; exit 0; }
   # Aviso antecipado (Nei, 11/10/2026): todo episódio da fila já ganha B2 + e-mail com o canal, mesmo antes do YouTube
   grep -v '^\s*$' "$FILA" | while read -r p; do python3 publicar_episodio.py "$p" --so-aviso >> "$LOG" 2>&1; done
-  # Teto do Nei (11/10/2026): no máximo 6 vídeos por dia no canal aventuras (conta o histórico do yt-pubx do dia)
-  hoje=$(python3 -c "import json,os,time;d=time.strftime('%Y-%m-%d');print(sum(1 for l in open(os.path.expanduser('~/.local/share/yt-pubx/historico.jsonl')) if (r:=json.loads(l)).get('canal')=='aventuras' and r.get('url') and str(r.get('data','')).startswith(d)))")
-  if [ "${hoje:-0}" -ge 6 ]; then
-    espera=$(( $(date -d 'tomorrow 00:10' +%s) - $(date +%s) ))
-    echo "$(date '+%F %T') já saíram $hoje hoje (teto 6), próxima tentativa amanhã 00:10" >> "$LOG"; sleep "$espera"; continue
+  # Ritmo do Nei (12/10/2026): no máximo 8 por dia, um a cada 2 h (8 às 22 h); espera_slot.py diz quanto falta
+  espera=$(python3 espera_slot.py)
+  if [ "${espera:-3600}" -gt 0 ]; then
+    echo "$(date '+%F %T') próximo horário em $((espera/60)) min ($(date -d "+$espera sec" '+%F %H:%M'))" >> "$LOG"; sleep "$espera"; continue
   fi
   echo "$(date '+%F %T') publicando $pasta" >> "$LOG"
   python3 publicar_episodio.py "$pasta" >> "$LOG" 2>&1
