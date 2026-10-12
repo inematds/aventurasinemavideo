@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Quantos segundos esperar até o próximo horário livre do canal aventuras (imprime 0 = publicar agora).
 
-Regra do Nei (12/10/2026): no máximo 8 vídeos por dia, um a cada 2 h, nos horários 8, 10, ..., 22 h.
+Regra do Nei (12/10/2026): no máximo 8 vídeos por dia, um a cada 2 h, nos horários 6, 8, ..., 20 h.
 Cada horário vale até o próximo; publica se ainda não saiu nada nele e o dia não bateu 8.
 Conta pelo histórico do yt-pubx (campo data em hora local).
 """
@@ -9,7 +9,7 @@ import json
 import os
 from datetime import datetime, timedelta
 
-HORAS = [8, 10, 12, 14, 16, 18, 20, 22]
+HORAS = [6, 8, 10, 12, 14, 16, 18, 20]
 TETO = 8
 HIST = os.path.expanduser("~/.local/share/yt-pubx/historico.jsonl")
 
