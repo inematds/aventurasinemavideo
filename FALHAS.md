@@ -2,6 +2,7 @@
 
 | data | o que quebrou | menor correção | prompt \| infra |
 |---|---|---|---|
+| 12/10/2026 | fila parou 11/10 08:03 (codex 0.116 do /usr/bin morreu no config.toml) e ficou 18 h parada sem ninguém saber; 9 episódios prontos e e-mails de aviso já enviados | PATH com ~/.npm-global/bin no fila_publicar.sh + erro vira pedido de ajuda no bot v3 repetido a cada 30 min, sem sair | infra + prompt |
 | 11/10/2026 | #19: voz `nei` gaguejou antes de citação com dois-pontos ("pergunta: Fei, vocês…") e leu "USB" como "os bi" | fala em discurso indireto sem dois-pontos e sigla escrita como se fala ("u-esse-bê"); citação literal só no letreiro | prompt |
 | 11/10/2026 | #17: render caiu com "box can't exceed original image size": `Pilha` sem `z` (zoom 1,012) e muitas cópias com `every` curto somam tremida maior que a margem | dar `z=(1.02, 1.08)` ou mais a toda `Pilha` com muitas cópias/tremida | infra |
 | 10/10/2026 | #13: última palavra do bloco ("jamanta") sumiu do WAV final: Whisper não a transcreveu no bruto e o `pos_voz` corta na última palavra transcrita | conferir a última palavra de cada bloco na transcrição; faltou = gerar o bloco de novo | infra |
