@@ -2,6 +2,8 @@
 
 | data | o que quebrou | menor correção | prompt \| infra |
 |---|---|---|---|
+| 13/10/2026 | teste de modelo (Sonnet) e laço principal (Opus) mexeram no mesmo episódio: o laço "retomou" o em_producao do teste, reprovou em 1 min e renomeou o EPISODIO.json; dois #27 | candidato do teste ganha `teste=<modelo>` e a retomada pula esses; reiniciar aventuras-produz antes do próximo teste | infra |
+| 13/10/2026 | #28 com dois agentes na mesma pasta: a retomada do `produz_loop.sh` pegou um `em_producao` que outro laço (teste Haiku) produzia naquele momento | retomar só se nenhum `claude -p` vivo tiver a pasta (gravar PID na reserva e checar com `kill -0`) | infra |
 | 13/10/2026 | cópias de foto da `Pilha` iam para a borda (cortadas pelo zoom da câmera) e o meio da tela ficava vazio: a escolha só maximizava a distância entre as cópias | posição limitada para a cópia caber inteira (tamanho girado + margem do zoom) e nota que desconta a distância do centro | infra |
 | 12/10/2026 | fila parou 11/10 08:03 (codex 0.116 do /usr/bin morreu no config.toml) e ficou 18 h parada sem ninguém saber; 9 episódios prontos e e-mails de aviso já enviados | PATH com ~/.npm-global/bin no fila_publicar.sh + erro vira pedido de ajuda no bot v3 repetido a cada 30 min, sem sair | infra + prompt |
 | 11/10/2026 | #19: voz `nei` gaguejou antes de citação com dois-pontos ("pergunta: Fei, vocês…") e leu "USB" como "os bi" | fala em discurso indireto sem dois-pontos e sigla escrita como se fala ("u-esse-bê"); citação literal só no letreiro | prompt |

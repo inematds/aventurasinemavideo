@@ -55,7 +55,7 @@ while true; do
 import json,os
 fila=open('$FILA').read() if os.path.exists('$FILA') else ''
 for c in json.load(open('privado/candidatos.json')):
-    if c.get('status')=='em_producao':
+    if c.get('status')=='em_producao' and not c.get('teste'):  # episódio de teste de modelo é do outro processo
         pasta=os.path.expanduser('~/projetos/output/memorias-aventura-'+c['slug'])
         if pasta not in fila:
             print(json.dumps({'n':c['n'],'idmat':c['idmat'],'album':c['album'],'slug':c['slug'],'assunto':c['assunto'],
@@ -74,6 +74,14 @@ for c in json.load(open('privado/candidatos.json')):
   slug=$(echo "$tarefa" | python3 -c "import json,sys;print(json.load(sys.stdin)['slug'])")
   pasta=$(echo "$tarefa" | python3 -c "import json,sys;print(json.load(sys.stdin)['pasta'])")
   echo "$tarefa" > "$TAREFAS/$slug.json"
+  if [ -n "$MODELO" ]; then  # marca como teste: o laço principal não pode "retomar" este episódio (13/10/2026)
+    flock "$TRAVA" python3 -c "
+import json,os
+p='privado/candidatos.json'; c=json.load(open(p))
+for x in c:
+    if x['idmat']==$idmat: x['teste']='$MODELO'
+json.dump(c,open(p+'.tmp','w'),ensure_ascii=False); os.replace(p+'.tmp',p)"
+  fi
   log "início #$n $slug (idmat $idmat)${MODELO:+ modelo $MODELO}"
 
   {
