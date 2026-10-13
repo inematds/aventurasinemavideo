@@ -26,6 +26,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 28 | 13/10/2026 | Luiz — Viagem a Paulo Afonso (2003) | [idmat018465](https://aventura.inema.club/mat/idmat018465.htm) | 0018087 | https://www.youtube.com/watch?v=B-vtbo1NLgY | `memorias/luiz-viagem-a-paulo-afonso-2004/` | `output/memorias-aventura-luiz-viagem-a-paulo-afonso-2004` |
 | 29 | 13/10/2026 | Naoki Arima — Comitê 2003, a final (2003) | [idmat019479](https://aventura.inema.club/mat/idmat019479.htm) | 0038866 | https://www.youtube.com/watch?v=z9fulXnnEhQ | `memorias/naoki-comite-2003-final-2003/` | `output/memorias-aventura-naoki-comite-2003-final-2003` |
 | 20 | 13/10/2026 | Cícero dos Santos Paes — de Florianópolis a Nazca pela Interoceânica (2011) | [idmat121630](https://aventura.inema.club/mat/idmat121630.htm) | 0096552 | https://www.youtube.com/watch?v=p_pgcfH_npk | `memorias/cicero-floripa-nazca/` | `output/memorias-aventura-cicero-floripa-nazca` |
+| 19 | 13/10/2026 | Bárbara Pereira — Expedição Pico da Neblina, 1ª parte (2009) | [idmat114024](https://aventura.inema.club/mat/idmat114024.htm) | 0090957 | https://www.youtube.com/watch?v=hLdsDMHBi1U | `memorias/pico-da-neblina-2009/` | `output/memorias-aventura-pico-da-neblina-2009` |
 
 ## Próximos
 
