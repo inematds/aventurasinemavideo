@@ -13,11 +13,12 @@ TAREFAS=privado/tarefas
 ALVO=${ALVO:-16}          # 2 dias de publicação adiantados
 TETO_H=${TETO_H:-4}       # tempo máximo de um episódio
 MEM=${MEM:-48G}
+# Padrão: Opus 5.5 com esforço medium (decisão do Nei em 13/10/2026, depois do teste Opus × Sonnet × Haiku: ver RELATORIO-MODELOS-2026-10-13.md)
 # Teste de modelo (Nei, 13/10/2026): MODELO=sonnet|haiku UMA=1 NA_FILA=0 ./produz_loop.sh faz 1 episódio fora da fila
 MODELO=${MODELO:-}
 UMA=${UMA:-0}
 NA_FILA=${NA_FILA:-1}
-ESFORCO=${ESFORCO:-}      # low|medium|high|xhigh|max; vazio = o do settings.json (Opus medium, demais low)
+ESFORCO=${ESFORCO:-}      # low|medium|high|xhigh|max; vazio = medium
 EXTRA=${EXTRA:-}          # regra a mais no pedido (ex.: duração mínima)
 TRAVA=privado/.candidatos.lock
 mkdir -p "$TAREFAS"
@@ -105,10 +106,12 @@ json.dump(c,open(p+'.tmp','w'),ensure_ascii=False); os.replace(p+'.tmp',p)"
 
   t0=$(date +%s)
   timeout "${TETO_H}h" systemd-run --user --scope -q -p MemoryMax="$MEM" \
-    claude -p --permission-mode bypassPermissions --max-turns 400 ${MODELO:+--model $MODELO --output-format json} ${ESFORCO:+--effort $ESFORCO} \
+    claude -p --permission-mode bypassPermissions --max-turns 400 --output-format json \
+    --model "${MODELO:-claude-opus-5-5}" --effort "${ESFORCO:-medium}" \
     < "$TAREFAS/$slug.prompt.md" > "$TAREFAS/$slug.log" 2>&1
   rc=$?
   min=$(( ($(date +%s) - t0) / 60 ))
+  custo=$(python3 -c "import json;d=json.load(open('$TAREFAS/$slug.log'));print(round(d.get('total_cost_usd',0),2))" 2>/dev/null)
 
   if [ -f "$pasta/DESISTI.txt" ]; then
     motivo=$(head -c 300 "$pasta/DESISTI.txt")
@@ -120,9 +123,9 @@ json.dump(c,open(p+'.tmp','w'),ensure_ascii=False); os.replace(p+'.tmp',p)"
   if [ "${portao#OK}" != "$portao" ]; then
     marca "$idmat" produzido
     if [ "$NA_FILA" = 1 ]; then
-      echo "$pasta" >> "$FILA"; log "#$n $slug pronto em ${min} min → fila ($portao)"
+      echo "$pasta" >> "$FILA"; log "#$n $slug pronto em ${min} min, US\$ ${custo:-?} → fila ($portao)"
     else
-      log "#$n $slug pronto em ${min} min${MODELO:+ ($MODELO)}, FORA da fila para avaliação ($portao)"
+      log "#$n $slug pronto em ${min} min${MODELO:+ ($MODELO)}, US\$ ${custo:-?}, FORA da fila para avaliação ($portao)"
     fi
     [ $falhas -gt 0 ] && "$AVISA" "✅ Produtor Aventuras voltou a produzir (#$n $slug) depois de $falhas falha(s)." >/dev/null 2>&1
     falhas=0
