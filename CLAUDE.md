@@ -10,6 +10,12 @@ Aventuras INEMA). Antes de qualquer episódio, ler `PLANO.md` (regras do Nei, pi
 - Nunca commitar `privado/`, `subs.json`, `estado.json`, `fila.json`, `email_*.txt` (exceto o modelo).
 - Ao terminar um episódio: atualizar `EPISODIOS.md`, `privado/candidatos.json`, `montar_descricoes.py` e commitar.
 
+- **Runtime contínuo (12/10/2026, pedido do Nei: "um runtime rodando sem parar"):** `aventuras-produz.service`
+  (`produz_loop.sh`: `escolhe.py` reserva a matéria → `claude -p` segue o PRODUZIR.md → `verifica_ep.py` → fila) e
+  `aventuras-fila.service` (`fila_publicar.sh` + `espera_slot.py`: 8 por dia, 6 às 20 h). Os dois são units de arquivo
+  em `~/.config/systemd/user`, `Restart=always`, ligados no boot. Produz só enquanto a fila tiver < 16; episódio novo
+  mora em `/mnt/hd8t/memorias-aventura/` com link em `output/`. Log: `privado/produz.log`, `privado/tarefas/<slug>.log`.
+
 ## Self-learning
 
 When I correct you, or you catch yourself making a mistake: before continuing, add the lesson as a one-line rule under ## Lessons, so it never happens again.

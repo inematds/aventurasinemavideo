@@ -11,7 +11,8 @@ FILA=privado/fila_publicar.txt
 LOG=privado/fila_publicar.log
 while true; do
   pasta=$(grep -v '^\s*$' "$FILA" 2>/dev/null | head -1)
-  [ -z "$pasta" ] && { echo "$(date '+%F %T') fila vazia, fim" >> "$LOG"; exit 0; }
+  # Fila vazia não encerra (12/10/2026): o produtor contínuo (produz_loop.sh) vai repondo
+  [ -z "$pasta" ] && { sleep 600; continue; }
   # Aviso antecipado (Nei, 11/10/2026): todo episódio da fila já ganha B2 + e-mail com o canal, mesmo antes do YouTube
   grep -v '^\s*$' "$FILA" | while read -r p; do python3 publicar_episodio.py "$p" --so-aviso >> "$LOG" 2>&1; done
   # Ritmo do Nei (12/10/2026): no máximo 8 por dia, um a cada 2 h (6 às 20 h); espera_slot.py diz quanto falta
