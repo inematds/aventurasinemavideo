@@ -13,12 +13,17 @@ TAREFAS=privado/tarefas
 ALVO=${ALVO:-16}          # 2 dias de publicação adiantados
 TETO_H=${TETO_H:-4}       # tempo máximo de um episódio
 MEM=${MEM:-48G}
+# Teste de modelo (Nei, 13/10/2026): MODELO=sonnet|haiku UMA=1 NA_FILA=0 ./produz_loop.sh faz 1 episódio fora da fila
+MODELO=${MODELO:-}
+UMA=${UMA:-0}
+NA_FILA=${NA_FILA:-1}
+TRAVA=privado/.candidatos.lock
 mkdir -p "$TAREFAS"
 falhas=0
 
 log() { echo "$(date '+%F %T') $*" >> "$LOG"; }
 marca() {  # marca <idmat> <status> <motivo>
-  python3 - "$@" <<'EOF'
+  flock "$TRAVA" python3 - "$@" <<'EOF'
 import json, os, sys
 p = 'privado/candidatos.json'
 c = json.load(open(p))
@@ -40,12 +45,13 @@ while true; do
     sleep 3600; continue
   fi
   na_fila=$(grep -cv '^\s*$' "$FILA" 2>/dev/null || echo 0)
-  if [ "$na_fila" -ge "$ALVO" ]; then
+  if [ "$UMA" = 0 ] && [ "$na_fila" -ge "$ALVO" ]; then
     sleep 1800; continue
   fi
 
   # retoma episódio que ficou pela metade (reinício do serviço); senão escolhe um novo
-  tarefa=$(python3 -c "
+  tarefa=""
+  [ "$UMA" = 0 ] && tarefa=$(python3 -c "
 import json,os
 fila=open('$FILA').read() if os.path.exists('$FILA') else ''
 for c in json.load(open('privado/candidatos.json')):
@@ -56,7 +62,7 @@ for c in json.load(open('privado/candidatos.json')):
               'area':c.get('area'),'assinante':c.get('assinante',False),'fotos_al1':c.get('fotos_al1'),
               'notificar':[p['idf'] for p in c.get('pessoas',[]) if p['idf']!=4819],'pasta':pasta,'retomada':True},ensure_ascii=False)); break
 ")
-  [ -z "$tarefa" ] && tarefa=$(python3 escolhe.py)
+  [ -z "$tarefa" ] && tarefa=$(flock "$TRAVA" python3 escolhe.py)
   rc=$?
   if [ -z "$tarefa" ]; then
     log "sem matéria elegível (rc=$rc), nova busca em 6 h"
@@ -68,7 +74,7 @@ for c in json.load(open('privado/candidatos.json')):
   slug=$(echo "$tarefa" | python3 -c "import json,sys;print(json.load(sys.stdin)['slug'])")
   pasta=$(echo "$tarefa" | python3 -c "import json,sys;print(json.load(sys.stdin)['pasta'])")
   echo "$tarefa" > "$TAREFAS/$slug.json"
-  log "início #$n $slug (idmat $idmat)"
+  log "início #$n $slug (idmat $idmat)${MODELO:+ modelo $MODELO}"
 
   {
     echo "Você é o produtor automático da série Memórias de Aventura. Trabalhe sozinho até o fim, sem perguntar nada."
@@ -88,7 +94,7 @@ for c in json.load(open('privado/candidatos.json')):
 
   t0=$(date +%s)
   timeout "${TETO_H}h" systemd-run --user --scope -q -p MemoryMax="$MEM" \
-    claude -p --permission-mode bypassPermissions --max-turns 400 \
+    claude -p --permission-mode bypassPermissions --max-turns 400 ${MODELO:+--model $MODELO --output-format json} \
     < "$TAREFAS/$slug.prompt.md" > "$TAREFAS/$slug.log" 2>&1
   rc=$?
   min=$(( ($(date +%s) - t0) / 60 ))
@@ -97,13 +103,17 @@ for c in json.load(open('privado/candidatos.json')):
     motivo=$(head -c 300 "$pasta/DESISTI.txt")
     mv -f "$pasta/EPISODIO.json" "$pasta/EPISODIO.descartado.json" 2>/dev/null
     marca "$idmat" descartado "$motivo"; log "#$n $slug descartado em ${min} min: $motivo"
+    [ "$UMA" = 1 ] && exit 0
     continue
   fi
   portao=$(python3 verifica_ep.py "$pasta" "$n" "$idmat" 2>&1 | tail -1)
   if [ "${portao#OK}" != "$portao" ]; then
-    echo "$pasta" >> "$FILA"
     marca "$idmat" produzido
-    log "#$n $slug pronto em ${min} min → fila ($portao)"
+    if [ "$NA_FILA" = 1 ]; then
+      echo "$pasta" >> "$FILA"; log "#$n $slug pronto em ${min} min → fila ($portao)"
+    else
+      log "#$n $slug pronto em ${min} min${MODELO:+ ($MODELO)}, FORA da fila para avaliação ($portao)"
+    fi
     [ $falhas -gt 0 ] && "$AVISA" "✅ Produtor Aventuras voltou a produzir (#$n $slug) depois de $falhas falha(s)." >/dev/null 2>&1
     falhas=0
     systemctl --user is-active -q aventuras-fila || systemctl --user start aventuras-fila
@@ -118,4 +128,5 @@ Log: ~/projetos/aventurasinemavideo/$TAREFAS/$slug.log
 Sigo para a próxima matéria$([ $falhas -ge 3 ] && echo ' depois de 30 min de pausa')." >/dev/null 2>&1
     [ $falhas -ge 3 ] && sleep 1800
   fi
+  [ "$UMA" = 1 ] && exit 0
 done

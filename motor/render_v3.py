@@ -244,15 +244,34 @@ class Pilha:
             if big and i in big:
                 w, (cx, cy), ang = big[i]
             else:
+                # Nei (13/10/2026): cópias iam para a borda (cortadas) e o meio ficava vazio. Agora a cópia
+                # cabe inteira na tela e a escolha pesa a distância do centro, não só a das outras cópias.
                 w = rnd.randint(*sizes)
-                best = None
-                for _ in range(14):
-                    c = (rnd.uniform(region[0], region[2]), rnd.uniform(region[1], region[3]))
-                    dmin = min([math.dist(c, p) for p in pts] or [1e9])
-                    if best is None or dmin > best[0]:
-                        best = (dmin, c)
-                cx, cy = best[1]
                 ang = rnd.uniform(-9, 9)
+                im = foto(i)
+                h = w * im.height / im.width
+                if h > 720:  # foto em pé também tem que caber
+                    w, h = round(w * 720 / h), 720
+                a = math.radians(abs(ang))
+                hw = (w * math.cos(a) + h * math.sin(a)) / 2 + 28
+                hh = (w * math.sin(a) + h * math.cos(a)) / 2 + 28
+                zm = 1 - 1 / max(z)  # o zoom da câmera corta as bordas: a margem acompanha
+                mx, my = W * zm / 2 + 30, H * zm / 2 + 30
+                x0, x1 = max(region[0], hw + mx), min(region[2], W - hw - mx)
+                y0, y1 = max(region[1], hh + my), min(region[3], H - hh - my)
+                if x0 > x1:
+                    x0 = x1 = W / 2
+                if y0 > y1:
+                    y0 = y1 = H / 2
+                meio = ((region[0] + region[2]) / 2, (region[1] + region[3]) / 2)
+                best = None
+                for _ in range(24):
+                    c = (rnd.uniform(x0, x1), rnd.uniform(y0, y1))
+                    dmin = min([math.dist(c, p) for p in pts] or [0])
+                    nota = dmin - .6 * math.dist(c, meio)
+                    if best is None or nota > best[0]:
+                        best = (nota, c)
+                cx, cy = best[1]
             pts.append((cx, cy))
             ang_dir = rnd.uniform(0, 2 * math.pi)
             self.cards.append(dict(i=i, w=w, cx=cx, cy=cy, ang=ang, tl=tl,
