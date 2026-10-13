@@ -25,6 +25,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 17 | 12/10/2026 | Giovanni Mancuso — surf no "pipeline mexicano", Puerto Escondido (2003) | [idmat017705](https://aventura.inema.club/mat/idmat017705.htm) | 0022481 | https://www.youtube.com/watch?v=J-LHJZtCVAU | `memorias/flavio-surf-mexico/` | `output/memorias-aventura-flavio-surf-mexico` |
 | 28 | 13/10/2026 | Luiz — Viagem a Paulo Afonso (2003) | [idmat018465](https://aventura.inema.club/mat/idmat018465.htm) | 0018087 | https://www.youtube.com/watch?v=B-vtbo1NLgY | `memorias/luiz-viagem-a-paulo-afonso-2004/` | `output/memorias-aventura-luiz-viagem-a-paulo-afonso-2004` |
 | 29 | 13/10/2026 | Naoki Arima — Comitê 2003, a final (2003) | [idmat019479](https://aventura.inema.club/mat/idmat019479.htm) | 0038866 | https://www.youtube.com/watch?v=z9fulXnnEhQ | `memorias/naoki-comite-2003-final-2003/` | `output/memorias-aventura-naoki-comite-2003-final-2003` |
+| 20 | 13/10/2026 | Cícero dos Santos Paes — de Florianópolis a Nazca pela Interoceânica (2011) | [idmat121630](https://aventura.inema.club/mat/idmat121630.htm) | 0096552 | https://www.youtube.com/watch?v=p_pgcfH_npk | `memorias/cicero-floripa-nazca/` | `output/memorias-aventura-cicero-floripa-nazca` |
 
 ## Próximos
 
