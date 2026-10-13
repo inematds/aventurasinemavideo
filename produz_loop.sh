@@ -17,6 +17,8 @@ MEM=${MEM:-48G}
 MODELO=${MODELO:-}
 UMA=${UMA:-0}
 NA_FILA=${NA_FILA:-1}
+ESFORCO=${ESFORCO:-}      # low|medium|high|xhigh|max; vazio = o do settings.json (Opus medium, demais low)
+EXTRA=${EXTRA:-}          # regra a mais no pedido (ex.: duração mínima)
 TRAVA=privado/.candidatos.lock
 mkdir -p "$TAREFAS"
 falhas=0
@@ -82,7 +84,7 @@ for x in c:
     if x['idmat']==$idmat: x['teste']='$MODELO'
 json.dump(c,open(p+'.tmp','w'),ensure_ascii=False); os.replace(p+'.tmp',p)"
   fi
-  log "início #$n $slug (idmat $idmat)${MODELO:+ modelo $MODELO}"
+  log "início #$n $slug (idmat $idmat)${MODELO:+ modelo $MODELO}${ESFORCO:+ esforço $ESFORCO}"
 
   {
     echo "Você é o produtor automático da série Memórias de Aventura. Trabalhe sozinho até o fim, sem perguntar nada."
@@ -95,6 +97,7 @@ json.dump(c,open(p+'.tmp','w'),ensure_ascii=False); os.replace(p+'.tmp',p)"
     echo "- EPISODIO.json: use exatamente n=$n e idmat=$idmat; \"notificar\" = a lista da tarefa."
     echo "- NÃO publique, NÃO suba no B2, NÃO mande e-mail, NÃO mexa em privado/candidatos.json nem em privado/fila_publicar.txt, NÃO faça commit. O laço cuida disso."
     echo "- Quem está na matéria recebe e-mail automático depois (todas as pessoas ligadas, menos o Nei)."
+    [ -n "$EXTRA" ] && echo "- $EXTRA"
     echo "- Se a matéria não render um episódio honesto (relato fraco, fotos de outro assunto), escreva o motivo em $pasta/DESISTI.txt e pare."
     echo
     cat PRODUZIR.md
@@ -102,7 +105,7 @@ json.dump(c,open(p+'.tmp','w'),ensure_ascii=False); os.replace(p+'.tmp',p)"
 
   t0=$(date +%s)
   timeout "${TETO_H}h" systemd-run --user --scope -q -p MemoryMax="$MEM" \
-    claude -p --permission-mode bypassPermissions --max-turns 400 ${MODELO:+--model $MODELO --output-format json} \
+    claude -p --permission-mode bypassPermissions --max-turns 400 ${MODELO:+--model $MODELO --output-format json} ${ESFORCO:+--effort $ESFORCO} \
     < "$TAREFAS/$slug.prompt.md" > "$TAREFAS/$slug.log" 2>&1
   rc=$?
   min=$(( ($(date +%s) - t0) / 60 ))
@@ -111,8 +114,7 @@ json.dump(c,open(p+'.tmp','w'),ensure_ascii=False); os.replace(p+'.tmp',p)"
     motivo=$(head -c 300 "$pasta/DESISTI.txt")
     mv -f "$pasta/EPISODIO.json" "$pasta/EPISODIO.descartado.json" 2>/dev/null
     marca "$idmat" descartado "$motivo"; log "#$n $slug descartado em ${min} min: $motivo"
-    [ "$UMA" = 1 ] && exit 0
-    continue
+    continue  # descarte não conta como o episódio do teste: segue para a próxima matéria
   fi
   portao=$(python3 verifica_ep.py "$pasta" "$n" "$idmat" 2>&1 | tail -1)
   if [ "${portao#OK}" != "$portao" ]; then
