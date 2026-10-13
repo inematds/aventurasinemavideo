@@ -30,6 +30,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 21 | 13/10/2026 | Fabio Wasilewski — Brasil Ponta a Ponta, de bicicleta de Curitiba a Porto Alegre (2000–2001) | [idmat001438](https://aventura.inema.club/mat/idmat001438.htm) | 0035526 | https://www.youtube.com/watch?v=EsM6KrykKlc | `memorias/fabio-diario-de-bordo-brasil-2001/` | `output/memorias-aventura-fabio-diario-de-bordo-brasil-2001` |
 | 22 | 13/10/2026 | Evandro Carobrezzi — Expedição BR 163: de jipe a Nobres, Pantanal e Bonito (2002) | [idmat011812](https://aventura.inema.club/mat/idmat011812.htm) | 0037488 | https://www.youtube.com/watch?v=BGTNv7ImDoc | `memorias/evandro-expedicao-br-163-on-line-2002/` | `output/memorias-aventura-evandro-expedicao-br-163-on-line-2002` |
 | 23 | 13/10/2026 | Renato Demartini — sozinho de moto até o Chile (1999) | [idmat001048](https://aventura.inema.club/mat/idmat001048.htm) | 0035775 | https://www.youtube.com/watch?v=S387IwGub2Y | `memorias/renato-conhecendo-o-chile-numa-2003/` | `output/memorias-aventura-renato-conhecendo-o-chile-numa-2003` |
+| 24 | 13/10/2026 | Luciano Dellarole — Santa Catarina de jipe, na chuva e na lama (2002) | [idmat015233](https://aventura.inema.club/mat/idmat015233.htm) | 0018583 | https://www.youtube.com/watch?v=XWzK3h_PdIc | `memorias/luciano-santa-catarina-litoral-e-2002/` | `output/memorias-aventura-luciano-santa-catarina-litoral-e-2002` |
 
 ## Próximos
 
