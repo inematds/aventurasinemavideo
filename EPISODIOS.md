@@ -23,6 +23,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 16 | 12/10/2026 | Guerreiros do Asfalto — a expectativa do 10º Moto Lagoa (2007) | [idmat084780](https://aventura.inema.club/mat/idmat084780.htm) | 0035747 | https://www.youtube.com/watch?v=L7gjPlUco7Q | `memorias/charles-moto-lagoa/` | `output/memorias-aventura-charles-moto-lagoa` |
 | 18 | 12/10/2026 | Antonio Carlos Osse — expedição de canoa no Rio das Almas (1996) | [idmat034227](https://aventura.inema.club/mat/idmat034227.htm) | 0019147 | https://www.youtube.com/watch?v=E6an58gYqHo | `memorias/expedicao-rio-das-almas/` | `output/memorias-aventura-expedicao-rio-das-almas` |
 | 17 | 12/10/2026 | Giovanni Mancuso — surf no "pipeline mexicano", Puerto Escondido (2003) | [idmat017705](https://aventura.inema.club/mat/idmat017705.htm) | 0022481 | https://www.youtube.com/watch?v=J-LHJZtCVAU | `memorias/flavio-surf-mexico/` | `output/memorias-aventura-flavio-surf-mexico` |
+| 28 | 13/10/2026 | Luiz — Viagem a Paulo Afonso (2003) | [idmat018465](https://aventura.inema.club/mat/idmat018465.htm) | 0018087 | https://www.youtube.com/watch?v=B-vtbo1NLgY | `memorias/luiz-viagem-a-paulo-afonso-2004/` | `output/memorias-aventura-luiz-viagem-a-paulo-afonso-2004` |
 
 ## Próximos
 
