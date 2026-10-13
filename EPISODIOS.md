@@ -27,6 +27,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 29 | 13/10/2026 | Naoki Arima — Comitê 2003, a final (2003) | [idmat019479](https://aventura.inema.club/mat/idmat019479.htm) | 0038866 | https://www.youtube.com/watch?v=z9fulXnnEhQ | `memorias/naoki-comite-2003-final-2003/` | `output/memorias-aventura-naoki-comite-2003-final-2003` |
 | 20 | 13/10/2026 | Cícero dos Santos Paes — de Florianópolis a Nazca pela Interoceânica (2011) | [idmat121630](https://aventura.inema.club/mat/idmat121630.htm) | 0096552 | https://www.youtube.com/watch?v=p_pgcfH_npk | `memorias/cicero-floripa-nazca/` | `output/memorias-aventura-cicero-floripa-nazca` |
 | 19 | 13/10/2026 | Bárbara Pereira — Expedição Pico da Neblina, 1ª parte (2009) | [idmat114024](https://aventura.inema.club/mat/idmat114024.htm) | 0090957 | https://www.youtube.com/watch?v=hLdsDMHBi1U | `memorias/pico-da-neblina-2009/` | `output/memorias-aventura-pico-da-neblina-2009` |
+| 21 | 13/10/2026 | Fabio Wasilewski — Brasil Ponta a Ponta, de bicicleta de Curitiba a Porto Alegre (2000–2001) | [idmat001438](https://aventura.inema.club/mat/idmat001438.htm) | 0035526 | https://www.youtube.com/watch?v=EsM6KrykKlc | `memorias/fabio-diario-de-bordo-brasil-2001/` | `output/memorias-aventura-fabio-diario-de-bordo-brasil-2001` |
 
 ## Próximos
 
