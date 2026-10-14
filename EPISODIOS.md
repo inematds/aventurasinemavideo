@@ -38,6 +38,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 37 | 14/10/2026 | Ronésio Cascaes — o ombro deslocado e o troféu no Enduro dos Pampas (2007) | [idmat085599](https://aventura.inema.club/mat/idmat085599.htm) | 0072363 | https://www.youtube.com/watch?v=kWgBt6-RDBc | `memorias/ronesio-ronesio-cascaes-no-vii-2007/` | `output/memorias-aventura-ronesio-ronesio-cascaes-no-vii-2007` |
 | 38 | 14/10/2026 | Vandré e Fernanda — enfermeiros a cavalo na VII Cavalgada M'Byá Guarani (2008) | [idmat100025](https://aventura.inema.club/mat/idmat100025.htm) | 0079734 | https://www.youtube.com/watch?v=Ut4ZA-NBPP4 | `memorias/luciana-enfermeiro-a-cavalo-2008/` | `output/memorias-aventura-luciana-enfermeiro-a-cavalo-2008` |
 | 39 | 14/10/2026 | Nei Maldaner — de quadriciclo na Cavalgada dos Aparados (2007) | [idmat090250](https://aventura.inema.club/mat/idmat090250.htm) | 0073614 | https://www.youtube.com/watch?v=CZpWAUf6yyc | `memorias/carlos-cavalgada-dos-aparados-2007-2007/` | `output/memorias-aventura-carlos-cavalgada-dos-aparados-2007-2007` |
+| 40 | 14/10/2026 | João Carlos Comin e Evandro Cademartori — Moto Viagem ao Chile, Parte 4: de Viña del Mar a Puerto Montt (2007) | [idmat088886](https://aventura.inema.club/mat/idmat088886.htm) | 0072862 | https://www.youtube.com/watch?v=kj_q-I_BGEc | `memorias/joao-moto-viagem-ao-chile-2007/` | `output/memorias-aventura-joao-moto-viagem-ao-chile-2007` |
 
 ## Próximos
 
