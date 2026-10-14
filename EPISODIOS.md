@@ -35,6 +35,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 26 | 14/10/2026 | Luciana Heitelvan — férias de verão a cavalo em São Chico (2007) | [idmat091976](https://aventura.inema.club/mat/idmat091976.htm) | 0071088 | https://www.youtube.com/watch?v=eKnIEABO38A | `memorias/luciana-ferias-de-verao-em-2007/` | `output/memorias-aventura-luciana-ferias-de-verao-em-2007` |
 | 27 | 14/10/2026 | José Antonio Ferreira — a chama crioula chega ao 1º Acampamento Farroupilha do Paranhana (2007) | [idmat091401](https://aventura.inema.club/mat/idmat091401.htm) | 0074653 | https://www.youtube.com/watch?v=tKxwW3H7gQA | `memorias/jose-1-acampamento-farroupilha-do-2007/` | `output/memorias-aventura-jose-1-acampamento-farroupilha-do-2007` |
 | 33 | 14/10/2026 | Gilberto Matos — 4.100 km de moto até a Minas barroca (2003) | [idmat020006](https://aventura.inema.club/mat/idmat020006.htm) | 0020393 | https://www.youtube.com/watch?v=2e44aUIG-tc | `memorias/gilberto-4100-km-regiao-2003/` | `output/memorias-aventura-gilberto-4100-km-regiao-2003` |
+| 37 | 14/10/2026 | Ronésio Cascaes — o ombro deslocado e o troféu no Enduro dos Pampas (2007) | [idmat085599](https://aventura.inema.club/mat/idmat085599.htm) | 0072363 | https://www.youtube.com/watch?v=kWgBt6-RDBc | `memorias/ronesio-ronesio-cascaes-no-vii-2007/` | `output/memorias-aventura-ronesio-ronesio-cascaes-no-vii-2007` |
 
 ## Próximos
 
