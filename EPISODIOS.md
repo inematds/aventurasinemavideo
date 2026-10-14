@@ -32,6 +32,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 23 | 13/10/2026 | Renato Demartini — sozinho de moto até o Chile (1999) | [idmat001048](https://aventura.inema.club/mat/idmat001048.htm) | 0035775 | https://www.youtube.com/watch?v=S387IwGub2Y | `memorias/renato-conhecendo-o-chile-numa-2003/` | `output/memorias-aventura-renato-conhecendo-o-chile-numa-2003` |
 | 24 | 13/10/2026 | Luciano Dellarole — Santa Catarina de jipe, na chuva e na lama (2002) | [idmat015233](https://aventura.inema.club/mat/idmat015233.htm) | 0018583 | https://www.youtube.com/watch?v=XWzK3h_PdIc | `memorias/luciano-santa-catarina-litoral-e-2002/` | `output/memorias-aventura-luciano-santa-catarina-litoral-e-2002` |
 | 25 | 14/10/2026 | Luiz Maganini Faccin — de bicicleta, do Vale do Ribeira a Santa Cruz do Sul (2002) | [idmat017658](https://aventura.inema.club/mat/idmat017658.htm) | 0019142 | https://www.youtube.com/watch?v=ROA1gS2gaUg | `memorias/luiz-cicloturismo-sao-paulo-2003/` | `output/memorias-aventura-luiz-cicloturismo-sao-paulo-2003` |
+| 26 | 14/10/2026 | Luciana Heitelvan — férias de verão a cavalo em São Chico (2007) | [idmat091976](https://aventura.inema.club/mat/idmat091976.htm) | 0071088 | https://www.youtube.com/watch?v=eKnIEABO38A | `memorias/luciana-ferias-de-verao-em-2007/` | `output/memorias-aventura-luciana-ferias-de-verao-em-2007` |
 
 ## Próximos
 
