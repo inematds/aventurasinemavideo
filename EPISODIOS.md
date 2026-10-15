@@ -41,6 +41,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 40 | 14/10/2026 | João Carlos Comin e Evandro Cademartori — Moto Viagem ao Chile, Parte 4: de Viña del Mar a Puerto Montt (2007) | [idmat088886](https://aventura.inema.club/mat/idmat088886.htm) | 0072862 | https://www.youtube.com/watch?v=kj_q-I_BGEc | `memorias/joao-moto-viagem-ao-chile-2007/` | `output/memorias-aventura-joao-moto-viagem-ao-chile-2007` |
 | 41 | 15/10/2026 | André Issi — De vela de Rio Grande a Quintão, Parte 2: a volta contra o vento (2007) | [idmat091651](https://aventura.inema.club/mat/idmat091651.htm) | 0074908 | https://www.youtube.com/watch?v=pUY7bODM-fY | `memorias/andre-de-vela-de-rio-2007/` | `output/memorias-aventura-andre-de-vela-de-rio-2007` |
 | 42 | 15/10/2026 | Eduardo Feijó — A volta ao mundo, Parte 2: Inglaterra (2007) | [idmat092914](https://aventura.inema.club/mat/idmat092914.htm) | 0075858 | https://www.youtube.com/watch?v=1LqsFby67P0 | `memorias/eduardo-a-volta-ao-mundo-2007/` | `output/memorias-aventura-eduardo-a-volta-ao-mundo-2007` |
+| 43 | 15/10/2026 | Federação Gaúcha de Motociclismo — 2ª etapa do Gaúcho de Motocross em Casca (2008) | [idmat097807](https://aventura.inema.club/mat/idmat097807.htm) | 0078534 | https://www.youtube.com/watch?v=pw6Vg_qt6T0 | `memorias/federacao-2-etapa-campeonato-gaucho-2008/` | `output/memorias-aventura-federacao-2-etapa-campeonato-gaucho-2008` |
 
 ## Próximos
 
