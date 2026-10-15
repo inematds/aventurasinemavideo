@@ -45,6 +45,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 44 | 15/10/2026 | Paulo Cesar Lima Gomide — Expedição 4 Fronteiras, Parte III: do Chile de volta a Macaé (2007) | [idmat094003](https://aventura.inema.club/mat/idmat094003.htm) | 0076617 | https://www.youtube.com/watch?v=r9YM5a_9wcc | `memorias/paulo-expedicao-4-fronteiras-2007-2007/` | `output/memorias-aventura-paulo-expedicao-4-fronteiras-2007-2007` |
 | 45 | 15/10/2026 | Rodrigo Hart Fagundes — Pedalando pela Rota Romântica (2008) | [idmat099334](https://aventura.inema.club/mat/idmat099334.htm) | 0079712 | https://www.youtube.com/watch?v=4TNHgsyUnbs | `memorias/rodrigo-pedalando-pela-rota-romantica-2008/` | `output/memorias-aventura-rodrigo-pedalando-pela-rota-romantica-2008` |
 | 46 | 15/10/2026 | Sérgio R. Delgado Holanda — Expedição do Frevo: Transamazônica e BR 319 (2008) | [idmat099398](https://aventura.inema.club/mat/idmat099398.htm) | 0079849 | https://www.youtube.com/watch?v=9cp0dFIGpeY | `memorias/sergio-expedicao-do-frevo-2008-2008/` | `output/memorias-aventura-sergio-expedicao-do-frevo-2008-2008` |
+| 47 | 15/10/2026 | Nei Maldaner — Whistler no verão (2008) | [idmat100220](https://aventura.inema.club/mat/idmat100220.htm) | 0080254 | https://www.youtube.com/watch?v=fdtzcHUGrfw | `memorias/nei-em-whister-no-2008/` | `output/memorias-aventura-nei-em-whister-no-2008` |
 
 ## Próximos
 
