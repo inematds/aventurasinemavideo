@@ -48,6 +48,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 47 | 15/10/2026 | Nei Maldaner — Whistler no verão (2008) | [idmat100220](https://aventura.inema.club/mat/idmat100220.htm) | 0080254 | https://www.youtube.com/watch?v=fdtzcHUGrfw | `memorias/nei-em-whister-no-2008/` | `output/memorias-aventura-nei-em-whister-no-2008` |
 | 48 | 15/10/2026 | Rodrigo Ventura — Expedições Solitárias, 35ª parte: atravessando a Colômbia (2008) | [idmat097540](https://aventura.inema.club/mat/idmat097540.htm) | 0078577 | https://www.youtube.com/watch?v=zAe3vsY1SqE | `memorias/rodrigo-expedicoes-solitarias-2007-2008-2008/` | `output/memorias-aventura-rodrigo-expedicoes-solitarias-2007-2008-2008` |
 | 49 | 16/10/2026 | Nei Maldaner — Labrador Explorer, Ilha Akpatok: ursos polares e icebergs (2008) | [idmat101034](https://aventura.inema.club/mat/idmat101034.htm) | 0080899 | https://www.youtube.com/watch?v=swv_9hUZqSE | `memorias/nei-no-labrador-explorer-2008/` | `output/memorias-aventura-nei-no-labrador-explorer-2008` |
+| 50 | 16/10/2026 | Sandro Marcos da Silva — Profissionalismo e Responsabilidade: vinte anos de resgate em altura (2008) | [idmat102460](https://aventura.inema.club/mat/idmat102460.htm) | 0082344 | https://www.youtube.com/watch?v=fXQE6PMwPKU | `memorias/sandro-sandro-marcos-da-silva-2008/` | `output/memorias-aventura-sandro-sandro-marcos-da-silva-2008` |
 
 ## Próximos
 
