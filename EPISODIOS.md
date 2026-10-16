@@ -54,6 +54,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 53 | 16/10/2026 | Luis Fernando — de Torres ao Chuí pela beira da praia (2009) | [idmat106240](https://aventura.inema.club/mat/idmat106240.htm) | 0085132 | https://www.youtube.com/watch?v=QXvC8_a24oA | `memorias/luis-se-aventurando-de-moto-2009/` | `output/memorias-aventura-luis-se-aventurando-de-moto-2009` |
 | 54 | 16/10/2026 | Rodolfo Maccarini — de Casca ao Atacama num Corolla: Salta, Santiago e Mendoza (2011) | [idmat120122](https://aventura.inema.club/mat/idmat120122.htm) | 0095034 | https://www.youtube.com/watch?v=YvoPTU6wN4Y | `memorias/rodolfo-viagem-a-salta-2011/` | `output/memorias-aventura-rodolfo-viagem-a-salta-2011` |
 | 55 | 16/10/2026 | Elisa e Patrícia — a única dupla feminina do XI Rally Internacional, num Triumph Stag (2011) | [idmat120746](https://aventura.inema.club/mat/idmat120746.htm) | 0095649 | https://www.youtube.com/watch?v=jjBVyRx8OVo | `memorias/veja-como-foi-o-2011/` | `output/memorias-aventura-veja-como-foi-o-2011` |
+| 56 | 16/10/2026 | Mateus Eidelwein — sozinho de moto até o fim do mundo (2010) | [idmat112667](https://aventura.inema.club/mat/idmat112667.htm) | 0089325 | https://www.youtube.com/watch?v=JVF9GCW0wr0 | `memorias/mateus-motoviagem-ao-fim-do-2010/` | `output/memorias-aventura-mateus-motoviagem-ao-fim-do-2010` |
 
 ## Próximos
 
