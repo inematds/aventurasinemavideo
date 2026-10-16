@@ -50,6 +50,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 49 | 16/10/2026 | Nei Maldaner — Labrador Explorer, Ilha Akpatok: ursos polares e icebergs (2008) | [idmat101034](https://aventura.inema.club/mat/idmat101034.htm) | 0080899 | https://www.youtube.com/watch?v=swv_9hUZqSE | `memorias/nei-no-labrador-explorer-2008/` | `output/memorias-aventura-nei-no-labrador-explorer-2008` |
 | 50 | 16/10/2026 | Sandro Marcos da Silva — Profissionalismo e Responsabilidade: vinte anos de resgate em altura (2008) | [idmat102460](https://aventura.inema.club/mat/idmat102460.htm) | 0082344 | https://www.youtube.com/watch?v=fXQE6PMwPKU | `memorias/sandro-sandro-marcos-da-silva-2008/` | `output/memorias-aventura-sandro-sandro-marcos-da-silva-2008` |
 | 51 | 16/10/2026 | Dolor e Angela — Cidadãos de Ninguém: barrados na fronteira do Equador (2003) | [idmat102674](https://aventura.inema.club/mat/idmat102674.htm) | 0082426 | https://www.youtube.com/watch?v=P8Jpe3DoR50 | `memorias/dolor-dolor-e-angela-no-2008/` | `output/memorias-aventura-dolor-dolor-e-angela-no-2008` |
+| 52 | 16/10/2026 | Vovô do Asfalto — a motoviagem dos 70 anos (2007) | [idmat101367](https://aventura.inema.club/mat/idmat101367.htm) | 0081291 | https://www.youtube.com/watch?v=Nsaypj44Wf4 | `memorias/70-motoviagem-70-anos-vovo-2008/` | `output/memorias-aventura-70-motoviagem-70-anos-vovo-2008` |
 
 ## Próximos
 
