@@ -59,6 +59,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 58 | 17/10/2026 | Carlos Rios — Expedição Andina El Alto, de camioneta pelos Andes (2011) | [idmat120512](https://aventura.inema.club/mat/idmat120512.htm) | 0095371 | https://www.youtube.com/watch?v=XZ6I8LEZalI | `memorias/carlos-relatos-da-expedicao-andina-2011/` | `output/memorias-aventura-carlos-relatos-da-expedicao-andina-2011` |
 | 59 | 18/10/2026 | Paulo e Dinorah — de motorhome pelo Paraguai e pelo norte da Argentina e do Chile (2012) | [idmat121623](https://aventura.inema.club/mat/idmat121623.htm) | 0096534 | https://www.youtube.com/watch?v=FIQT03fqVbg | `memorias/paulo-paraguai-e-norte-da-2012/` | `output/memorias-aventura-paulo-paraguai-e-norte-da-2012` |
 | 60 | 18/10/2026 | Gotardo Tieppo — de moto até Machu Picchu (2005) | [idmat115692](https://aventura.inema.club/mat/idmat115692.htm) | 0092036 | https://www.youtube.com/watch?v=NDZub0HSKcU | `memorias/gotardo-viagem-a-machu-picchu-2010/` | `output/memorias-aventura-gotardo-viagem-a-machu-picchu-2010` |
+| 61 | 18/10/2026 | Paulinho Curva — sozinho de moto pelo Centro-Oeste (2011) | [idmat121384](https://aventura.inema.club/mat/idmat121384.htm) | 0096281 | https://www.youtube.com/watch?v=CVwEjDR2W38 | `memorias/paulinho-expedicao-desbravando-o-centro-2011/` | `output/memorias-aventura-paulinho-expedicao-desbravando-o-centro-2011` |
 
 ## Próximos
 
