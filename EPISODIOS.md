@@ -60,6 +60,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 59 | 18/10/2026 | Paulo e Dinorah — de motorhome pelo Paraguai e pelo norte da Argentina e do Chile (2012) | [idmat121623](https://aventura.inema.club/mat/idmat121623.htm) | 0096534 | https://www.youtube.com/watch?v=FIQT03fqVbg | `memorias/paulo-paraguai-e-norte-da-2012/` | `output/memorias-aventura-paulo-paraguai-e-norte-da-2012` |
 | 60 | 18/10/2026 | Gotardo Tieppo — de moto até Machu Picchu (2005) | [idmat115692](https://aventura.inema.club/mat/idmat115692.htm) | 0092036 | https://www.youtube.com/watch?v=NDZub0HSKcU | `memorias/gotardo-viagem-a-machu-picchu-2010/` | `output/memorias-aventura-gotardo-viagem-a-machu-picchu-2010` |
 | 61 | 18/10/2026 | Paulinho Curva — sozinho de moto pelo Centro-Oeste (2011) | [idmat121384](https://aventura.inema.club/mat/idmat121384.htm) | 0096281 | https://www.youtube.com/watch?v=CVwEjDR2W38 | `memorias/paulinho-expedicao-desbravando-o-centro-2011/` | `output/memorias-aventura-paulinho-expedicao-desbravando-o-centro-2011` |
+| 62 | 18/10/2026 | Pedro Osório — a abertura do Gaúcho de Velocross (2012) | [idmat122166](https://aventura.inema.club/mat/idmat122166.htm) | 0097096 | https://www.youtube.com/watch?v=N-M09JGw8I4 | `memorias/confira-como-foi-o-2012/` | `output/memorias-aventura-confira-como-foi-o-2012` |
 
 ## Próximos
 
