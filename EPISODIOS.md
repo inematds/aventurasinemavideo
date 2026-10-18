@@ -61,6 +61,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 60 | 18/10/2026 | Gotardo Tieppo — de moto até Machu Picchu (2005) | [idmat115692](https://aventura.inema.club/mat/idmat115692.htm) | 0092036 | https://www.youtube.com/watch?v=NDZub0HSKcU | `memorias/gotardo-viagem-a-machu-picchu-2010/` | `output/memorias-aventura-gotardo-viagem-a-machu-picchu-2010` |
 | 61 | 18/10/2026 | Paulinho Curva — sozinho de moto pelo Centro-Oeste (2011) | [idmat121384](https://aventura.inema.club/mat/idmat121384.htm) | 0096281 | https://www.youtube.com/watch?v=CVwEjDR2W38 | `memorias/paulinho-expedicao-desbravando-o-centro-2011/` | `output/memorias-aventura-paulinho-expedicao-desbravando-o-centro-2011` |
 | 62 | 18/10/2026 | Pedro Osório — a abertura do Gaúcho de Velocross (2012) | [idmat122166](https://aventura.inema.club/mat/idmat122166.htm) | 0097096 | https://www.youtube.com/watch?v=N-M09JGw8I4 | `memorias/confira-como-foi-o-2012/` | `output/memorias-aventura-confira-como-foi-o-2012` |
+| 63 | 18/10/2026 | Cleber — Gauderiando pelo Brasil, de Santa Maria a Natal (2012) | [idmat122822](https://aventura.inema.club/mat/idmat122822.htm) | 0097796 | https://www.youtube.com/watch?v=THt9H1yaSu8 | `memorias/cleber-gauderiando-pelo-brasil-2012/` | `output/memorias-aventura-cleber-gauderiando-pelo-brasil-2012` |
 
 ## Próximos
 
