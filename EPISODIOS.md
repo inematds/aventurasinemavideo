@@ -63,6 +63,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 62 | 18/10/2026 | Pedro Osório — a abertura do Gaúcho de Velocross (2012) | [idmat122166](https://aventura.inema.club/mat/idmat122166.htm) | 0097096 | https://www.youtube.com/watch?v=N-M09JGw8I4 | `memorias/confira-como-foi-o-2012/` | `output/memorias-aventura-confira-como-foi-o-2012` |
 | 63 | 18/10/2026 | Cleber — Gauderiando pelo Brasil, de Santa Maria a Natal (2012) | [idmat122822](https://aventura.inema.club/mat/idmat122822.htm) | 0097796 | https://www.youtube.com/watch?v=THt9H1yaSu8 | `memorias/cleber-gauderiando-pelo-brasil-2012/` | `output/memorias-aventura-cleber-gauderiando-pelo-brasil-2012` |
 | 64 | 18/10/2026 | Liberdade Vigiada — Expedição Machu Picchu de moto (2010) | [idmat118606](https://aventura.inema.club/mat/idmat118606.htm) | 0093862 | https://www.youtube.com/watch?v=mtgVT7xzqB8 | `memorias/moto-expedicao-machupicchu-2010-2011/` | `output/memorias-aventura-moto-expedicao-machupicchu-2010-2011` |
+| 65 | 18/10/2026 | INEMA — Cobertura nas cavalgadas do Sul (2002–2004) | [idmat035142](https://aventura.inema.club/mat/idmat035142.htm) | 0039694 | https://www.youtube.com/watch?v=H86kgnh2i0E | `memorias/inema-cobertura-inema-nas-cavalgadas-2004/` | `output/memorias-aventura-inema-cobertura-inema-nas-cavalgadas-2004` |
 
 ## Próximos
 
