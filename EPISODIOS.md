@@ -57,6 +57,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 56 | 16/10/2026 | Mateus Eidelwein — sozinho de moto até o fim do mundo (2010) | [idmat112667](https://aventura.inema.club/mat/idmat112667.htm) | 0089325 | https://www.youtube.com/watch?v=JVF9GCW0wr0 | `memorias/mateus-motoviagem-ao-fim-do-2010/` | `output/memorias-aventura-mateus-motoviagem-ao-fim-do-2010` |
 | 57 | 17/10/2026 | Marcos Felipe Paschoal — de CBX 200 de Itu aos Lençóis Maranhenses (2011) | [idmat120476](https://aventura.inema.club/mat/idmat120476.htm) | 0095336 | https://www.youtube.com/watch?v=Yq5TBsL88-k | `memorias/viagem-de-moto-2011-2011/` | `output/memorias-aventura-viagem-de-moto-2011-2011` |
 | 58 | 17/10/2026 | Carlos Rios — Expedição Andina El Alto, de camioneta pelos Andes (2011) | [idmat120512](https://aventura.inema.club/mat/idmat120512.htm) | 0095371 | https://www.youtube.com/watch?v=XZ6I8LEZalI | `memorias/carlos-relatos-da-expedicao-andina-2011/` | `output/memorias-aventura-carlos-relatos-da-expedicao-andina-2011` |
+| 59 | 18/10/2026 | Paulo e Dinorah — de motorhome pelo Paraguai e pelo norte da Argentina e do Chile (2012) | [idmat121623](https://aventura.inema.club/mat/idmat121623.htm) | 0096534 | https://www.youtube.com/watch?v=FIQT03fqVbg | `memorias/paulo-paraguai-e-norte-da-2012/` | `output/memorias-aventura-paulo-paraguai-e-norte-da-2012` |
 
 ## Próximos
 
