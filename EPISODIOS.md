@@ -65,6 +65,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 64 | 18/10/2026 | Liberdade Vigiada — Expedição Machu Picchu de moto (2010) | [idmat118606](https://aventura.inema.club/mat/idmat118606.htm) | 0093862 | https://www.youtube.com/watch?v=mtgVT7xzqB8 | `memorias/moto-expedicao-machupicchu-2010-2011/` | `output/memorias-aventura-moto-expedicao-machupicchu-2010-2011` |
 | 65 | 18/10/2026 | INEMA — Cobertura nas cavalgadas do Sul (2002–2004) | [idmat035142](https://aventura.inema.club/mat/idmat035142.htm) | 0039694 | https://www.youtube.com/watch?v=H86kgnh2i0E | `memorias/inema-cobertura-inema-nas-cavalgadas-2004/` | `output/memorias-aventura-inema-cobertura-inema-nas-cavalgadas-2004` |
 | 66 | 18/10/2026 | II Corrida Canela Aventura — 46 equipes na serra gaúcha (2003) | [idmat020424](https://aventura.inema.club/mat/idmat020424.htm) | 0038893 | https://www.youtube.com/watch?v=-V-Y7ENkz8k | `memorias/at-tude-ii-corrida-canela-aventura-2003/` | `output/memorias-aventura-at-tude-ii-corrida-canela-aventura-2003` |
+| 67 | 19/10/2026 | Heloisa e Lúcia — Rota Transiberiana, Parte 19: Pequim e a Grande Muralha (2006) | [idmat090241](https://aventura.inema.club/mat/idmat090241.htm) | 0070030 | https://www.youtube.com/watch?v=OebngpbOInM | `memorias/heloisa-as-aventuras-na-rota-2007/` | `output/memorias-aventura-heloisa-as-aventuras-na-rota-2007` |
 
 ## Próximos
 
