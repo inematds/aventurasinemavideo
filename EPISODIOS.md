@@ -67,6 +67,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 66 | 18/10/2026 | II Corrida Canela Aventura — 46 equipes na serra gaúcha (2003) | [idmat020424](https://aventura.inema.club/mat/idmat020424.htm) | 0038893 | https://www.youtube.com/watch?v=-V-Y7ENkz8k | `memorias/at-tude-ii-corrida-canela-aventura-2003/` | `output/memorias-aventura-at-tude-ii-corrida-canela-aventura-2003` |
 | 67 | 19/10/2026 | Heloisa e Lúcia — Rota Transiberiana, Parte 19: Pequim e a Grande Muralha (2006) | [idmat090241](https://aventura.inema.club/mat/idmat090241.htm) | 0070030 | https://www.youtube.com/watch?v=OebngpbOInM | `memorias/heloisa-as-aventuras-na-rota-2007/` | `output/memorias-aventura-heloisa-as-aventuras-na-rota-2007` |
 | 68 | 19/10/2026 | Deonir — Redescobrindo o Paraguai de moto (2011) | [idmat119216](https://aventura.inema.club/mat/idmat119216.htm) | 0094057 | https://www.youtube.com/watch?v=5DE61ZmS-FU | `memorias/deonir-redescobrindo-o-paraguai-2011-2011/` | `output/memorias-aventura-deonir-redescobrindo-o-paraguai-2011-2011` |
+| 69 | 19/10/2026 | José — do Rio a Natal de moto (1984) | [idmat100990](https://aventura.inema.club/mat/idmat100990.htm) | 0080961 | https://www.youtube.com/watch?v=HhJpoWM0Js0 | `memorias/jose-on-tour-retro-1984-2008/` | `output/memorias-aventura-jose-on-tour-retro-1984-2008` |
 
 ## Próximos
 
