@@ -72,6 +72,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 71 | 19/10/2026 | Dan Robson — 61 dias numa caverna do PETAR, Diário 1 (2002) | [idmat094288](https://aventura.inema.club/mat/idmat094288.htm) | 0076326 | https://www.youtube.com/watch?v=gfvNbmqceCo | `memorias/dan-dan-no-projeto-petar-2008/` | `output/memorias-aventura-dan-dan-no-projeto-petar-2008` |
 | 72 | 19/10/2026 | Cristiano — Fortes Ventos II, de moto com uma mini bateria (2011) | [idmat119348](https://aventura.inema.club/mat/idmat119348.htm) | 0094375 | https://www.youtube.com/watch?v=XKM19e_GMBE | `memorias/projeto-fortes-ventos-ii-2011/` | `output/memorias-aventura-projeto-fortes-ventos-ii-2011` |
 | 73 | 20/10/2026 | Luciano e Caio — a primeira prova de rally de regularidade (2000) | [idmat000123](https://aventura.inema.club/mat/idmat000123.htm) | 0035702 | https://www.youtube.com/watch?v=F0pFnjY9kXg | `memorias/marcos-6o-c-g-rally-2003/` | `output/memorias-aventura-marcos-6o-c-g-rally-2003` |
+| 74 | 20/10/2026 | Arnaldo — de moto pelo entorno do Caparaó (2005) | [idmat073254](https://aventura.inema.club/mat/idmat073254.htm) | 0063556 | https://www.youtube.com/watch?v=k1Q0lNJ-vQE | `memorias/arnaldo-on-off-road-ate-o-2006/` | `output/memorias-aventura-arnaldo-on-off-road-ate-o-2006` |
 
 ## Próximos
 
