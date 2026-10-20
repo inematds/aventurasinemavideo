@@ -32,7 +32,8 @@ def jsave(p, obj):
 
 
 def narracao(pasta):
-    txt = open(f'{pasta}/roteiro.md').read().split('## Narração', 1)[1]
+    txt = open(f'{pasta}/roteiro.md').read()
+    txt = txt.split('## Narração', 1)[-1]  # roteiro novo não tem esse título: usa os blocos B01… direto
     s = '\n\n'.join(re.sub(r'^B\d+( \([^)]*\))? — ', '', l).strip() for l in txt.splitlines() if re.match(r'^B\d+', l))
     for a, b in NUM:
         s = s.replace(a, b).replace(a.capitalize(), b)
