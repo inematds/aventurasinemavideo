@@ -71,6 +71,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 70 | 19/10/2026 | Lígia — Patagônia Argentina de moto, 2ª parte (2010) | [idmat111805](https://aventura.inema.club/mat/idmat111805.htm) | 0089305 | https://www.youtube.com/watch?v=18gc_hE4gxs | `memorias/ligia-ligia-fascioni-em-viagem-2010/` | `output/memorias-aventura-ligia-ligia-fascioni-em-viagem-2010` |
 | 71 | 19/10/2026 | Dan Robson — 61 dias numa caverna do PETAR, Diário 1 (2002) | [idmat094288](https://aventura.inema.club/mat/idmat094288.htm) | 0076326 | https://www.youtube.com/watch?v=gfvNbmqceCo | `memorias/dan-dan-no-projeto-petar-2008/` | `output/memorias-aventura-dan-dan-no-projeto-petar-2008` |
 | 72 | 19/10/2026 | Cristiano — Fortes Ventos II, de moto com uma mini bateria (2011) | [idmat119348](https://aventura.inema.club/mat/idmat119348.htm) | 0094375 | https://www.youtube.com/watch?v=XKM19e_GMBE | `memorias/projeto-fortes-ventos-ii-2011/` | `output/memorias-aventura-projeto-fortes-ventos-ii-2011` |
+| 73 | 20/10/2026 | Luciano e Caio — a primeira prova de rally de regularidade (2000) | [idmat000123](https://aventura.inema.club/mat/idmat000123.htm) | 0035702 | https://www.youtube.com/watch?v=F0pFnjY9kXg | `memorias/marcos-6o-c-g-rally-2003/` | `output/memorias-aventura-marcos-6o-c-g-rally-2003` |
 
 ## Próximos
 
