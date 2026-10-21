@@ -76,6 +76,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 75 | 21/10/2026 | Eduardo, o Urbenauta — Recife e João Pessoa a bordo de um SpaceFox (2008) | [idmat101124](https://aventura.inema.club/mat/idmat101124.htm) | 0081043 | https://www.youtube.com/watch?v=xIdUpIFHBko | `memorias/eduardo-aventuras-a-bordo-de-2008/` | `output/memorias-aventura-eduardo-aventuras-a-bordo-de-2008` |
 | 76 | 21/10/2026 | Antônio e Cleci — além da Cordilheira, de moto até o Pacífico (2011) | [idmat120112](https://aventura.inema.club/mat/idmat120112.htm) | 0095017 | https://www.youtube.com/watch?v=ynX-Jps8VLY | `memorias/antonio-alem-da-cordilheira-2011-2011/` | `output/memorias-aventura-antonio-alem-da-cordilheira-2011-2011` |
 | 77 | 21/10/2026 | Gaúcho de Motocross — a etapa de luxo em Marau (2012) | [idmat122103](https://aventura.inema.club/mat/idmat122103.htm) | 0097045 | https://www.youtube.com/watch?v=cNlzY55ulU8 | `memorias/rinaldi-gaucho-de-motocross-2012/` | `output/memorias-aventura-rinaldi-gaucho-de-motocross-2012` |
+| 78 | 21/10/2026 | Miguel Guzmán — de bicicleta de Foz do Iguaçu a São Paulo (2001) | [idmat017971](https://aventura.inema.club/mat/idmat017971.htm) | 0017895 | https://www.youtube.com/watch?v=kNu5Nq_d-F8 | `memorias/miguel-cicloturismo-brasil-selvagem-em-2003/` | `output/memorias-aventura-miguel-cicloturismo-brasil-selvagem-em-2003` |
 
 ## Próximos
 
