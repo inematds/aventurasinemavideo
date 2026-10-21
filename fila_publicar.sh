@@ -28,6 +28,9 @@ while true; do
     falhas=0
     grep -vxF "$pasta" "$FILA" > "$FILA.tmp"; mv "$FILA.tmp" "$FILA"
     git add EPISODIOS.md descricoes/ && git commit -qm "Episódio publicado: $(basename "$pasta")" && git push -q
+    # Shorts (Nei, 21/10/2026): 3 cortes de ~15 s do episódio vão para a fila de imports do lives26 (2 por dia).
+    # Sem IA; pega também qualquer episódio publicado que ainda não tenha corte. Falha aqui não para a fila.
+    nice -n 10 timeout 1800 python3 cortes.py --importar >> "$LOG" 2>&1 || echo "$(date '+%F %T') AVISO: cortes.py falhou para $(basename "$pasta") (fila segue)" >> "$LOG"
   elif [ $rc -eq 75 ]; then
     echo "$(date '+%F %T') limite do YouTube, nova tentativa em 3 h" >> "$LOG"; sleep 10800
   else

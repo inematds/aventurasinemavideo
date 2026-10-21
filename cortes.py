@@ -180,13 +180,18 @@ def processa(ep, importar):
         json.dump(info, open(pronto, 'w'), ensure_ascii=False, indent=1)
         print(f"  {ep['slug']}: " + ', '.join(f"{c['inicio']}-{c['fim']}" for c in clips))
     if importar and not info.get('importado'):
-        pasta = os.path.join(IMPORTS, f"aventuras-cortes-{ep['slug']}")
-        os.makedirs(pasta, exist_ok=True)
+        # monta fora de imports/ e move inteira no fim: o import_worker nunca vê pasta pela metade
+        final = os.path.join(IMPORTS, f"aventuras-cortes-{ep['slug']}")
+        pasta = os.path.join(os.path.dirname(IMPORTS), '.imports-montando', os.path.basename(final))
+        shutil.rmtree(pasta, ignore_errors=True)
+        os.makedirs(pasta)
         for c in info['clips']:
             shutil.copy2(os.path.join(destino, c['file']), os.path.join(pasta, c['file']))
         man = {'titulo': f"Cortes — {ep['slug']}", 'privacy': 'public',
                'clips': [{k: c[k] for k in ('file', 'title', 'description', 'tags')} for c in info['clips']]}
         json.dump(man, open(os.path.join(pasta, 'manifest.json'), 'w'), ensure_ascii=False, indent=1)
+        os.makedirs(IMPORTS, exist_ok=True)
+        os.rename(pasta, final)
         info['importado'] = True
         json.dump(info, open(pronto, 'w'), ensure_ascii=False, indent=1)
         print(f"  {ep['slug']}: colocado em imports/")
