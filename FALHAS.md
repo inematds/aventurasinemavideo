@@ -2,6 +2,7 @@
 
 | data | o que quebrou | menor correção | prompt \| infra |
 |---|---|---|---|
+| 21/10/2026 | cortes.py: drawtext do ffmpeg 6.1.1 cortava o fim de linhas com acento ("#74"→"#7", "CANAL"→"CA") | textos desenhados num PNG pelo PIL e sobrepostos com overlay | infra |
 | 20/10/2026 | fila do canal parou 25 h (19/10 18:00 → 20/10 19:00): publicar_episodio.narracao() exigia "## Narração" e os 16 roteiros novos da fila vêm só com B01…; IndexError + AJUDA no v3 a cada 30 min | narracao() usa o texto todo quando falta o título (testado nos 67 roteiros) | prompt |
 | 18/10/2026 | #79: worker do tts_lote.py parou 9 min na 7ª de 29 frases (GPU com outro processo de 29 GB) | copiar voz/lote/seg_*.wav, matar o worker, remontar B01–B03 e relançar só B04–B14 (lição #59); falta um teto de tempo por frase no worker | infra |
 | 17/10/2026 | fila parou 12 h (24 falhas): token próprio do yt-pubx aventuras venceu (app OAuth em modo Teste = 7 dias) | yt-pubx aventuras passou a ler a credencial do lives26 (credenciais_cmd lives-cred.py lives26), renovada pelo painel; falta publicar o app OAuth | infra |
