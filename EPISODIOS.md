@@ -79,6 +79,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 78 | 21/10/2026 | Miguel Guzmán — de bicicleta de Foz do Iguaçu a São Paulo (2001) | [idmat017971](https://aventura.inema.club/mat/idmat017971.htm) | 0017895 | https://www.youtube.com/watch?v=kNu5Nq_d-F8 | `memorias/miguel-cicloturismo-brasil-selvagem-em-2003/` | `output/memorias-aventura-miguel-cicloturismo-brasil-selvagem-em-2003` |
 | 79 | 21/10/2026 | Família Bennemann — dos Lençóis Maranhenses a Jericoacoara (2009) | [idmat105096](https://aventura.inema.club/mat/idmat105096.htm) | 0084242 | https://www.youtube.com/watch?v=WJ76a2Cp9fY | `memorias/marcio-familia-bennemann-expedicao-2009/` | `output/memorias-aventura-marcio-familia-bennemann-expedicao-2009` |
 | 80 | 21/10/2026 | Motociclistas de Viamão — 3.700 km pela Argentina e pelo Uruguai (2011) | [idmat121353](https://aventura.inema.club/mat/idmat121353.htm) | 0096189 | https://www.youtube.com/watch?v=JVy21E0g7Uo | `memorias/motociclistas-viamonenses-pela-america-2011/` | `output/memorias-aventura-motociclistas-viamonenses-pela-america-2011` |
+| 81 | 21/10/2026 | Marco e Suzete — Viagem à Amazônia, 1ª parte (2008) | [idmat104431](https://aventura.inema.club/mat/idmat104431.htm) | 0083662 | https://www.youtube.com/watch?v=s_IWKcUEPYU | `memorias/marco-viagem-a-amazonia-2008-2009/` | `output/memorias-aventura-marco-viagem-a-amazonia-2008-2009` |
 
 ## Próximos
 
