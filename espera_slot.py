@@ -12,17 +12,27 @@ from datetime import datetime, timedelta
 HORAS = [8, 12, 16, 20]
 TETO = 4
 HIST = os.path.expanduser("~/.local/share/yt-pubx/historico.jsonl")
+# vídeos das cidades (fila própria, 2 por dia) não contam no teto dos episódios (22/10/2026)
+FILA_CIDADES = os.path.expanduser("~/projetos/wifi/fila-cidades/fila.json")
+
+
+def ids_cidades():
+    try:
+        return {x.get("video_id") for x in json.load(open(FILA_CIDADES)) if x.get("video_id")}
+    except (OSError, ValueError):
+        return set()
 
 
 def publicados():
     out = []
+    fora = ids_cidades()
     try:
         for linha in open(HIST):
             try:
                 r = json.loads(linha)
             except ValueError:
                 continue
-            if r.get("canal") == "aventuras" and r.get("url") and r.get("data"):
+            if r.get("canal") == "aventuras" and r.get("url") and r.get("data") and r.get("video_id") not in fora:
                 out.append(datetime.fromisoformat(str(r["data"])[:19]))
     except FileNotFoundError:
         pass
