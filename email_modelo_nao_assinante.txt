@@ -4,16 +4,13 @@ Aqui é o Nei, do INEMA Aventura.
 
 Estamos transformando em vídeo as histórias que ficaram guardadas no acervo do INEMA, e o seu relato "{TITULO}", publicado em {ANO}, virou um episódio da série Memórias de Aventura.
 
-Assista ou baixe o vídeo aqui:
-{B2}
-
-No YouTube:
+Assista no YouTube:
 {YT}
 
 Todos os episódios ficam no canal Aventuras INEMA:
 https://www.youtube.com/@aventurasinema
 
-A sua matéria original, com todas as fotos, continua no acervo:
+A sua página no INEMA Aventura, com a matéria original e todas as fotos:
 https://aventura.inema.club/mat/idmat{IDMAT}.htm
 
 Fique à vontade para compartilhar com quem estava na aventura. Se quiser mandar mais fotos ou contar mais detalhes, é só responder este e-mail.

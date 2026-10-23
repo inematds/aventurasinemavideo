@@ -13,8 +13,7 @@ while true; do
   pasta=$(grep -v '^\s*$' "$FILA" 2>/dev/null | head -1)
   # Fila vazia não encerra (12/10/2026): o produtor contínuo (produz_loop.sh) vai repondo
   [ -z "$pasta" ] && { sleep 600; continue; }
-  # Aviso antecipado (Nei, 11/10/2026): todo episódio da fila já ganha B2 + e-mail com o canal, mesmo antes do YouTube
-  grep -v '^\s*$' "$FILA" | while read -r p; do python3 publicar_episodio.py "$p" --so-aviso >> "$LOG" 2>&1; done
+  # Sem aviso antecipado (Nei, 22/10/2026): o e-mail só sai depois do YouTube, com o link do vídeo e da página da matéria
   # Ritmo do Nei (22/10/2026): no máximo 4 por dia, às 8, 12, 16 e 20 h; espera_slot.py diz quanto falta
   espera=$(python3 espera_slot.py)
   if [ "${espera:-3600}" -gt 0 ]; then

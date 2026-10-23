@@ -3,7 +3,8 @@
 → e-mail às pessoas da matéria → registro (privado/episodios.json, EPISODIOS.md, candidatos.json) → aviso no inemaytbot.
 Retomável: cada passo grava em privado/estado_pub.json e não se repete.
 Uso: publicar_episodio.py <pasta-do-episodio> [--sem-email] [--so-aviso]
---so-aviso: sobe no B2 e manda o e-mail (download + canal) sem esperar o YouTube (regra de 11/10/2026)"""
+--so-aviso: só sobe no B2, sem e-mail.
+E-mail (Nei, 22/10/2026): só depois de publicado, com o link do YouTube e o da página da matéria; nada de arquivo/download."""
 import html, json, os, re, subprocess, sys, urllib.parse, urllib.request
 
 D = os.path.dirname(os.path.abspath(__file__))
@@ -82,8 +83,7 @@ def email(pessoa, ep, yt_url, b2):
                  '{IDMAT}': f"{ep['idmat']:06d}"}.items():
         txt = txt.replace(k, v)
     txt = txt.replace(', publicado em ,', ',')
-    if not yt_url:  # ainda na fila do YouTube: o e-mail sai com o download (B2) e o canal (Nei, 11/10/2026)
-        txt = txt.replace('No YouTube:\n\n\n', '')
+    assert yt_url, 'e-mail só sai com o link do YouTube (regra de 22/10/2026)'
     assert '{' not in txt, txt
     body = ''.join('<p>' + re.sub(r'(https?://\S+)', r'<a href="\1">\1</a>', html.escape(p).replace('\n', '<br>')) + '</p>'
                    for p in txt.strip().split('\n\n'))
@@ -145,10 +145,8 @@ def publicar(pasta, sem_email=False, so_aviso=False):
         jsave(f'{P}/estado_pub.json', est)
     if not s.get('yt'):
         s['yt'] = url_publicada(ep['video'])
-    if so_aviso:  # episódio ainda na fila do YouTube: só sobe no B2 e avisa as pessoas
-        if not sem_email:
-            avisar(c, ep, s, est, s.get('yt'))
-        print(ep['slug'], 'aviso antecipado, e-mails:', len(s.get('emails', {})))
+    if so_aviso:  # episódio ainda na fila do YouTube: só sobe no B2 (sem e-mail desde 22/10/2026)
+        print(ep['slug'], 'B2 ok, sem e-mail antes do YouTube')
         return
     if not s.get('yt'):
       try:
@@ -166,9 +164,7 @@ def publicar(pasta, sem_email=False, so_aviso=False):
         if not s['yt']:
             raise SystemExit('publicação sem URL no histórico')
         jsave(f'{P}/estado_pub.json', est)
-      except Limite:
-        if not sem_email:  # avisa já, com o link do download e do canal; o do YouTube não é reenviado depois
-            avisar(c, ep, s, est, None)
+      except Limite:  # sem e-mail: só avisa quando o vídeo estiver no YouTube (22/10/2026)
         raise
     eps = jload(f'{P}/episodios.json', [])
     ep_reg = {k: ep[k] for k in ('n', 'slug', 'idmat', 'album', 'titulo_curto')}
