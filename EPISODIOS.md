@@ -81,6 +81,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 80 | 21/10/2026 | Motociclistas de Viamão — 3.700 km pela Argentina e pelo Uruguai (2011) | [idmat121353](https://aventura.inema.club/mat/idmat121353.htm) | 0096189 | https://www.youtube.com/watch?v=JVy21E0g7Uo | `memorias/motociclistas-viamonenses-pela-america-2011/` | `output/memorias-aventura-motociclistas-viamonenses-pela-america-2011` |
 | 81 | 21/10/2026 | Marco e Suzete — Viagem à Amazônia, 1ª parte (2008) | [idmat104431](https://aventura.inema.club/mat/idmat104431.htm) | 0083662 | https://www.youtube.com/watch?v=s_IWKcUEPYU | `memorias/marco-viagem-a-amazonia-2008-2009/` | `output/memorias-aventura-marco-viagem-a-amazonia-2008-2009` |
 | 82 | 22/10/2026 | Copa Pimonte de Motocross — a 2ª etapa (2009) | [idmat109697](https://aventura.inema.club/mat/idmat109697.htm) | 0087783 | https://www.youtube.com/watch?v=0KRIkkUk7WQ | `memorias/extreme-2a-etapa-da-copa-2009/` | `output/memorias-aventura-extreme-2a-etapa-da-copa-2009` |
+| 83 | 22/10/2026 | Paulo de Tarso — 15 pedaladas inesquecíveis (2011) | [idmat121340](https://aventura.inema.club/mat/idmat121340.htm) | 0096238 | https://www.youtube.com/watch?v=jTr5twJCAiA | `memorias/15-pedaladas-inesqueciveis-2011-2011/` | `output/memorias-aventura-15-pedaladas-inesqueciveis-2011-2011` |
 
 ## Próximos
 
