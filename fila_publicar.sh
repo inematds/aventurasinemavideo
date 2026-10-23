@@ -14,7 +14,7 @@ while true; do
   # Fila vazia não encerra (12/10/2026): o produtor contínuo (produz_loop.sh) vai repondo
   [ -z "$pasta" ] && { sleep 600; continue; }
   # Sem aviso antecipado (Nei, 22/10/2026): o e-mail só sai depois do YouTube, com o link do vídeo e da página da matéria
-  # Ritmo do Nei (22/10/2026): no máximo 4 por dia, às 8, 12, 16 e 20 h; espera_slot.py diz quanto falta
+  # Ritmo do Nei (22/10/2026): no máximo 6 por dia, às 8, 10, 12, 14, 16 e 18 h; espera_slot.py diz quanto falta
   espera=$(python3 espera_slot.py)
   if [ "${espera:-3600}" -gt 0 ]; then
     echo "$(date '+%F %T') próximo horário em $((espera/60)) min ($(date -d "+$espera sec" '+%F %H:%M'))" >> "$LOG"; sleep "$espera"; continue

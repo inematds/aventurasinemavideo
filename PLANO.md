@@ -14,7 +14,7 @@ O que isso significa na operação:
 
 | Item | Regra |
 |---|---|
-| Vídeos por dia | 4, às 8, 12, 16 e 20 h (regra de 22/10/2026: o canal já tem 2 shorts por dia e os avulsos; antes 8 por dia, 6 às 20 h). A fila (`fila_publicar.sh` + `espera_slot.py`) publica um por horário e para no 4º do dia |
+| Vídeos por dia | 6, às 8, 10, 12, 14, 16 e 18 h (regra de 22/10/2026, canal validado; no mesmo dia mais cedo tinha ido a 4). Cidades 3/dia (9, 15, 21 h, `~/projetos/wifi/fila-cidades`) e shorts 3/dia (11:30, 17:30, 20:30) não contam. A fila (`fila_publicar.sh` + `espera_slot.py`) publica um por horário e para no 6º do dia |
 | De assinantes pagos | 2 por dia. Conta **matérias**, não pessoas: um assinante pode ter vários vídeos, um por matéria com relato e fotos |
 | De não assinantes | 4 por dia, variando os assuntos (moto, trilha, escalada, jipe, cavalgada, viagem…). **No máximo 1 vídeo por pessoa** |
 | Publicação | sempre no canal Aventuras INEMA, sem capa enquanto o canal não for verificado |

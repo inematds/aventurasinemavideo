@@ -10,7 +10,7 @@ AVISA="$HOME/projetos/wifi/scripts/avisa-v3.sh"
 FILA=privado/fila_publicar.txt
 LOG=privado/produz.log
 TAREFAS=privado/tarefas
-ALVO=${ALVO:-8}           # 2 dias de publicação adiantados (4 por dia desde 22/10/2026)
+ALVO=${ALVO:-12}          # 2 dias de publicação adiantados (6 por dia desde 22/10/2026)
 TETO_H=${TETO_H:-4}       # tempo máximo de um episódio
 MEM=${MEM:-48G}
 # Padrão: Opus 5.5 com esforço medium (decisão do Nei em 13/10/2026, depois do teste Opus × Sonnet × Haiku: ver RELATORIO-MODELOS-2026-10-13.md)
