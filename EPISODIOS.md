@@ -86,6 +86,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 85 | 23/10/2026 | Paulo e Andréia — Expedição 17, de Salvador a Brasília (2003) | [idmat025782](https://aventura.inema.club/mat/idmat025782.htm) | 0039871 | https://www.youtube.com/watch?v=kpfyQmK0E1c | `memorias/paulo-expedicao-17-de-2004/` | `output/memorias-aventura-paulo-expedicao-17-de-2004` |
 | 86 | 23/10/2026 | Círculo Cultural Ítalo-Brasileiro — Como surgiu a Imigração Italiana no RS (2004) | [idmat026644](https://aventura.inema.club/mat/idmat026644.htm) | 0039941 | https://www.youtube.com/watch?v=x5vXGDbgi6s | `memorias/circulo-como-surgiu-a-imigracao-2005/` | `output/memorias-aventura-circulo-como-surgiu-a-imigracao-2005` |
 | 87 | 23/10/2026 | Nei Maldaner — Explorando a Ilha de Páscoa (2012) | [idmat121866](https://aventura.inema.club/mat/idmat121866.htm) | 0096761 | https://www.youtube.com/watch?v=xLNSpNayu_Q | `memorias/dia-21-02-tarde-2012/` | `output/memorias-aventura-dia-21-02-tarde-2012` |
+| 88 | 23/10/2026 | Claudinei — Mototerapia: Expedição Cuiabana pela América do Sul (2011) | [idmat121812](https://aventura.inema.club/mat/idmat121812.htm) | 0096739 | https://www.youtube.com/watch?v=j4WvpqhklYc | `memorias/claudinei-mototerapia-expedicao-cuiabana-pela-20/` | `output/memorias-aventura-claudinei-mototerapia-expedicao-cuiabana-pela-20` |
 
 ## Próximos
 
