@@ -84,6 +84,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 83 | 22/10/2026 | Paulo de Tarso — 15 pedaladas inesquecíveis (2011) | [idmat121340](https://aventura.inema.club/mat/idmat121340.htm) | 0096238 | https://www.youtube.com/watch?v=jTr5twJCAiA | `memorias/15-pedaladas-inesqueciveis-2011-2011/` | `output/memorias-aventura-15-pedaladas-inesqueciveis-2011-2011` |
 | 84 | 23/10/2026 | Jacson Padilha — Machu Picchu e a placa do amigo Luiz (2012) | [idmat121752](https://aventura.inema.club/mat/idmat121752.htm) | 0096687 | https://www.youtube.com/watch?v=DfJ1VD9T-20 | `memorias/machu-picchu-2012-2012/` | `output/memorias-aventura-machu-picchu-2012-2012` |
 | 85 | 23/10/2026 | Paulo e Andréia — Expedição 17, de Salvador a Brasília (2003) | [idmat025782](https://aventura.inema.club/mat/idmat025782.htm) | 0039871 | https://www.youtube.com/watch?v=kpfyQmK0E1c | `memorias/paulo-expedicao-17-de-2004/` | `output/memorias-aventura-paulo-expedicao-17-de-2004` |
+| 86 | 23/10/2026 | Círculo Cultural Ítalo-Brasileiro — Como surgiu a Imigração Italiana no RS (2004) | [idmat026644](https://aventura.inema.club/mat/idmat026644.htm) | 0039941 | https://www.youtube.com/watch?v=x5vXGDbgi6s | `memorias/circulo-como-surgiu-a-imigracao-2005/` | `output/memorias-aventura-circulo-como-surgiu-a-imigracao-2005` |
 
 ## Próximos
 
