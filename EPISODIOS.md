@@ -82,6 +82,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 81 | 21/10/2026 | Marco e Suzete — Viagem à Amazônia, 1ª parte (2008) | [idmat104431](https://aventura.inema.club/mat/idmat104431.htm) | 0083662 | https://www.youtube.com/watch?v=s_IWKcUEPYU | `memorias/marco-viagem-a-amazonia-2008-2009/` | `output/memorias-aventura-marco-viagem-a-amazonia-2008-2009` |
 | 82 | 22/10/2026 | Copa Pimonte de Motocross — a 2ª etapa (2009) | [idmat109697](https://aventura.inema.club/mat/idmat109697.htm) | 0087783 | https://www.youtube.com/watch?v=0KRIkkUk7WQ | `memorias/extreme-2a-etapa-da-copa-2009/` | `output/memorias-aventura-extreme-2a-etapa-da-copa-2009` |
 | 83 | 22/10/2026 | Paulo de Tarso — 15 pedaladas inesquecíveis (2011) | [idmat121340](https://aventura.inema.club/mat/idmat121340.htm) | 0096238 | https://www.youtube.com/watch?v=jTr5twJCAiA | `memorias/15-pedaladas-inesqueciveis-2011-2011/` | `output/memorias-aventura-15-pedaladas-inesqueciveis-2011-2011` |
+| 84 | 23/10/2026 | Jacson Padilha — Machu Picchu e a placa do amigo Luiz (2012) | [idmat121752](https://aventura.inema.club/mat/idmat121752.htm) | 0096687 | https://www.youtube.com/watch?v=DfJ1VD9T-20 | `memorias/machu-picchu-2012-2012/` | `output/memorias-aventura-machu-picchu-2012-2012` |
 
 ## Próximos
 
