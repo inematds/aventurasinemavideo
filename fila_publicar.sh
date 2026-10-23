@@ -15,7 +15,7 @@ while true; do
   [ -z "$pasta" ] && { sleep 600; continue; }
   # Aviso antecipado (Nei, 11/10/2026): todo episódio da fila já ganha B2 + e-mail com o canal, mesmo antes do YouTube
   grep -v '^\s*$' "$FILA" | while read -r p; do python3 publicar_episodio.py "$p" --so-aviso >> "$LOG" 2>&1; done
-  # Ritmo do Nei (12/10/2026): no máximo 8 por dia, um a cada 2 h (6 às 20 h); espera_slot.py diz quanto falta
+  # Ritmo do Nei (22/10/2026): no máximo 4 por dia, às 8, 12, 16 e 20 h; espera_slot.py diz quanto falta
   espera=$(python3 espera_slot.py)
   if [ "${espera:-3600}" -gt 0 ]; then
     echo "$(date '+%F %T') próximo horário em $((espera/60)) min ($(date -d "+$espera sec" '+%F %H:%M'))" >> "$LOG"; sleep "$espera"; continue
