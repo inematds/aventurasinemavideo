@@ -88,6 +88,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 87 | 23/10/2026 | Nei Maldaner — Explorando a Ilha de Páscoa (2012) | [idmat121866](https://aventura.inema.club/mat/idmat121866.htm) | 0096761 | https://www.youtube.com/watch?v=xLNSpNayu_Q | `memorias/dia-21-02-tarde-2012/` | `output/memorias-aventura-dia-21-02-tarde-2012` |
 | 88 | 23/10/2026 | Claudinei — Mototerapia: Expedição Cuiabana pela América do Sul (2011) | [idmat121812](https://aventura.inema.club/mat/idmat121812.htm) | 0096739 | https://www.youtube.com/watch?v=j4WvpqhklYc | `memorias/claudinei-mototerapia-expedicao-cuiabana-pela-20/` | `output/memorias-aventura-claudinei-mototerapia-expedicao-cuiabana-pela-20` |
 | 89 | 23/10/2026 | Jorge e os irmãos Guazzelli — Pedal na Trilha das Aranhas (2004) | [idmat035633](https://aventura.inema.club/mat/idmat035633.htm) | 0052447 | https://www.youtube.com/watch?v=OyvGAV7gJpA | `memorias/marcelo-pedal-na-trilha-das-2004/` | `output/memorias-aventura-marcelo-pedal-na-trilha-das-2004` |
+| 90 | 24/10/2026 | Jerre Rocha — A cidade que brilha: Ametista do Sul (2011) | [idmat118616](https://aventura.inema.club/mat/idmat118616.htm) | 0093924 | https://www.youtube.com/watch?v=IDJSp0z-JAQ | `memorias/jerre-a-cidade-que-brilha-2011/` | `output/memorias-aventura-jerre-a-cidade-que-brilha-2011` |
 
 ## Próximos
 
