@@ -89,6 +89,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 88 | 23/10/2026 | Claudinei — Mototerapia: Expedição Cuiabana pela América do Sul (2011) | [idmat121812](https://aventura.inema.club/mat/idmat121812.htm) | 0096739 | https://www.youtube.com/watch?v=j4WvpqhklYc | `memorias/claudinei-mototerapia-expedicao-cuiabana-pela-20/` | `output/memorias-aventura-claudinei-mototerapia-expedicao-cuiabana-pela-20` |
 | 89 | 23/10/2026 | Jorge e os irmãos Guazzelli — Pedal na Trilha das Aranhas (2004) | [idmat035633](https://aventura.inema.club/mat/idmat035633.htm) | 0052447 | https://www.youtube.com/watch?v=OyvGAV7gJpA | `memorias/marcelo-pedal-na-trilha-das-2004/` | `output/memorias-aventura-marcelo-pedal-na-trilha-das-2004` |
 | 90 | 24/10/2026 | Jerre Rocha — A cidade que brilha: Ametista do Sul (2011) | [idmat118616](https://aventura.inema.club/mat/idmat118616.htm) | 0093924 | https://www.youtube.com/watch?v=IDJSp0z-JAQ | `memorias/jerre-a-cidade-que-brilha-2011/` | `output/memorias-aventura-jerre-a-cidade-que-brilha-2011` |
+| 91 | 24/10/2026 | Irmãos Basso — o Gaúcho de Velocross em São Lourenço do Sul (2015) | [idmat124864](https://aventura.inema.club/mat/idmat124864.htm) | 0099912 | https://www.youtube.com/watch?v=bSW-0O3O8cQ | `memorias/irmaos-basso-dominam-o-2015/` | `output/memorias-aventura-irmaos-basso-dominam-o-2015` |
 
 ## Próximos
 
