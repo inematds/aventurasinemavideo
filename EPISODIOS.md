@@ -92,6 +92,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 91 | 24/10/2026 | Irmãos Basso — o Gaúcho de Velocross em São Lourenço do Sul (2015) | [idmat124864](https://aventura.inema.club/mat/idmat124864.htm) | 0099912 | https://www.youtube.com/watch?v=bSW-0O3O8cQ | `memorias/irmaos-basso-dominam-o-2015/` | `output/memorias-aventura-irmaos-basso-dominam-o-2015` |
 | 92 | 24/10/2026 | Felipe Trasel e Gilmar Sbruzzi — Expedição Manku Qhapaq, rumo a Machu Picchu (2012) | [idmat122495](https://aventura.inema.club/mat/idmat122495.htm) | 0097376 | https://www.youtube.com/watch?v=RgmPABfKbdc | `memorias/expedicao-manku-qhapaq-machu-2012/` | `output/memorias-aventura-expedicao-manku-qhapaq-machu-2012` |
 | 93 | 24/10/2026 | Isaac e Everton — Lagos e Vulcões do Chile (2004) | [idmat024391](https://aventura.inema.club/mat/idmat024391.htm) | 0019834 | https://www.youtube.com/watch?v=KLL-igaTnmI | `memorias/everton-aventuras-de-isaac-e-2004/` | `output/memorias-aventura-everton-aventuras-de-isaac-e-2004` |
+| 94 | 24/10/2026 | Marcio e Malusa — Ténéré-600 na Amazônia, Parte 10 (2002) | [idmat093574](https://aventura.inema.club/mat/idmat093574.htm) | 0076227 | https://www.youtube.com/watch?v=xSiZzusyEng | `memorias/marilia-tenere-600-na-amazonia-2007/` | `output/memorias-aventura-marilia-tenere-600-na-amazonia-2007` |
 
 ## Próximos
 
