@@ -91,6 +91,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 90 | 24/10/2026 | Jerre Rocha — A cidade que brilha: Ametista do Sul (2011) | [idmat118616](https://aventura.inema.club/mat/idmat118616.htm) | 0093924 | https://www.youtube.com/watch?v=IDJSp0z-JAQ | `memorias/jerre-a-cidade-que-brilha-2011/` | `output/memorias-aventura-jerre-a-cidade-que-brilha-2011` |
 | 91 | 24/10/2026 | Irmãos Basso — o Gaúcho de Velocross em São Lourenço do Sul (2015) | [idmat124864](https://aventura.inema.club/mat/idmat124864.htm) | 0099912 | https://www.youtube.com/watch?v=bSW-0O3O8cQ | `memorias/irmaos-basso-dominam-o-2015/` | `output/memorias-aventura-irmaos-basso-dominam-o-2015` |
 | 92 | 24/10/2026 | Felipe Trasel e Gilmar Sbruzzi — Expedição Manku Qhapaq, rumo a Machu Picchu (2012) | [idmat122495](https://aventura.inema.club/mat/idmat122495.htm) | 0097376 | https://www.youtube.com/watch?v=RgmPABfKbdc | `memorias/expedicao-manku-qhapaq-machu-2012/` | `output/memorias-aventura-expedicao-manku-qhapaq-machu-2012` |
+| 93 | 24/10/2026 | Isaac e Everton — Lagos e Vulcões do Chile (2004) | [idmat024391](https://aventura.inema.club/mat/idmat024391.htm) | 0019834 | https://www.youtube.com/watch?v=KLL-igaTnmI | `memorias/everton-aventuras-de-isaac-e-2004/` | `output/memorias-aventura-everton-aventuras-de-isaac-e-2004` |
 
 ## Próximos
 
