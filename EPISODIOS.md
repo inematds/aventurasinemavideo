@@ -94,6 +94,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 93 | 24/10/2026 | Isaac e Everton — Lagos e Vulcões do Chile (2004) | [idmat024391](https://aventura.inema.club/mat/idmat024391.htm) | 0019834 | https://www.youtube.com/watch?v=KLL-igaTnmI | `memorias/everton-aventuras-de-isaac-e-2004/` | `output/memorias-aventura-everton-aventuras-de-isaac-e-2004` |
 | 94 | 24/10/2026 | Marcio e Malusa — Ténéré-600 na Amazônia, Parte 10 (2002) | [idmat093574](https://aventura.inema.club/mat/idmat093574.htm) | 0076227 | https://www.youtube.com/watch?v=xSiZzusyEng | `memorias/marilia-tenere-600-na-amazonia-2007/` | `output/memorias-aventura-marilia-tenere-600-na-amazonia-2007` |
 | 95 | 26/10/2026 | Nei Maldaner — Labrador Explorer, St. Anthony's: de bote até a vila viking (2008) | [idmat100831](https://aventura.inema.club/mat/idmat100831.htm) | 0080744 | https://www.youtube.com/watch?v=fsJx0hrgRU4 | `memorias/nei-no-labrador-explorer-2008-2/` | `output/memorias-aventura-nei-no-labrador-explorer-2008-2` |
+| 96 | 26/10/2026 | Felipe Trasel e Gilmar Sbruzzi — Expedição Manku Qhapaq, Machu Picchu e a volta (2012) | [idmat122517](https://aventura.inema.club/mat/idmat122517.htm) | 0097376 | https://www.youtube.com/watch?v=71SfVHFVhwg | `memorias/expedicao-manku-qhapaq-macchu-2012/` | `output/memorias-aventura-expedicao-manku-qhapaq-macchu-2012` |
 
 ## Próximos
 
