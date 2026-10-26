@@ -96,6 +96,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 95 | 26/10/2026 | Nei Maldaner — Labrador Explorer, St. Anthony's: de bote até a vila viking (2008) | [idmat100831](https://aventura.inema.club/mat/idmat100831.htm) | 0080744 | https://www.youtube.com/watch?v=fsJx0hrgRU4 | `memorias/nei-no-labrador-explorer-2008-2/` | `output/memorias-aventura-nei-no-labrador-explorer-2008-2` |
 | 96 | 26/10/2026 | Felipe Trasel e Gilmar Sbruzzi — Expedição Manku Qhapaq, Machu Picchu e a volta (2012) | [idmat122517](https://aventura.inema.club/mat/idmat122517.htm) | 0097376 | https://www.youtube.com/watch?v=71SfVHFVhwg | `memorias/expedicao-manku-qhapaq-macchu-2012/` | `output/memorias-aventura-expedicao-manku-qhapaq-macchu-2012` |
 | 97 | 26/10/2026 | Tiago Meuser — Expedição de Esqui Andes: a volta de Bariloche a Porto Alegre (2006) | [idmat080167](https://aventura.inema.club/mat/idmat080167.htm) | 0068224 | https://www.youtube.com/watch?v=cdPotanj-sU | `memorias/tiago-expedicao-de-esqui-andes-2006/` | `output/memorias-aventura-tiago-expedicao-de-esqui-andes-2006` |
+| 98 | 26/10/2026 | Jefferson Wesley Clemente — de Porto Velho a São Paulo e Paraná de moto (2006) | [idmat071508](https://aventura.inema.club/mat/idmat071508.htm) | 0062629 | https://www.youtube.com/watch?v=jmHQXYHIK-M | `memorias/jefferson-jefferson-foi-porto-velho-2006/` | `output/memorias-aventura-jefferson-jefferson-foi-porto-velho-2006` |
 
 ## Próximos
 
