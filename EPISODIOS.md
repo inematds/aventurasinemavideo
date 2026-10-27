@@ -101,6 +101,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 100 | 26/10/2026 | Tirson Gonçalves Goveia — Atacama e Machu Picchu de moto (2012) | [idmat122560](https://aventura.inema.club/mat/idmat122560.htm) | 0097530 | https://www.youtube.com/watch?v=k5P6EaNKJbU | `memorias/aventura-no-atacama-2012/` | `output/memorias-aventura-aventura-no-atacama-2012` |
 | 101 | 27/10/2026 | Simone e Fabiane — América Latina de carro, Parte 3 (2008) | [idmat101515](https://aventura.inema.club/mat/idmat101515.htm) | 0081521 | https://www.youtube.com/watch?v=lzX09fXYywo | `memorias/fabiane-viagem-pela-america-latina-2008/` | `output/memorias-aventura-fabiane-viagem-pela-america-latina-2008` |
 | 102 | 27/10/2026 | Rafael de Paula — 1º Mochilão por 5 países, 14º dia (2008) | [idmat100650](https://aventura.inema.club/mat/idmat100650.htm) | 0080632 | https://www.youtube.com/watch?v=wOgw650LocM | `memorias/rafael-1o-mochilao-percorrendo-5-2008/` | `output/memorias-aventura-rafael-1o-mochilao-percorrendo-5-2008` |
+| 103 | 27/10/2026 | TOTEM — quem marcava o tempo nos rallies (2004) | [idmat028192](https://aventura.inema.club/mat/idmat028192.htm) | 0040083 | https://www.youtube.com/watch?v=Kuou6tyYGMw | `memorias/totem-totem-apuracao-e-2004/` | `output/memorias-aventura-totem-totem-apuracao-e-2004` |
 
 ## Próximos
 
