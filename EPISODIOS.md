@@ -100,6 +100,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 99 | 26/10/2026 | Nei Maldaner — Labrador Explorer, Nachvak: icebergs e a praia das pegadas de urso (2008) | [idmat101031](https://aventura.inema.club/mat/idmat101031.htm) | 0080893 | https://www.youtube.com/watch?v=41Fe9hITufM | `memorias/eduardo-nei-no-labrador-explorer-2008/` | `output/memorias-aventura-eduardo-nei-no-labrador-explorer-2008` |
 | 100 | 26/10/2026 | Tirson Gonçalves Goveia — Atacama e Machu Picchu de moto (2012) | [idmat122560](https://aventura.inema.club/mat/idmat122560.htm) | 0097530 | https://www.youtube.com/watch?v=k5P6EaNKJbU | `memorias/aventura-no-atacama-2012/` | `output/memorias-aventura-aventura-no-atacama-2012` |
 | 101 | 27/10/2026 | Simone e Fabiane — América Latina de carro, Parte 3 (2008) | [idmat101515](https://aventura.inema.club/mat/idmat101515.htm) | 0081521 | https://www.youtube.com/watch?v=lzX09fXYywo | `memorias/fabiane-viagem-pela-america-latina-2008/` | `output/memorias-aventura-fabiane-viagem-pela-america-latina-2008` |
+| 102 | 27/10/2026 | Rafael de Paula — 1º Mochilão por 5 países, 14º dia (2008) | [idmat100650](https://aventura.inema.club/mat/idmat100650.htm) | 0080632 | https://www.youtube.com/watch?v=wOgw650LocM | `memorias/rafael-1o-mochilao-percorrendo-5-2008/` | `output/memorias-aventura-rafael-1o-mochilao-percorrendo-5-2008` |
 
 ## Próximos
 
