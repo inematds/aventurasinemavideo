@@ -109,6 +109,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 108 | 28/10/2026 | Adriano Ferreira — Lagos Andinos de moto, Parte VI (2006) | [idmat100992](https://aventura.inema.club/mat/idmat100992.htm) | 0081035 | https://www.youtube.com/watch?v=qwMKBRXqK4g | `memorias/adriano-rio-lagos-andinos-2008/` | `output/memorias-aventura-adriano-rio-lagos-andinos-2008` |
 | 109 | 28/10/2026 | Nei Maldaner — 2008 PA Toy Run, Port Alberni, Canadá (2008) | [idmat101739](https://aventura.inema.club/mat/idmat101739.htm) | 0081725 | https://www.youtube.com/watch?v=wQHquTdhMLE | `memorias/sem-2008-pa-toy-run-2008/` | `output/memorias-aventura-sem-2008-pa-toy-run-2008` |
 | 110 | 28/10/2026 | Carlos Eduardo — do Cassino ao Chuí de bicicleta (2002) | [idmat015487](https://aventura.inema.club/mat/idmat015487.htm) | 0038049 | https://www.youtube.com/watch?v=Wd0W4R-SV8g | `memorias/carlos-cassino-chui-de-2003/` | `output/memorias-aventura-carlos-cassino-chui-de-2003` |
+| 111 | 28/10/2026 | Stephanie Tommasi — a brilhante e recente trajetória (2008) | [idmat099256](https://aventura.inema.club/mat/idmat099256.htm) | 0079708 | https://www.youtube.com/watch?v=irWC-E_OOTM | `memorias/a-brilhante-e-recente-2008/` | `output/memorias-aventura-a-brilhante-e-recente-2008` |
 
 ## Próximos
 
