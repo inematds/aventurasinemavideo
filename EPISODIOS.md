@@ -108,6 +108,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 107 | 28/10/2026 | Marcus Kung — uma onda que nunca termina (2004) | [idmat028116](https://aventura.inema.club/mat/idmat028116.htm) | 0020238 | https://www.youtube.com/watch?v=5aBV77WElOw | `memorias/marcus-marcus-kung-uma-onda-2004/` | `output/memorias-aventura-marcus-marcus-kung-uma-onda-2004` |
 | 108 | 28/10/2026 | Adriano Ferreira — Lagos Andinos de moto, Parte VI (2006) | [idmat100992](https://aventura.inema.club/mat/idmat100992.htm) | 0081035 | https://www.youtube.com/watch?v=qwMKBRXqK4g | `memorias/adriano-rio-lagos-andinos-2008/` | `output/memorias-aventura-adriano-rio-lagos-andinos-2008` |
 | 109 | 28/10/2026 | Nei Maldaner — 2008 PA Toy Run, Port Alberni, Canadá (2008) | [idmat101739](https://aventura.inema.club/mat/idmat101739.htm) | 0081725 | https://www.youtube.com/watch?v=wQHquTdhMLE | `memorias/sem-2008-pa-toy-run-2008/` | `output/memorias-aventura-sem-2008-pa-toy-run-2008` |
+| 110 | 28/10/2026 | Carlos Eduardo — do Cassino ao Chuí de bicicleta (2002) | [idmat015487](https://aventura.inema.club/mat/idmat015487.htm) | 0038049 | https://www.youtube.com/watch?v=Wd0W4R-SV8g | `memorias/carlos-cassino-chui-de-2003/` | `output/memorias-aventura-carlos-cassino-chui-de-2003` |
 
 ## Próximos
 
