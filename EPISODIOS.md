@@ -105,6 +105,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 104 | 27/10/2026 | Elmar Wittmann — Honda C100 Dream de Santa Cruz do Sul ao Rio (2012) | [idmat122989](https://aventura.inema.club/mat/idmat122989.htm) | 0098002 | https://www.youtube.com/watch?v=mgQRdD1wGR8 | `memorias/viagem-honda-c100-dream-2012/` | `output/memorias-aventura-viagem-honda-c100-dream-2012` |
 | 105 | 27/10/2026 | Anderson Cunha — de jipe na Serra da Babilônia e na Serra da Canastra (2003) | [idmat071608](https://aventura.inema.club/mat/idmat071608.htm) | 0062663 | https://www.youtube.com/watch?v=UEROKiSlxOA | `memorias/anderson-se-aventurando-na-serra-2006/` | `output/memorias-aventura-anderson-se-aventurando-na-serra-2006` |
 | 106 | 27/10/2026 | José Artur — motoviagem pelo RJ, ES e BA (2012) | [idmat123376](https://aventura.inema.club/mat/idmat123376.htm) | 0098364 | https://www.youtube.com/watch?v=ULBxqYPa74w | `memorias/motoviagem-pelo-rj-es-2013/` | `output/memorias-aventura-motoviagem-pelo-rj-es-2013` |
+| 107 | 28/10/2026 | Marcus Kung — uma onda que nunca termina (2004) | [idmat028116](https://aventura.inema.club/mat/idmat028116.htm) | 0020238 | https://www.youtube.com/watch?v=5aBV77WElOw | `memorias/marcus-marcus-kung-uma-onda-2004/` | `output/memorias-aventura-marcus-marcus-kung-uma-onda-2004` |
 
 ## Próximos
 
