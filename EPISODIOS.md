@@ -115,6 +115,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 114 | 29/10/2026 | Jair Melo — de bicicleta pelo litoral da Bahia, Cicloaventura Caxias–Salvador (2007) | [idmat088911](https://aventura.inema.club/mat/idmat088911.htm) | 0072767 | https://www.youtube.com/watch?v=MfGzfTiwsys | `memorias/jair-cicloaventura-caxias-salvador-2007/` | `output/memorias-aventura-jair-cicloaventura-caxias-salvador-2007` |
 | 115 | 29/10/2026 | Ricardo Cavalcante — Cabo Polônio e a volta da Expedição Hariboll.com (2007) | [idmat100889](https://aventura.inema.club/mat/idmat100889.htm) | 0080926 | https://www.youtube.com/watch?v=sLta_Cmhx6w | `memorias/ricardo-1-fase-da-expedicao-2008/` | `output/memorias-aventura-ricardo-1-fase-da-expedicao-2008` |
 | 116 | 29/10/2026 | Gilberto Cesar — Pelos Caminhos do Pampa de moto (2011) | [idmat118928](https://aventura.inema.club/mat/idmat118928.htm) | 0094082 | https://www.youtube.com/watch?v=YqOS3kGRm7o | `memorias/gilberto-pelos-caminhos-do-pampa-2011/` | `output/memorias-aventura-gilberto-pelos-caminhos-do-pampa-2011` |
+| 117 | 29/10/2026 | Rossano Ourives — 3ª Volta Ciclística das Hortênsias (2009) | [idmat105429](https://aventura.inema.club/mat/idmat105429.htm) | 0084518 | https://www.youtube.com/watch?v=js-_DXwQ5eY | `memorias/rossano-3a-volta-ciclistica-das-2009/` | `output/memorias-aventura-rossano-3a-volta-ciclistica-das-2009` |
 
 ## Próximos
 
