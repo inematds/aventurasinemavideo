@@ -112,6 +112,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 111 | 28/10/2026 | Stephanie Tommasi — a brilhante e recente trajetória (2008) | [idmat099256](https://aventura.inema.club/mat/idmat099256.htm) | 0079708 | https://www.youtube.com/watch?v=irWC-E_OOTM | `memorias/a-brilhante-e-recente-2008/` | `output/memorias-aventura-a-brilhante-e-recente-2008` |
 | 112 | 28/10/2026 | Vandres — Moto Acampamento Desordeiro (2013) | [idmat123401](https://aventura.inema.club/mat/idmat123401.htm) | 0098389 | https://www.youtube.com/watch?v=pp3cfKKJ1k8 | `memorias/vandres-moto-acampamento-desordeiro-2013/` | `output/memorias-aventura-vandres-moto-acampamento-desordeiro-2013` |
 | 113 | 29/10/2026 | Daniel "Texano" — de moto ao Moto GP do Rio (2004) | [idmat029162](https://aventura.inema.club/mat/idmat029162.htm) | 0040218 | https://www.youtube.com/watch?v=oWruNPdBKVM | `memorias/daniel-viagem-ao-moto-gp-rj-2004/` | `output/memorias-aventura-daniel-viagem-ao-moto-gp-rj-2004` |
+| 114 | 29/10/2026 | Jair Melo — de bicicleta pelo litoral da Bahia, Cicloaventura Caxias–Salvador (2007) | [idmat088911](https://aventura.inema.club/mat/idmat088911.htm) | 0072767 | https://www.youtube.com/watch?v=MfGzfTiwsys | `memorias/jair-cicloaventura-caxias-salvador-2007/` | `output/memorias-aventura-jair-cicloaventura-caxias-salvador-2007` |
 
 ## Próximos
 
