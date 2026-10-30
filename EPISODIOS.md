@@ -120,6 +120,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 119 | 30/10/2026 | Mito Bortoloti — o paraquedismo como filosofia (2004) | [idmat028386](https://aventura.inema.club/mat/idmat028386.htm) | 0019939 | https://www.youtube.com/watch?v=E-sPiQlcgGA | `memorias/mito-para-quedismo-como-filosofia-2004/` | `output/memorias-aventura-mito-para-quedismo-como-filosofia-2004` |
 | 120 | 30/10/2026 | Fabiane — Uma aventura fantástica, 1ª Parte (2004) | [idmat036805](https://aventura.inema.club/mat/idmat036805.htm) | 0040677 | https://www.youtube.com/watch?v=Bj1SYThRFSs | `memorias/fabiane-uma-aventura-fantastica-2004/` | `output/memorias-aventura-fabiane-uma-aventura-fantastica-2004` |
 | 121 | 30/10/2026 | W. Felippe — 7 motos no Atacama, Parte V (2005) | [idmat072989](https://aventura.inema.club/mat/idmat072989.htm) | 0063237 | https://www.youtube.com/watch?v=IMtErL702ek | `memorias/w-7-motos-no-atacama-2006-2/` | `output/memorias-aventura-w-7-motos-no-atacama-2006-2` |
+| 122 | 30/10/2026 | Nei Maldaner — Deep Cove Rock, Canadá (2008) | [idmat099832](https://aventura.inema.club/mat/idmat099832.htm) | 0080030 | https://www.youtube.com/watch?v=uv_XcuzkK5k | `memorias/nei-maldaner-no-deep-2008/` | `output/memorias-aventura-nei-maldaner-no-deep-2008` |
 
 ## Próximos
 
