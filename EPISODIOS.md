@@ -117,6 +117,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 116 | 29/10/2026 | Gilberto Cesar — Pelos Caminhos do Pampa de moto (2011) | [idmat118928](https://aventura.inema.club/mat/idmat118928.htm) | 0094082 | https://www.youtube.com/watch?v=YqOS3kGRm7o | `memorias/gilberto-pelos-caminhos-do-pampa-2011/` | `output/memorias-aventura-gilberto-pelos-caminhos-do-pampa-2011` |
 | 117 | 29/10/2026 | Rossano Ourives — 3ª Volta Ciclística das Hortênsias (2009) | [idmat105429](https://aventura.inema.club/mat/idmat105429.htm) | 0084518 | https://www.youtube.com/watch?v=js-_DXwQ5eY | `memorias/rossano-3a-volta-ciclistica-das-2009/` | `output/memorias-aventura-rossano-3a-volta-ciclistica-das-2009` |
 | 118 | 29/10/2026 | Expedição Nordeste — Travessia dos Lençóis Maranhenses (2007) | [idmat097166](https://aventura.inema.club/mat/idmat097166.htm) | 0078277 | https://www.youtube.com/watch?v=lCw6c3yblhE | `memorias/heron-travessia-dos-lencois-maranhenses-2008/` | `output/memorias-aventura-heron-travessia-dos-lencois-maranhenses-2008` |
+| 119 | 30/10/2026 | Mito Bortoloti — o paraquedismo como filosofia (2004) | [idmat028386](https://aventura.inema.club/mat/idmat028386.htm) | 0019939 | https://www.youtube.com/watch?v=E-sPiQlcgGA | `memorias/mito-para-quedismo-como-filosofia-2004/` | `output/memorias-aventura-mito-para-quedismo-como-filosofia-2004` |
 
 ## Próximos
 
