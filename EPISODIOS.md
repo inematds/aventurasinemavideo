@@ -118,6 +118,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 117 | 29/10/2026 | Rossano Ourives — 3ª Volta Ciclística das Hortênsias (2009) | [idmat105429](https://aventura.inema.club/mat/idmat105429.htm) | 0084518 | https://www.youtube.com/watch?v=js-_DXwQ5eY | `memorias/rossano-3a-volta-ciclistica-das-2009/` | `output/memorias-aventura-rossano-3a-volta-ciclistica-das-2009` |
 | 118 | 29/10/2026 | Expedição Nordeste — Travessia dos Lençóis Maranhenses (2007) | [idmat097166](https://aventura.inema.club/mat/idmat097166.htm) | 0078277 | https://www.youtube.com/watch?v=lCw6c3yblhE | `memorias/heron-travessia-dos-lencois-maranhenses-2008/` | `output/memorias-aventura-heron-travessia-dos-lencois-maranhenses-2008` |
 | 119 | 30/10/2026 | Mito Bortoloti — o paraquedismo como filosofia (2004) | [idmat028386](https://aventura.inema.club/mat/idmat028386.htm) | 0019939 | https://www.youtube.com/watch?v=E-sPiQlcgGA | `memorias/mito-para-quedismo-como-filosofia-2004/` | `output/memorias-aventura-mito-para-quedismo-como-filosofia-2004` |
+| 120 | 30/10/2026 | Fabiane — Uma aventura fantástica, 1ª Parte (2004) | [idmat036805](https://aventura.inema.club/mat/idmat036805.htm) | 0040677 | https://www.youtube.com/watch?v=Bj1SYThRFSs | `memorias/fabiane-uma-aventura-fantastica-2004/` | `output/memorias-aventura-fabiane-uma-aventura-fantastica-2004` |
 
 ## Próximos
 
