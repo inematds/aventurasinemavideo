@@ -128,6 +128,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 127 | 31/10/2026 | André Nery — o guia dos Aparados da Serra (2003) | [idmat021288](https://aventura.inema.club/mat/idmat021288.htm) | 0039183 | https://www.youtube.com/watch?v=nVFLyPoBJ-M | `memorias/aparados-aparados-da-serra-2003/` | `output/memorias-aventura-aparados-aparados-da-serra-2003` |
 | 128 | 31/10/2026 | Nei Maldaner — Fakarava, a manhã nos corais (2012) | [idmat121906](https://aventura.inema.club/mat/idmat121906.htm) | 0096830 | https://www.youtube.com/watch?v=PXaPrlqB1KI | `memorias/dia-01-03-fakarava-2012/` | `output/memorias-aventura-dia-01-03-fakarava-2012` |
 | 129 | 31/10/2026 | Elcino — a neve no Paso de Jama (2006) | [idmat080331](https://aventura.inema.club/mat/idmat080331.htm) | 0068534 | https://www.youtube.com/watch?v=YLdi7zzmquU | `memorias/elcino-elcino-junior-em-machu-2006-2/` | `output/memorias-aventura-elcino-elcino-junior-em-machu-2006-2` |
+| 130 | 31/10/2026 | Sidineia Lang — o mutirão Revive Boa Vista em Teutônia (2011) | [idmat121098](https://aventura.inema.club/mat/idmat121098.htm) | 0096036 | https://www.youtube.com/watch?v=DHyehbPFMOk | `memorias/sidineia-acao-social-revive-o-2011/` | `output/memorias-aventura-sidineia-acao-social-revive-o-2011` |
 
 ## Próximos
 
