@@ -124,6 +124,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 123 | 30/10/2026 | Adventure Fair — as atrações da feira de aventura (2003) | [idmat021597](https://aventura.inema.club/mat/idmat021597.htm) | 0017963 | https://www.youtube.com/watch?v=N2NqGBbsD2A | `memorias/zdl-adventure-fair-2003-2003/` | `output/memorias-aventura-zdl-adventure-fair-2003-2003` |
 | 124 | 30/10/2026 | Jorge Farias — Expedição 4x4 Pátrias e Bandeiras (2011) | [idmat120004](https://aventura.inema.club/mat/idmat120004.htm) | 0094955 | https://www.youtube.com/watch?v=_ecogQpC0lU | `memorias/jorge-expedicao-4x4-patrias-e-2011/` | `output/memorias-aventura-jorge-expedicao-4x4-patrias-e-2011` |
 | 125 | 31/10/2026 | Marcelo e Alexandre — de moto até Buenos Aires (2006) | [idmat075314](https://aventura.inema.club/mat/idmat075314.htm) | 0065099 | https://www.youtube.com/watch?v=dhryeKWDXcc | `memorias/marcelo-viagem-buenos-aires-a-2006/` | `output/memorias-aventura-marcelo-viagem-buenos-aires-a-2006` |
+| 126 | 31/10/2026 | Armando — de bicicleta de Rio Grande ao Chuí (2003) | [idmat019213](https://aventura.inema.club/mat/idmat019213.htm) | 0020784 | https://www.youtube.com/watch?v=S_Q2ka-7suM | `memorias/armando-pedalando-de-rio-grande-2003/` | `output/memorias-aventura-armando-pedalando-de-rio-grande-2003` |
 
 ## Próximos
 
