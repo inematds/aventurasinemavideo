@@ -123,6 +123,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 122 | 30/10/2026 | Nei Maldaner — Deep Cove Rock, Canadá (2008) | [idmat099832](https://aventura.inema.club/mat/idmat099832.htm) | 0080030 | https://www.youtube.com/watch?v=uv_XcuzkK5k | `memorias/nei-maldaner-no-deep-2008/` | `output/memorias-aventura-nei-maldaner-no-deep-2008` |
 | 123 | 30/10/2026 | Adventure Fair — as atrações da feira de aventura (2003) | [idmat021597](https://aventura.inema.club/mat/idmat021597.htm) | 0017963 | https://www.youtube.com/watch?v=N2NqGBbsD2A | `memorias/zdl-adventure-fair-2003-2003/` | `output/memorias-aventura-zdl-adventure-fair-2003-2003` |
 | 124 | 30/10/2026 | Jorge Farias — Expedição 4x4 Pátrias e Bandeiras (2011) | [idmat120004](https://aventura.inema.club/mat/idmat120004.htm) | 0094955 | https://www.youtube.com/watch?v=_ecogQpC0lU | `memorias/jorge-expedicao-4x4-patrias-e-2011/` | `output/memorias-aventura-jorge-expedicao-4x4-patrias-e-2011` |
+| 125 | 31/10/2026 | Marcelo e Alexandre — de moto até Buenos Aires (2006) | [idmat075314](https://aventura.inema.club/mat/idmat075314.htm) | 0065099 | https://www.youtube.com/watch?v=dhryeKWDXcc | `memorias/marcelo-viagem-buenos-aires-a-2006/` | `output/memorias-aventura-marcelo-viagem-buenos-aires-a-2006` |
 
 ## Próximos
 
