@@ -130,6 +130,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 129 | 31/10/2026 | Elcino — a neve no Paso de Jama (2006) | [idmat080331](https://aventura.inema.club/mat/idmat080331.htm) | 0068534 | https://www.youtube.com/watch?v=YLdi7zzmquU | `memorias/elcino-elcino-junior-em-machu-2006-2/` | `output/memorias-aventura-elcino-elcino-junior-em-machu-2006-2` |
 | 130 | 31/10/2026 | Sidineia Lang — o mutirão Revive Boa Vista em Teutônia (2011) | [idmat121098](https://aventura.inema.club/mat/idmat121098.htm) | 0096036 | https://www.youtube.com/watch?v=DHyehbPFMOk | `memorias/sidineia-acao-social-revive-o-2011/` | `output/memorias-aventura-sidineia-acao-social-revive-o-2011` |
 | 131 | 01/11/2026 | GP Gaúcho de Motovelocidade — sol, tempestade e um campeão uruguaio em Guaporé (2011) | [idmat120662](https://aventura.inema.club/mat/idmat120662.htm) | 0095497 | https://www.youtube.com/watch?v=hDp347bsWk8 | `memorias/competicao-acirrada-em-varias-2011/` | `output/memorias-aventura-competicao-acirrada-em-varias-2011` |
+| 132 | 01/11/2026 | Clidio Ritter — Moto Expedição 2012 (2012) | [idmat121934](https://aventura.inema.club/mat/idmat121934.htm) | 0096837 | https://www.youtube.com/watch?v=0kr2rg_mzhE | `memorias/clidio-moto-expedicao-2012-2012/` | `output/memorias-aventura-clidio-moto-expedicao-2012-2012` |
 
 ## Próximos
 
