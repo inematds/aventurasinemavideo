@@ -129,6 +129,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 128 | 31/10/2026 | Nei Maldaner — Fakarava, a manhã nos corais (2012) | [idmat121906](https://aventura.inema.club/mat/idmat121906.htm) | 0096830 | https://www.youtube.com/watch?v=PXaPrlqB1KI | `memorias/dia-01-03-fakarava-2012/` | `output/memorias-aventura-dia-01-03-fakarava-2012` |
 | 129 | 31/10/2026 | Elcino — a neve no Paso de Jama (2006) | [idmat080331](https://aventura.inema.club/mat/idmat080331.htm) | 0068534 | https://www.youtube.com/watch?v=YLdi7zzmquU | `memorias/elcino-elcino-junior-em-machu-2006-2/` | `output/memorias-aventura-elcino-elcino-junior-em-machu-2006-2` |
 | 130 | 31/10/2026 | Sidineia Lang — o mutirão Revive Boa Vista em Teutônia (2011) | [idmat121098](https://aventura.inema.club/mat/idmat121098.htm) | 0096036 | https://www.youtube.com/watch?v=DHyehbPFMOk | `memorias/sidineia-acao-social-revive-o-2011/` | `output/memorias-aventura-sidineia-acao-social-revive-o-2011` |
+| 131 | 01/11/2026 | GP Gaúcho de Motovelocidade — sol, tempestade e um campeão uruguaio em Guaporé (2011) | [idmat120662](https://aventura.inema.club/mat/idmat120662.htm) | 0095497 | https://www.youtube.com/watch?v=hDp347bsWk8 | `memorias/competicao-acirrada-em-varias-2011/` | `output/memorias-aventura-competicao-acirrada-em-varias-2011` |
 
 ## Próximos
 
