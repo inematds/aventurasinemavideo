@@ -133,6 +133,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 132 | 01/11/2026 | Clidio Ritter — Moto Expedição 2012 (2012) | [idmat121934](https://aventura.inema.club/mat/idmat121934.htm) | 0096837 | https://www.youtube.com/watch?v=0kr2rg_mzhE | `memorias/clidio-moto-expedicao-2012-2012/` | `output/memorias-aventura-clidio-moto-expedicao-2012-2012` |
 | 133 | 01/11/2026 | Sidney dos Santos — Motoviagem rumo ao Peru, Parte 4 (2008) | [idmat104182](https://aventura.inema.club/mat/idmat104182.htm) | 0083393 | https://www.youtube.com/watch?v=FUfW9W26gAA | `memorias/sid-motoviagem-rumo-ao-peru-2008-3/` | `output/memorias-aventura-sid-motoviagem-rumo-ao-peru-2008-3` |
 | 134 | 01/11/2026 | Tetratlón Chapelco — esqui, bike, caiaque e corrida na Patagônia (2004) | [idmat030269](https://aventura.inema.club/mat/idmat030269.htm) | 0040316 | https://www.youtube.com/watch?v=f-2OTrKFs4U | `memorias/gabriela-18o-tetratlon-chapelco-salomon-2004/` | `output/memorias-aventura-gabriela-18o-tetratlon-chapelco-salomon-2004` |
+| 135 | 01/11/2026 | Tomas Hermes e Diana Cristina — a última etapa do Brasil Surf Pro na Barra da Tijuca (2010) | [idmat118411](https://aventura.inema.club/mat/idmat118411.htm) | 0093619 | https://www.youtube.com/watch?v=LVVdRnBj37k | `memorias/joao-tomas-hermes-e-diana-2010/` | `output/memorias-aventura-joao-tomas-hermes-e-diana-2010` |
 
 ## Próximos
 
