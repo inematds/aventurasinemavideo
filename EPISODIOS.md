@@ -138,6 +138,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 137 | 04/11/2026 | Wilton de Almeida — de moto pelas três Américas, do Alasca a São Paulo (1997) | [idmat032317](https://aventura.inema.club/mat/idmat032317.htm) | 0018932 | https://www.youtube.com/watch?v=Xl9CiDokNaA | `memorias/wilton-de-moto-pelas-americas-2004/` | `output/memorias-aventura-wilton-de-moto-pelas-americas-2004` |
 | 138 | 05/11/2026 | Nei Maldaner — De caiaque em Deep Cove, Canadá (2008) | [idmat100308](https://aventura.inema.club/mat/idmat100308.htm) | 0080232 | https://www.youtube.com/watch?v=A0lJxuMvNFs | `memorias/nei-de-caiaque-em-2008/` | `output/memorias-aventura-nei-de-caiaque-em-2008` |
 | 139 | 05/11/2026 | Flávio Kenup — de moto e veleiro, da Colômbia ao Panamá (2007) | [idmat100706](https://aventura.inema.club/mat/idmat100706.htm) | 0080735 | https://www.youtube.com/watch?v=f7B3fuTVoSY | `memorias/flavio-aventura-em-duas-rodas-2008/` | `output/memorias-aventura-flavio-aventura-em-duas-rodas-2008` |
+| 140 | 05/11/2026 | Daiana Ruff — missão cumprida no INEMA (2004) | [idmat032024](https://aventura.inema.club/mat/idmat032024.htm) | 0038475 | https://www.youtube.com/watch?v=VeK1csi0NkE | `memorias/daiana-missao-cumprida-no-inema-2004/` | `output/memorias-aventura-daiana-missao-cumprida-no-inema-2004` |
 
 ## Próximos
 
