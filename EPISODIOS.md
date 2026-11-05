@@ -136,6 +136,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 135 | 01/11/2026 | Tomas Hermes e Diana Cristina — a última etapa do Brasil Surf Pro na Barra da Tijuca (2010) | [idmat118411](https://aventura.inema.club/mat/idmat118411.htm) | 0093619 | https://www.youtube.com/watch?v=LVVdRnBj37k | `memorias/joao-tomas-hermes-e-diana-2010/` | `output/memorias-aventura-joao-tomas-hermes-e-diana-2010` |
 | 136 | 04/11/2026 | Josias e Luciana Obes — férias de moto de São Leopoldo a Bonito (2009) | [idmat106262](https://aventura.inema.club/mat/idmat106262.htm) | 0085139 | https://www.youtube.com/watch?v=0DDhmhttTlo | `memorias/josias-ferias-2009-camboriu-2009/` | `output/memorias-aventura-josias-ferias-2009-camboriu-2009` |
 | 137 | 04/11/2026 | Wilton de Almeida — de moto pelas três Américas, do Alasca a São Paulo (1997) | [idmat032317](https://aventura.inema.club/mat/idmat032317.htm) | 0018932 | https://www.youtube.com/watch?v=Xl9CiDokNaA | `memorias/wilton-de-moto-pelas-americas-2004/` | `output/memorias-aventura-wilton-de-moto-pelas-americas-2004` |
+| 138 | 05/11/2026 | Nei Maldaner — De caiaque em Deep Cove, Canadá (2008) | [idmat100308](https://aventura.inema.club/mat/idmat100308.htm) | 0080232 | https://www.youtube.com/watch?v=A0lJxuMvNFs | `memorias/nei-de-caiaque-em-2008/` | `output/memorias-aventura-nei-de-caiaque-em-2008` |
 
 ## Próximos
 
