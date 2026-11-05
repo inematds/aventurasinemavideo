@@ -140,6 +140,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 139 | 05/11/2026 | Flávio Kenup — de moto e veleiro, da Colômbia ao Panamá (2007) | [idmat100706](https://aventura.inema.club/mat/idmat100706.htm) | 0080735 | https://www.youtube.com/watch?v=f7B3fuTVoSY | `memorias/flavio-aventura-em-duas-rodas-2008/` | `output/memorias-aventura-flavio-aventura-em-duas-rodas-2008` |
 | 140 | 05/11/2026 | Daiana Ruff — missão cumprida no INEMA (2004) | [idmat032024](https://aventura.inema.club/mat/idmat032024.htm) | 0038475 | https://www.youtube.com/watch?v=VeK1csi0NkE | `memorias/daiana-missao-cumprida-no-inema-2004/` | `output/memorias-aventura-daiana-missao-cumprida-no-inema-2004` |
 | 141 | 05/11/2026 | Jorge Cancella — a volta de Machu Picchu, de Mendoza a Paranaguá (2006) | [idmat082799](https://aventura.inema.club/mat/idmat082799.htm) | 0070289 | https://www.youtube.com/watch?v=iS7F-mplBOM | `memorias/jorge-em-busca-de-machu-2007/` | `output/memorias-aventura-jorge-em-busca-de-machu-2007` |
+| 142 | 05/11/2026 | Campeonato Brasileiro de Mountain Bike — a última subida em São Bento do Sul (2008) | [idmat100747](https://aventura.inema.club/mat/idmat100747.htm) | 0080774 | https://www.youtube.com/watch?v=GvLAwCB52S0 | `memorias/mauricio-campeonato-brasileiro-de-mountain-2008/` | `output/memorias-aventura-mauricio-campeonato-brasileiro-de-mountain-2008` |
 
 ## Próximos
 
