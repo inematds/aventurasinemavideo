@@ -142,6 +142,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 141 | 05/11/2026 | Jorge Cancella — a volta de Machu Picchu, de Mendoza a Paranaguá (2006) | [idmat082799](https://aventura.inema.club/mat/idmat082799.htm) | 0070289 | https://www.youtube.com/watch?v=iS7F-mplBOM | `memorias/jorge-em-busca-de-machu-2007/` | `output/memorias-aventura-jorge-em-busca-de-machu-2007` |
 | 142 | 05/11/2026 | Campeonato Brasileiro de Mountain Bike — a última subida em São Bento do Sul (2008) | [idmat100747](https://aventura.inema.club/mat/idmat100747.htm) | 0080774 | https://www.youtube.com/watch?v=GvLAwCB52S0 | `memorias/mauricio-campeonato-brasileiro-de-mountain-2008/` | `output/memorias-aventura-mauricio-campeonato-brasileiro-de-mountain-2008` |
 | 143 | 05/11/2026 | Nei Maldaner — Pitcairn, a ilha dos amotinados (2012) | [idmat121868](https://aventura.inema.club/mat/idmat121868.htm) | 0096823 | https://www.youtube.com/watch?v=VK-bf8BHEbE | `memorias/dia-26-02-pitcairn-2012/` | `output/memorias-aventura-dia-26-02-pitcairn-2012` |
+| 144 | 06/11/2026 | Circuito Santista de Surf Amador — o campeão da lista de espera no Quebra-Mar (2004) | [idmat027678](https://aventura.inema.club/mat/idmat027678.htm) | 0021031 | https://www.youtube.com/watch?v=xB6Eonl2uQM | `memorias/fma-1a-et-do-wagon-surfstore-santista-2004/` | `output/memorias-aventura-fma-1a-et-do-wagon-surfstore-santista-2004` |
 
 ## Próximos
 
