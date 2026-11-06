@@ -145,6 +145,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 144 | 06/11/2026 | Circuito Santista de Surf Amador — o campeão da lista de espera no Quebra-Mar (2004) | [idmat027678](https://aventura.inema.club/mat/idmat027678.htm) | 0021031 | https://www.youtube.com/watch?v=xB6Eonl2uQM | `memorias/fma-1a-et-do-wagon-surfstore-santista-2004/` | `output/memorias-aventura-fma-1a-et-do-wagon-surfstore-santista-2004` |
 | 145 | 06/11/2026 | Nei Maldaner — Os papagaios-do-mar da Terra Nova (2008) | [idmat100376](https://aventura.inema.club/mat/idmat100376.htm) | 0080475 | https://www.youtube.com/watch?v=VrWYGOn9jfA | `memorias/st-john-s-newfoundland-and-2008/` | `output/memorias-aventura-st-john-s-newfoundland-and-2008` |
 | 146 | 06/11/2026 | Copa Troller Nordeste — o navegador de 12 anos na Serra de Maranguape (2003) | [idmat018647](https://aventura.inema.club/mat/idmat018647.htm) | 0022572 | https://www.youtube.com/watch?v=Ql4sEYU5o0s | `memorias/estela-copa-troller-nordeste-2003/` | `output/memorias-aventura-estela-copa-troller-nordeste-2003` |
+| 147 | 06/11/2026 | Junio — um tour de 7.300 km de moto (2007) | [idmat085610](https://aventura.inema.club/mat/idmat085610.htm) | 0072402 | https://www.youtube.com/watch?v=X8b1WFpSzM0 | `memorias/junio-um-tour-de-7-300-2007/` | `output/memorias-aventura-junio-um-tour-de-7-300-2007` |
 
 ## Próximos
 
