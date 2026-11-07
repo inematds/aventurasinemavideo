@@ -118,7 +118,7 @@ def avisar(c, ep, s, est, yt_url):
     enviados = s.setdefault('emails', {})
     voltou = set(jload(f'{P}/emails_voltaram.json', []))
     for p in c.get('pessoas', []):
-        if p.get('email') and str(p['idf']) not in enviados and p['email'] not in voltou and p['idf'] not in NAO_AVISAR:
+        if p.get('email') and str(p['idf']) not in enviados and p['email'].strip().lower() not in voltou and p['idf'] not in NAO_AVISAR:
             enviados[str(p['idf'])] = email(p, ep, yt_url, s['b2'])
             jsave(f'{P}/estado_pub.json', est)
 
