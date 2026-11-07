@@ -151,6 +151,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 150 | 07/11/2026 | Expointer 2003 — o cavalo Mangalarga nas provas funcionais (2003) | [idmat020434](https://aventura.inema.club/mat/idmat020434.htm) | 0038987 | https://www.youtube.com/watch?v=Kd-DKL15JJs | `memorias/paulo-expointer-2003-mangalarga-2003/` | `output/memorias-aventura-paulo-expointer-2003-mangalarga-2003` |
 | 151 | 07/11/2026 | Euclides Carbonera — Contornando o Brasil de moto, 2ª parte (2003) | [idmat018152](https://aventura.inema.club/mat/idmat018152.htm) | 0020630 | https://www.youtube.com/watch?v=q1ilVyUUy24 | `memorias/euclides-contornando-o-brasil-de-2003/` | `output/memorias-aventura-euclides-contornando-o-brasil-de-2003` |
 | 152 | 07/11/2026 | Marcelo Araújo — Expedição Bike Tchê, de bicicleta aos cânions gaúchos (2004) | [idmat029402](https://aventura.inema.club/mat/idmat029402.htm) | 0021312 | https://www.youtube.com/watch?v=2usgJF-2zcM | `memorias/marcelo-expedicao-bike-tche-2004/` | `output/memorias-aventura-marcelo-expedicao-bike-tche-2004` |
+| 153 | 07/11/2026 | Copa SP/Minas de Motocross — quatro títulos num único domingo (2011) | [idmat121162](https://aventura.inema.club/mat/idmat121162.htm) | 0096112 | https://www.youtube.com/watch?v=5mOqMq8GEso | `memorias/fabio-confira-como-foi-a-2011/` | `output/memorias-aventura-fabio-confira-como-foi-a-2011` |
 
 ## Próximos
 
