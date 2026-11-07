@@ -149,6 +149,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 148 | 06/11/2026 | André e Andréa — Expedição Trópico de Capricórnio, Parte 2 (2009) | [idmat106359](https://aventura.inema.club/mat/idmat106359.htm) | 0085190 | https://www.youtube.com/watch?v=Nb0WSdOKsX0 | `memorias/andre-expedicao-tropico-de-capricornio-2009/` | `output/memorias-aventura-andre-expedicao-tropico-de-capricornio-2009` |
 | 149 | 07/11/2026 | Sergio Marreta Skator — o dicionário das manobras do mountainboard (2004) | [idmat034869](https://aventura.inema.club/mat/idmat034869.htm) | 0022124 | https://www.youtube.com/watch?v=nkqT5dUZ7lQ | `memorias/sergio-manobras-skate-off-road-ou-2004/` | `output/memorias-aventura-sergio-manobras-skate-off-road-ou-2004` |
 | 150 | 07/11/2026 | Expointer 2003 — o cavalo Mangalarga nas provas funcionais (2003) | [idmat020434](https://aventura.inema.club/mat/idmat020434.htm) | 0038987 | https://www.youtube.com/watch?v=Kd-DKL15JJs | `memorias/paulo-expointer-2003-mangalarga-2003/` | `output/memorias-aventura-paulo-expointer-2003-mangalarga-2003` |
+| 151 | 07/11/2026 | Euclides Carbonera — Contornando o Brasil de moto, 2ª parte (2003) | [idmat018152](https://aventura.inema.club/mat/idmat018152.htm) | 0020630 | https://www.youtube.com/watch?v=q1ilVyUUy24 | `memorias/euclides-contornando-o-brasil-de-2003/` | `output/memorias-aventura-euclides-contornando-o-brasil-de-2003` |
 
 ## Próximos
 
