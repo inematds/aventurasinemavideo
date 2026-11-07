@@ -147,6 +147,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 146 | 06/11/2026 | Copa Troller Nordeste — o navegador de 12 anos na Serra de Maranguape (2003) | [idmat018647](https://aventura.inema.club/mat/idmat018647.htm) | 0022572 | https://www.youtube.com/watch?v=Ql4sEYU5o0s | `memorias/estela-copa-troller-nordeste-2003/` | `output/memorias-aventura-estela-copa-troller-nordeste-2003` |
 | 147 | 06/11/2026 | Junio — um tour de 7.300 km de moto (2007) | [idmat085610](https://aventura.inema.club/mat/idmat085610.htm) | 0072402 | https://www.youtube.com/watch?v=X8b1WFpSzM0 | `memorias/junio-um-tour-de-7-300-2007/` | `output/memorias-aventura-junio-um-tour-de-7-300-2007` |
 | 148 | 06/11/2026 | André e Andréa — Expedição Trópico de Capricórnio, Parte 2 (2009) | [idmat106359](https://aventura.inema.club/mat/idmat106359.htm) | 0085190 | https://www.youtube.com/watch?v=Nb0WSdOKsX0 | `memorias/andre-expedicao-tropico-de-capricornio-2009/` | `output/memorias-aventura-andre-expedicao-tropico-de-capricornio-2009` |
+| 149 | 07/11/2026 | Sergio Marreta Skator — o dicionário das manobras do mountainboard (2004) | [idmat034869](https://aventura.inema.club/mat/idmat034869.htm) | 0022124 | https://www.youtube.com/watch?v=nkqT5dUZ7lQ | `memorias/sergio-manobras-skate-off-road-ou-2004/` | `output/memorias-aventura-sergio-manobras-skate-off-road-ou-2004` |
 
 ## Próximos
 
