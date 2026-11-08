@@ -157,6 +157,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 156 | 08/11/2026 | Fabio Luis Correia — de moto de Guaíba ao Extremo Oriental das Américas (2007) | [idmat083963](https://aventura.inema.club/mat/idmat083963.htm) | 0071112 | https://www.youtube.com/watch?v=vFl-V1107Q0 | `memorias/prefeitura-kakinhos-do-sul-pelo-2007/` | `output/memorias-aventura-prefeitura-kakinhos-do-sul-pelo-2007` |
 | 157 | 08/11/2026 | Queda Livre — as modalidades do paraquedismo (2003) | [idmat016839](https://aventura.inema.club/mat/idmat016839.htm) | 0022204 | https://www.youtube.com/watch?v=EH9n4z0Q-3Q | `memorias/queda-paraquedismo-modalidades-2003/` | `output/memorias-aventura-queda-paraquedismo-modalidades-2003` |
 | 158 | 08/11/2026 | Circuito Catarinense de Jet Ski — 2ª etapa em Biguaçu (2007) | [idmat091904](https://aventura.inema.club/mat/idmat091904.htm) | 0075019 | https://www.youtube.com/watch?v=bLO_FbQ7YxE | `memorias/marcelo-2-etapa-circuito-catarinense-2007/` | `output/memorias-aventura-marcelo-2-etapa-circuito-catarinense-2007` |
+| 159 | 08/11/2026 | Helena e Maurício — de triciclo de Brasília a Ilhabela (2006) | [idmat083008](https://aventura.inema.club/mat/idmat083008.htm) | 0070393 | https://www.youtube.com/watch?v=uAWnGCRjntI | `memorias/helena-pelicanos-viajam-de-triciclos-2007/` | `output/memorias-aventura-helena-pelicanos-viajam-de-triciclos-2007` |
 
 ## Próximos
 
