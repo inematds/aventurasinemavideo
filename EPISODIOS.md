@@ -154,6 +154,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 153 | 07/11/2026 | Copa SP/Minas de Motocross — quatro títulos num único domingo (2011) | [idmat121162](https://aventura.inema.club/mat/idmat121162.htm) | 0096112 | https://www.youtube.com/watch?v=5mOqMq8GEso | `memorias/fabio-confira-como-foi-a-2011/` | `output/memorias-aventura-fabio-confira-como-foi-a-2011` |
 | 154 | 07/11/2026 | Cia Liberdade — 1º Abraçando Santa Catarina, a volta de moto pelo estado (2003) | [idmat021273](https://aventura.inema.club/mat/idmat021273.htm) | 0039182 | https://www.youtube.com/watch?v=Y-PjnONREgQ | `memorias/cia-1o-abracando-santa-catarina-2003/` | `output/memorias-aventura-cia-1o-abracando-santa-catarina-2003` |
 | 155 | 08/11/2026 | Richard Waszak — a promessa e a Serra do Rio do Rastro de moto (2008) | [idmat099141](https://aventura.inema.club/mat/idmat099141.htm) | 0079570 | https://www.youtube.com/watch?v=ZQiCtnoZsPo | `memorias/richard-viagem-a-serra-do-2008/` | `output/memorias-aventura-richard-viagem-a-serra-do-2008` |
+| 156 | 08/11/2026 | Fabio Luis Correia — de moto de Guaíba ao Extremo Oriental das Américas (2007) | [idmat083963](https://aventura.inema.club/mat/idmat083963.htm) | 0071112 | https://www.youtube.com/watch?v=vFl-V1107Q0 | `memorias/prefeitura-kakinhos-do-sul-pelo-2007/` | `output/memorias-aventura-prefeitura-kakinhos-do-sul-pelo-2007` |
 
 ## Próximos
 
