@@ -161,6 +161,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 160 | 08/11/2026 | Maresia Board Challenge — a melhor onda e o erro que custou o título no Guarujá (2003) | [idmat020052](https://aventura.inema.club/mat/idmat020052.htm) | 0020776 | https://www.youtube.com/watch?v=FpIJPWfgFeU | `memorias/eduardo-maresia-board-challenge-na-2003/` | `output/memorias-aventura-eduardo-maresia-board-challenge-na-2003` |
 | 161 | 09/11/2026 | Federação Gaúcha de Hipismo — a história do enduro equestre e uma etapa no Haras Cambará (2003) | [idmat020970](https://aventura.inema.club/mat/idmat020970.htm) | 0039088 | https://www.youtube.com/watch?v=Eu8s64JZyP4 | `memorias/federacao-gaucho-de-enduro-equestre-2003/` | `output/memorias-aventura-federacao-gaucho-de-enduro-equestre-2003` |
 | 162 | 09/11/2026 | Coyote Equipe de Aventuras — de bicicleta de Rio Grande a Montevidéu (2000) | [idmat000868](https://aventura.inema.club/mat/idmat000868.htm) | 0035604 | https://www.youtube.com/watch?v=TZKNHlAb1sg | `memorias/coyote-projeto-ao-sul-do-2004/` | `output/memorias-aventura-coyote-projeto-ao-sul-do-2004` |
+| 163 | 09/11/2026 | Rodrigo Carvalho — a soma de todos os medos, de moto de Mendoza a Chilecito (2009) | [idmat108591](https://aventura.inema.club/mat/idmat108591.htm) | 0086623 | https://www.youtube.com/watch?v=pThNw5aG4MA | `memorias/rodrigo-aventuras-de-rodrigo-carvalho-2009/` | `output/memorias-aventura-rodrigo-aventuras-de-rodrigo-carvalho-2009` |
 
 ## Próximos
 
