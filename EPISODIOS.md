@@ -160,6 +160,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 159 | 08/11/2026 | Helena e Maurício — de triciclo de Brasília a Ilhabela (2006) | [idmat083008](https://aventura.inema.club/mat/idmat083008.htm) | 0070393 | https://www.youtube.com/watch?v=uAWnGCRjntI | `memorias/helena-pelicanos-viajam-de-triciclos-2007/` | `output/memorias-aventura-helena-pelicanos-viajam-de-triciclos-2007` |
 | 160 | 08/11/2026 | Maresia Board Challenge — a melhor onda e o erro que custou o título no Guarujá (2003) | [idmat020052](https://aventura.inema.club/mat/idmat020052.htm) | 0020776 | https://www.youtube.com/watch?v=FpIJPWfgFeU | `memorias/eduardo-maresia-board-challenge-na-2003/` | `output/memorias-aventura-eduardo-maresia-board-challenge-na-2003` |
 | 161 | 09/11/2026 | Federação Gaúcha de Hipismo — a história do enduro equestre e uma etapa no Haras Cambará (2003) | [idmat020970](https://aventura.inema.club/mat/idmat020970.htm) | 0039088 | https://www.youtube.com/watch?v=Eu8s64JZyP4 | `memorias/federacao-gaucho-de-enduro-equestre-2003/` | `output/memorias-aventura-federacao-gaucho-de-enduro-equestre-2003` |
+| 162 | 09/11/2026 | Coyote Equipe de Aventuras — de bicicleta de Rio Grande a Montevidéu (2000) | [idmat000868](https://aventura.inema.club/mat/idmat000868.htm) | 0035604 | https://www.youtube.com/watch?v=TZKNHlAb1sg | `memorias/coyote-projeto-ao-sul-do-2004/` | `output/memorias-aventura-coyote-projeto-ao-sul-do-2004` |
 
 ## Próximos
 
