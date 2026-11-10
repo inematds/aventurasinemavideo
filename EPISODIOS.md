@@ -165,6 +165,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 164 | 09/11/2026 | Marcos e Clodoaldo — de moto de Curitiba ao Alasca, 34 mil km em 71 dias (1997) | [idmat100135](https://aventura.inema.club/mat/idmat100135.htm) | 0080265 | https://www.youtube.com/watch?v=iqrvHLIET2Y | `memorias/marcos-expedicao-curitiba-ao-alasca-2008/` | `output/memorias-aventura-marcos-expedicao-curitiba-ao-alasca-2008` |
 | 165 | 09/11/2026 | Allam Khodair — a vitória que veio dos boxes na Stock Car (2010) | [idmat117317](https://aventura.inema.club/mat/idmat117317.htm) | 0093083 | https://www.youtube.com/watch?v=PLPcwWAQgqE | `memorias/m-allam-khodair-vence-a-2010/` | `output/memorias-aventura-m-allam-khodair-vence-a-2010` |
 | 166 | 09/11/2026 | Beto Monteiro — 35 graus e de novo o rei do Velopark na Fórmula Truck (2012) | [idmat121965](https://aventura.inema.club/mat/idmat121965.htm) | 0096903 | https://www.youtube.com/watch?v=vjsykS5_9HU | `memorias/beto-monteiro-comemora-segunda-2012/` | `output/memorias-aventura-beto-monteiro-comemora-segunda-2012` |
+| 167 | 10/11/2026 | Mário Esses — Paso de Jama no vento branco (2003) | [idmat019914](https://aventura.inema.club/mat/idmat019914.htm) | 0038875 | https://www.youtube.com/watch?v=BDE90sxUB68 | `memorias/mario-expedicao-atacama-patagonia-2003/` | `output/memorias-aventura-mario-expedicao-atacama-patagonia-2003` |
 
 ## Próximos
 
