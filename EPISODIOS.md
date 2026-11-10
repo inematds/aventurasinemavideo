@@ -166,6 +166,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 165 | 09/11/2026 | Allam Khodair — a vitória que veio dos boxes na Stock Car (2010) | [idmat117317](https://aventura.inema.club/mat/idmat117317.htm) | 0093083 | https://www.youtube.com/watch?v=PLPcwWAQgqE | `memorias/m-allam-khodair-vence-a-2010/` | `output/memorias-aventura-m-allam-khodair-vence-a-2010` |
 | 166 | 09/11/2026 | Beto Monteiro — 35 graus e de novo o rei do Velopark na Fórmula Truck (2012) | [idmat121965](https://aventura.inema.club/mat/idmat121965.htm) | 0096903 | https://www.youtube.com/watch?v=vjsykS5_9HU | `memorias/beto-monteiro-comemora-segunda-2012/` | `output/memorias-aventura-beto-monteiro-comemora-segunda-2012` |
 | 167 | 10/11/2026 | Mário Esses — Paso de Jama no vento branco (2003) | [idmat019914](https://aventura.inema.club/mat/idmat019914.htm) | 0038875 | https://www.youtube.com/watch?v=BDE90sxUB68 | `memorias/mario-expedicao-atacama-patagonia-2003/` | `output/memorias-aventura-mario-expedicao-atacama-patagonia-2003` |
+| 168 | 10/11/2026 | Tales — de moto a São José dos Ausentes, cânions e o Desnível dos Rios (2009) | [idmat107907](https://aventura.inema.club/mat/idmat107907.htm) | 0086413 | https://www.youtube.com/watch?v=c42Q1LJFv6U | `memorias/tales-motopasseio-pela-regiao-de-2009/` | `output/memorias-aventura-tales-motopasseio-pela-regiao-de-2009` |
 
 ## Próximos
 
