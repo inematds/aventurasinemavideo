@@ -168,6 +168,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 167 | 10/11/2026 | Mário Esses — Paso de Jama no vento branco (2003) | [idmat019914](https://aventura.inema.club/mat/idmat019914.htm) | 0038875 | https://www.youtube.com/watch?v=BDE90sxUB68 | `memorias/mario-expedicao-atacama-patagonia-2003/` | `output/memorias-aventura-mario-expedicao-atacama-patagonia-2003` |
 | 168 | 10/11/2026 | Tales — de moto a São José dos Ausentes, cânions e o Desnível dos Rios (2009) | [idmat107907](https://aventura.inema.club/mat/idmat107907.htm) | 0086413 | https://www.youtube.com/watch?v=c42Q1LJFv6U | `memorias/tales-motopasseio-pela-regiao-de-2009/` | `output/memorias-aventura-tales-motopasseio-pela-regiao-de-2009` |
 | 169 | 10/11/2026 | Francisco — de bicicleta de Caxias do Sul ao Chuí (2003) | [idmat015634](https://aventura.inema.club/mat/idmat015634.htm) | 0038080 | https://www.youtube.com/watch?v=QTBfG46Atbw | `memorias/francisco-pedalando-de-caxias-do-2003/` | `output/memorias-aventura-francisco-pedalando-de-caxias-do-2003` |
+| 170 | 10/11/2026 | Sérgio Batista — de bicicleta em Ponta de Pedras, no Marajó (2008) | [idmat100927](https://aventura.inema.club/mat/idmat100927.htm) | 0080995 | https://www.youtube.com/watch?v=R-V5QEzFAZY | `memorias/sergio-expedicao-a-ponta-de-2008/` | `output/memorias-aventura-sergio-expedicao-a-ponta-de-2008` |
 
 ## Próximos
 
