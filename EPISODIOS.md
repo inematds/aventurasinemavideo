@@ -169,6 +169,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 168 | 10/11/2026 | Tales — de moto a São José dos Ausentes, cânions e o Desnível dos Rios (2009) | [idmat107907](https://aventura.inema.club/mat/idmat107907.htm) | 0086413 | https://www.youtube.com/watch?v=c42Q1LJFv6U | `memorias/tales-motopasseio-pela-regiao-de-2009/` | `output/memorias-aventura-tales-motopasseio-pela-regiao-de-2009` |
 | 169 | 10/11/2026 | Francisco — de bicicleta de Caxias do Sul ao Chuí (2003) | [idmat015634](https://aventura.inema.club/mat/idmat015634.htm) | 0038080 | https://www.youtube.com/watch?v=QTBfG46Atbw | `memorias/francisco-pedalando-de-caxias-do-2003/` | `output/memorias-aventura-francisco-pedalando-de-caxias-do-2003` |
 | 170 | 10/11/2026 | Sérgio Batista — de bicicleta em Ponta de Pedras, no Marajó (2008) | [idmat100927](https://aventura.inema.club/mat/idmat100927.htm) | 0080995 | https://www.youtube.com/watch?v=R-V5QEzFAZY | `memorias/sergio-expedicao-a-ponta-de-2008/` | `output/memorias-aventura-sergio-expedicao-a-ponta-de-2008` |
+| 171 | 10/11/2026 | Fabiano Riffatti — Trilheiros do Sul na trilha do Rio do Boi, debaixo de chuva (2010) | [idmat118033](https://aventura.inema.club/mat/idmat118033.htm) | 0093129 | https://www.youtube.com/watch?v=tF5CFOYZUgo | `memorias/fabiano-trilheiros-do-sul-em-2010/` | `output/memorias-aventura-fabiano-trilheiros-do-sul-em-2010` |
 
 ## Próximos
 
