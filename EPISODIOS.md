@@ -172,6 +172,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 171 | 10/11/2026 | Fabiano Riffatti — Trilheiros do Sul na trilha do Rio do Boi, debaixo de chuva (2010) | [idmat118033](https://aventura.inema.club/mat/idmat118033.htm) | 0093129 | https://www.youtube.com/watch?v=tF5CFOYZUgo | `memorias/fabiano-trilheiros-do-sul-em-2010/` | `output/memorias-aventura-fabiano-trilheiros-do-sul-em-2010` |
 | 172 | 10/11/2026 | Walter Einsfeldt — Andes 2005, Parte III: do vulcão Osorno até a fronteira do Brasil (2006) | [idmat078953](https://aventura.inema.club/mat/idmat078953.htm) | 0067456 | https://www.youtube.com/watch?v=H0TbXE4C0yc | `memorias/walter-andes-2005-iii-2006/` | `output/memorias-aventura-walter-andes-2005-iii-2006` |
 | 173 | 11/11/2026 | Renato Pozolo — campeão do US Open de windsurf no Texas (2001) | [idmat003986](https://aventura.inema.club/mat/idmat003986.htm) | 0036079 | https://www.youtube.com/watch?v=32arYY3EM0M | `memorias/renato-renato-pozolo-vence-us-2001/` | `output/memorias-aventura-renato-renato-pozolo-vence-us-2001` |
+| 174 | 11/11/2026 | Tiago Geitens — campeão do Jet Waves em Piçarras (2011) | [idmat121071](https://aventura.inema.club/mat/idmat121071.htm) | 0096010 | https://www.youtube.com/watch?v=tbwDrsn3cMM | `memorias/pronautica-gaucho-e-campeao-do-2011/` | `output/memorias-aventura-pronautica-gaucho-e-campeao-do-2011` |
 
 ## Próximos
 
