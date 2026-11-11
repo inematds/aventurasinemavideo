@@ -173,6 +173,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 172 | 10/11/2026 | Walter Einsfeldt — Andes 2005, Parte III: do vulcão Osorno até a fronteira do Brasil (2006) | [idmat078953](https://aventura.inema.club/mat/idmat078953.htm) | 0067456 | https://www.youtube.com/watch?v=H0TbXE4C0yc | `memorias/walter-andes-2005-iii-2006/` | `output/memorias-aventura-walter-andes-2005-iii-2006` |
 | 173 | 11/11/2026 | Renato Pozolo — campeão do US Open de windsurf no Texas (2001) | [idmat003986](https://aventura.inema.club/mat/idmat003986.htm) | 0036079 | https://www.youtube.com/watch?v=32arYY3EM0M | `memorias/renato-renato-pozolo-vence-us-2001/` | `output/memorias-aventura-renato-renato-pozolo-vence-us-2001` |
 | 174 | 11/11/2026 | Tiago Geitens — campeão do Jet Waves em Piçarras (2011) | [idmat121071](https://aventura.inema.club/mat/idmat121071.htm) | 0096010 | https://www.youtube.com/watch?v=tbwDrsn3cMM | `memorias/pronautica-gaucho-e-campeao-do-2011/` | `output/memorias-aventura-pronautica-gaucho-e-campeao-do-2011` |
+| 175 | 11/11/2026 | Chico Nogueira — a trilha do Pico do Frade (2002) | [idmat013507](https://aventura.inema.club/mat/idmat013507.htm) | 0051189 | https://www.youtube.com/watch?v=pa8C0CvvAH0 | `memorias/chico-pico-do-frade-2003/` | `output/memorias-aventura-chico-pico-do-frade-2003` |
 
 ## Próximos
 
