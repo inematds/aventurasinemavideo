@@ -176,6 +176,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 175 | 11/11/2026 | Chico Nogueira — a trilha do Pico do Frade (2002) | [idmat013507](https://aventura.inema.club/mat/idmat013507.htm) | 0051189 | https://www.youtube.com/watch?v=pa8C0CvvAH0 | `memorias/chico-pico-do-frade-2003/` | `output/memorias-aventura-chico-pico-do-frade-2003` |
 | 176 | 11/11/2026 | Waldez Pantoja — Pai e filho de treze anos de moto pela Cordilheira (2009) | [idmat104435](https://aventura.inema.club/mat/idmat104435.htm) | 0083667 | https://www.youtube.com/watch?v=Q-nI_Oa6k4o | `memorias/waldez-pai-e-filho-de-2009/` | `output/memorias-aventura-waldez-pai-e-filho-de-2009` |
 | 177 | 11/11/2026 | Bruno Fernandes Gouveia — de barco de Belém a Manaus (2008) | [idmat103587](https://aventura.inema.club/mat/idmat103587.htm) | 0083364 | https://www.youtube.com/watch?v=Q1tuXbzNZ1s | `memorias/bruno-expedicao-brasil-2008-2008/` | `output/memorias-aventura-bruno-expedicao-brasil-2008-2008` |
+| 178 | 11/11/2026 | Circuito Maresia SP Contest — o título com o dedo quebrado no Guarujá (2004) | [idmat032531](https://aventura.inema.club/mat/idmat032531.htm) | 0040488 | https://www.youtube.com/watch?v=aQqtvRHIO6k | `memorias/daniel-final-circ-maresia-sp-2004/` | `output/memorias-aventura-daniel-final-circ-maresia-sp-2004` |
 
 ## Próximos
 
