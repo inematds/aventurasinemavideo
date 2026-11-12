@@ -177,6 +177,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 176 | 11/11/2026 | Waldez Pantoja — Pai e filho de treze anos de moto pela Cordilheira (2009) | [idmat104435](https://aventura.inema.club/mat/idmat104435.htm) | 0083667 | https://www.youtube.com/watch?v=Q-nI_Oa6k4o | `memorias/waldez-pai-e-filho-de-2009/` | `output/memorias-aventura-waldez-pai-e-filho-de-2009` |
 | 177 | 11/11/2026 | Bruno Fernandes Gouveia — de barco de Belém a Manaus (2008) | [idmat103587](https://aventura.inema.club/mat/idmat103587.htm) | 0083364 | https://www.youtube.com/watch?v=Q1tuXbzNZ1s | `memorias/bruno-expedicao-brasil-2008-2008/` | `output/memorias-aventura-bruno-expedicao-brasil-2008-2008` |
 | 178 | 11/11/2026 | Circuito Maresia SP Contest — o título com o dedo quebrado no Guarujá (2004) | [idmat032531](https://aventura.inema.club/mat/idmat032531.htm) | 0040488 | https://www.youtube.com/watch?v=aQqtvRHIO6k | `memorias/daniel-final-circ-maresia-sp-2004/` | `output/memorias-aventura-daniel-final-circ-maresia-sp-2004` |
+| 179 | 12/11/2026 | Circuito Estadual de Bodyboard — o tubo do nove vírgula dezessete em Macaé (2008) | [idmat104178](https://aventura.inema.club/mat/idmat104178.htm) | 0083424 | https://www.youtube.com/watch?v=snXQTi94-Ic | `memorias/malik-etapa-final-do-circuito-2008/` | `output/memorias-aventura-malik-etapa-final-do-circuito-2008` |
 
 ## Próximos
 
