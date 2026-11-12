@@ -179,6 +179,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 178 | 11/11/2026 | Circuito Maresia SP Contest — o título com o dedo quebrado no Guarujá (2004) | [idmat032531](https://aventura.inema.club/mat/idmat032531.htm) | 0040488 | https://www.youtube.com/watch?v=aQqtvRHIO6k | `memorias/daniel-final-circ-maresia-sp-2004/` | `output/memorias-aventura-daniel-final-circ-maresia-sp-2004` |
 | 179 | 12/11/2026 | Circuito Estadual de Bodyboard — o tubo do nove vírgula dezessete em Macaé (2008) | [idmat104178](https://aventura.inema.club/mat/idmat104178.htm) | 0083424 | https://www.youtube.com/watch?v=snXQTi94-Ic | `memorias/malik-etapa-final-do-circuito-2008/` | `output/memorias-aventura-malik-etapa-final-do-circuito-2008` |
 | 180 | 12/11/2026 | Negão e Gringa — grávida e de ônibus até o Mega Show de Motos no Uruguai (2007) | [idmat093176](https://aventura.inema.club/mat/idmat093176.htm) | 0076063 | https://www.youtube.com/watch?v=GwJLYfsWIPQ | `memorias/atitude-4o-mega-show-internacional-2007/` | `output/memorias-aventura-atitude-4o-mega-show-internacional-2007` |
+| 181 | 12/11/2026 | Ricardo Canali — dicas para uma boa pescaria (2002) | [idmat010184](https://aventura.inema.club/mat/idmat010184.htm) | 0018475 | https://www.youtube.com/watch?v=1UYbippr3bU | `memorias/ricardo-ricardo-canali-da-dicas-2002/` | `output/memorias-aventura-ricardo-ricardo-canali-da-dicas-2002` |
 
 ## Próximos
 
