@@ -181,6 +181,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 180 | 12/11/2026 | Negão e Gringa — grávida e de ônibus até o Mega Show de Motos no Uruguai (2007) | [idmat093176](https://aventura.inema.club/mat/idmat093176.htm) | 0076063 | https://www.youtube.com/watch?v=GwJLYfsWIPQ | `memorias/atitude-4o-mega-show-internacional-2007/` | `output/memorias-aventura-atitude-4o-mega-show-internacional-2007` |
 | 181 | 12/11/2026 | Ricardo Canali — dicas para uma boa pescaria (2002) | [idmat010184](https://aventura.inema.club/mat/idmat010184.htm) | 0018475 | https://www.youtube.com/watch?v=1UYbippr3bU | `memorias/ricardo-ricardo-canali-da-dicas-2002/` | `output/memorias-aventura-ricardo-ricardo-canali-da-dicas-2002` |
 | 182 | 12/11/2026 | Cristian e a Ximango Sagaz — Corrida Canela Aventura (2003) | [idmat020653](https://aventura.inema.club/mat/idmat020653.htm) | 0038893 | https://www.youtube.com/watch?v=gr7KHbaEmL0 | `memorias/cristian-corrida-canela-aventura-2003/` | `output/memorias-aventura-cristian-corrida-canela-aventura-2003` |
+| 183 | 12/11/2026 | Chardô — Cruzando os Andes de moto, 2ª parte (2003) | [idmat024680](https://aventura.inema.club/mat/idmat024680.htm) | 0039731 | https://www.youtube.com/watch?v=Ec1U9x5dFwM | `memorias/chardo-cruzando-os-andes-2004/` | `output/memorias-aventura-chardo-cruzando-os-andes-2004` |
 
 ## Próximos
 
