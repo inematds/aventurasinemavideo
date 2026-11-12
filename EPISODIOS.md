@@ -178,6 +178,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 177 | 11/11/2026 | Bruno Fernandes Gouveia — de barco de Belém a Manaus (2008) | [idmat103587](https://aventura.inema.club/mat/idmat103587.htm) | 0083364 | https://www.youtube.com/watch?v=Q1tuXbzNZ1s | `memorias/bruno-expedicao-brasil-2008-2008/` | `output/memorias-aventura-bruno-expedicao-brasil-2008-2008` |
 | 178 | 11/11/2026 | Circuito Maresia SP Contest — o título com o dedo quebrado no Guarujá (2004) | [idmat032531](https://aventura.inema.club/mat/idmat032531.htm) | 0040488 | https://www.youtube.com/watch?v=aQqtvRHIO6k | `memorias/daniel-final-circ-maresia-sp-2004/` | `output/memorias-aventura-daniel-final-circ-maresia-sp-2004` |
 | 179 | 12/11/2026 | Circuito Estadual de Bodyboard — o tubo do nove vírgula dezessete em Macaé (2008) | [idmat104178](https://aventura.inema.club/mat/idmat104178.htm) | 0083424 | https://www.youtube.com/watch?v=snXQTi94-Ic | `memorias/malik-etapa-final-do-circuito-2008/` | `output/memorias-aventura-malik-etapa-final-do-circuito-2008` |
+| 180 | 12/11/2026 | Negão e Gringa — grávida e de ônibus até o Mega Show de Motos no Uruguai (2007) | [idmat093176](https://aventura.inema.club/mat/idmat093176.htm) | 0076063 | https://www.youtube.com/watch?v=GwJLYfsWIPQ | `memorias/atitude-4o-mega-show-internacional-2007/` | `output/memorias-aventura-atitude-4o-mega-show-internacional-2007` |
 
 ## Próximos
 
