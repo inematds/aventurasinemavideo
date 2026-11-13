@@ -183,6 +183,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 182 | 12/11/2026 | Cristian e a Ximango Sagaz — Corrida Canela Aventura (2003) | [idmat020653](https://aventura.inema.club/mat/idmat020653.htm) | 0038893 | https://www.youtube.com/watch?v=gr7KHbaEmL0 | `memorias/cristian-corrida-canela-aventura-2003/` | `output/memorias-aventura-cristian-corrida-canela-aventura-2003` |
 | 183 | 12/11/2026 | Chardô — Cruzando os Andes de moto, 2ª parte (2003) | [idmat024680](https://aventura.inema.club/mat/idmat024680.htm) | 0039731 | https://www.youtube.com/watch?v=Ec1U9x5dFwM | `memorias/chardo-cruzando-os-andes-2004/` | `output/memorias-aventura-chardo-cruzando-os-andes-2004` |
 | 184 | 12/11/2026 | Nei Maldaner — Rikitea, a ilha das pérolas negras (2012) | [idmat121894](https://aventura.inema.club/mat/idmat121894.htm) | 0096822 | https://www.youtube.com/watch?v=vGMZbPxjEEI | `memorias/dia-27-02-rikitea-2012/` | `output/memorias-aventura-dia-27-02-rikitea-2012` |
+| 185 | 13/11/2026 | Gaúcho de Veloterra em Farroupilha — o pódio de plástico (2004) | [idmat029254](https://aventura.inema.club/mat/idmat029254.htm) | 0040215 | https://www.youtube.com/watch?v=nor7aTtyFtc | `memorias/daniel-3a-et-gaucho-de-2004/` | `output/memorias-aventura-daniel-3a-et-gaucho-de-2004` |
 
 ## Próximos
 
