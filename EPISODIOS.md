@@ -186,6 +186,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 185 | 13/11/2026 | Gaúcho de Veloterra em Farroupilha — o pódio de plástico (2004) | [idmat029254](https://aventura.inema.club/mat/idmat029254.htm) | 0040215 | https://www.youtube.com/watch?v=nor7aTtyFtc | `memorias/daniel-3a-et-gaucho-de-2004/` | `output/memorias-aventura-daniel-3a-et-gaucho-de-2004` |
 | 186 | 13/11/2026 | Dalmo — Deserto do Atacama no inverno altiplânico (2007) | [idmat089716](https://aventura.inema.club/mat/idmat089716.htm) | 0073519 | https://www.youtube.com/watch?v=7z62sH9IaBY | `memorias/dalmo-deserto-do-atacama-inverno-2007/` | `output/memorias-aventura-dalmo-deserto-do-atacama-inverno-2007` |
 | 187 | 13/11/2026 | Marcus — No Reino de Nanuk (2001) | [idmat004255](https://aventura.inema.club/mat/idmat004255.htm) | 0036116 | https://www.youtube.com/watch?v=9_MWjPiZg2I | `memorias/marcus-no-reino-de-nanuk-2004/` | `output/memorias-aventura-marcus-no-reino-de-nanuk-2004` |
+| 188 | 13/11/2026 | Lasareno — De moto de Bagé a Brasília (2004) | [idmat029711](https://aventura.inema.club/mat/idmat029711.htm) | 0040252 | https://www.youtube.com/watch?v=rTBeX6PQp7I | `memorias/lasareno-viagem-de-moto-a-2004/` | `output/memorias-aventura-lasareno-viagem-de-moto-a-2004` |
 
 ## Próximos
 
