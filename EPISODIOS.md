@@ -184,6 +184,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 183 | 12/11/2026 | Chardô — Cruzando os Andes de moto, 2ª parte (2003) | [idmat024680](https://aventura.inema.club/mat/idmat024680.htm) | 0039731 | https://www.youtube.com/watch?v=Ec1U9x5dFwM | `memorias/chardo-cruzando-os-andes-2004/` | `output/memorias-aventura-chardo-cruzando-os-andes-2004` |
 | 184 | 12/11/2026 | Nei Maldaner — Rikitea, a ilha das pérolas negras (2012) | [idmat121894](https://aventura.inema.club/mat/idmat121894.htm) | 0096822 | https://www.youtube.com/watch?v=vGMZbPxjEEI | `memorias/dia-27-02-rikitea-2012/` | `output/memorias-aventura-dia-27-02-rikitea-2012` |
 | 185 | 13/11/2026 | Gaúcho de Veloterra em Farroupilha — o pódio de plástico (2004) | [idmat029254](https://aventura.inema.club/mat/idmat029254.htm) | 0040215 | https://www.youtube.com/watch?v=nor7aTtyFtc | `memorias/daniel-3a-et-gaucho-de-2004/` | `output/memorias-aventura-daniel-3a-et-gaucho-de-2004` |
+| 186 | 13/11/2026 | Dalmo — Deserto do Atacama no inverno altiplânico (2007) | [idmat089716](https://aventura.inema.club/mat/idmat089716.htm) | 0073519 | https://www.youtube.com/watch?v=7z62sH9IaBY | `memorias/dalmo-deserto-do-atacama-inverno-2007/` | `output/memorias-aventura-dalmo-deserto-do-atacama-inverno-2007` |
 
 ## Próximos
 
