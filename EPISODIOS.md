@@ -189,6 +189,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 188 | 13/11/2026 | Lasareno — De moto de Bagé a Brasília (2004) | [idmat029711](https://aventura.inema.club/mat/idmat029711.htm) | 0040252 | https://www.youtube.com/watch?v=rTBeX6PQp7I | `memorias/lasareno-viagem-de-moto-a-2004/` | `output/memorias-aventura-lasareno-viagem-de-moto-a-2004` |
 | 189 | 13/11/2026 | Circuito Catarinense de Jet Ski — abertura em Imaruí (2007) | [idmat091169](https://aventura.inema.club/mat/idmat091169.htm) | 0074471 | https://www.youtube.com/watch?v=iWjXrtD1eMU | `memorias/femoaesc-abertura-catarinense-de-jet-2007/` | `output/memorias-aventura-femoaesc-abertura-catarinense-de-jet-2007` |
 | 190 | 13/11/2026 | Destino Canela — o veleiro e o casal que o construiu (2008) | [idmat103405](https://aventura.inema.club/mat/idmat103405.htm) | 0083180 | https://www.youtube.com/watch?v=X1G8GC5w664 | `memorias/destino-volta-ao-mundo-a-2008/` | `output/memorias-aventura-destino-volta-ao-mundo-a-2008` |
+| 191 | 14/11/2026 | Paulo Estradeiro — Caminhos dos Marcos (2013) | [idmat123236](https://aventura.inema.club/mat/idmat123236.htm) | 0098203 | https://www.youtube.com/watch?v=xB-aFzrIW8g | `memorias/paulo-caminhos-dos-marcos-2013/` | `output/memorias-aventura-paulo-caminhos-dos-marcos-2013` |
 
 ## Próximos
 
