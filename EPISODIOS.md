@@ -191,6 +191,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 190 | 13/11/2026 | Destino Canela — o veleiro e o casal que o construiu (2008) | [idmat103405](https://aventura.inema.club/mat/idmat103405.htm) | 0083180 | https://www.youtube.com/watch?v=X1G8GC5w664 | `memorias/destino-volta-ao-mundo-a-2008/` | `output/memorias-aventura-destino-volta-ao-mundo-a-2008` |
 | 191 | 14/11/2026 | Paulo Estradeiro — Caminhos dos Marcos (2013) | [idmat123236](https://aventura.inema.club/mat/idmat123236.htm) | 0098203 | https://www.youtube.com/watch?v=xB-aFzrIW8g | `memorias/paulo-caminhos-dos-marcos-2013/` | `output/memorias-aventura-paulo-caminhos-dos-marcos-2013` |
 | 192 | 14/11/2026 | Jean Molin — sozinho de moto no inverno, a cordilheira fechada pela neve (2011) | [idmat121481](https://aventura.inema.club/mat/idmat121481.htm) | 0096387 | https://www.youtube.com/watch?v=88hSpjI15uw | `memorias/atacama-de-moto-no-2012/` | `output/memorias-aventura-atacama-de-moto-no-2012` |
+| 193 | 14/11/2026 | Carlo Isaia Neto e o pai — de jipe de Porto Alegre a Salvador (2003) | [idmat016884](https://aventura.inema.club/mat/idmat016884.htm) | 0038361 | https://www.youtube.com/watch?v=51DELJONraE | `memorias/carlo-viagem-de-carlo-isaia-2003/` | `output/memorias-aventura-carlo-viagem-de-carlo-isaia-2003` |
 
 ## Próximos
 
