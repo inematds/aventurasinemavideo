@@ -196,6 +196,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 195 | 15/11/2026 | Tchello Brandão — o filme da Jet Pilot gravado de escuna em SC (2002) | [idmat008810](https://aventura.inema.club/mat/idmat008810.htm) | 0037067 | https://www.youtube.com/watch?v=4frs2AZQYqY | `memorias/marcelo-filme-da-jet-pilot-2006/` | `output/memorias-aventura-marcelo-filme-da-jet-pilot-2006` |
 | 196 | 15/11/2026 | João Maia e Lourdinha — de triciclo pelo Cone Sul (2006) | [idmat089186](https://aventura.inema.club/mat/idmat089186.htm) | 0073124 | https://www.youtube.com/watch?v=sANwipzbUGY | `memorias/joao-viagem-ao-conesul-2007/` | `output/memorias-aventura-joao-viagem-ao-conesul-2007` |
 | 197 | 15/11/2026 | Estrela — a 2ª etapa do Gaúcho de Corrida de Aventura (2012) | [idmat122029](https://aventura.inema.club/mat/idmat122029.htm) | 0096972 | https://www.youtube.com/watch?v=TpHozKQzrvo | `memorias/2a-etapa-do-campeonato-2012/` | `output/memorias-aventura-2a-etapa-do-campeonato-2012` |
+| 198 | 15/11/2026 | Congonhas — os campeões da Copa Internacional de MTB (2010) | [idmat116403](https://aventura.inema.club/mat/idmat116403.htm) | 0086297 | https://www.youtube.com/watch?v=ypPiSOfMbT0 | `memorias/copa-confira-todos-os-campeoes-2010/` | `output/memorias-aventura-copa-confira-todos-os-campeoes-2010` |
 
 ## Próximos
 
