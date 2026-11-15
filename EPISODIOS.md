@@ -194,6 +194,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 193 | 14/11/2026 | Carlo Isaia Neto e o pai — de jipe de Porto Alegre a Salvador (2003) | [idmat016884](https://aventura.inema.club/mat/idmat016884.htm) | 0038361 | https://www.youtube.com/watch?v=51DELJONraE | `memorias/carlo-viagem-de-carlo-isaia-2003/` | `output/memorias-aventura-carlo-viagem-de-carlo-isaia-2003` |
 | 194 | 14/11/2026 | Alessandro Fabrício — o diário de bordo do 8º Rally dos Sertões (2000) | [idmat003805](https://aventura.inema.club/mat/idmat003805.htm) | 0051844 | https://www.youtube.com/watch?v=6PcV3qfcnA0 | `memorias/8-rallyinternacional-dos-sertoes-2000/` | `output/memorias-aventura-8-rallyinternacional-dos-sertoes-2000` |
 | 195 | 15/11/2026 | Tchello Brandão — o filme da Jet Pilot gravado de escuna em SC (2002) | [idmat008810](https://aventura.inema.club/mat/idmat008810.htm) | 0037067 | https://www.youtube.com/watch?v=4frs2AZQYqY | `memorias/marcelo-filme-da-jet-pilot-2006/` | `output/memorias-aventura-marcelo-filme-da-jet-pilot-2006` |
+| 196 | 15/11/2026 | João Maia e Lourdinha — de triciclo pelo Cone Sul (2006) | [idmat089186](https://aventura.inema.club/mat/idmat089186.htm) | 0073124 | https://www.youtube.com/watch?v=sANwipzbUGY | `memorias/joao-viagem-ao-conesul-2007/` | `output/memorias-aventura-joao-viagem-ao-conesul-2007` |
 
 ## Próximos
 
