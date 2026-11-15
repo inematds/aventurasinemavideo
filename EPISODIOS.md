@@ -197,6 +197,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 196 | 15/11/2026 | João Maia e Lourdinha — de triciclo pelo Cone Sul (2006) | [idmat089186](https://aventura.inema.club/mat/idmat089186.htm) | 0073124 | https://www.youtube.com/watch?v=sANwipzbUGY | `memorias/joao-viagem-ao-conesul-2007/` | `output/memorias-aventura-joao-viagem-ao-conesul-2007` |
 | 197 | 15/11/2026 | Estrela — a 2ª etapa do Gaúcho de Corrida de Aventura (2012) | [idmat122029](https://aventura.inema.club/mat/idmat122029.htm) | 0096972 | https://www.youtube.com/watch?v=TpHozKQzrvo | `memorias/2a-etapa-do-campeonato-2012/` | `output/memorias-aventura-2a-etapa-do-campeonato-2012` |
 | 198 | 15/11/2026 | Congonhas — os campeões da Copa Internacional de MTB (2010) | [idmat116403](https://aventura.inema.club/mat/idmat116403.htm) | 0086297 | https://www.youtube.com/watch?v=ypPiSOfMbT0 | `memorias/copa-confira-todos-os-campeoes-2010/` | `output/memorias-aventura-copa-confira-todos-os-campeoes-2010` |
+| 199 | 15/11/2026 | Nei Maldaner — A manhã na Ilha de Páscoa (2012) | [idmat121843](https://aventura.inema.club/mat/idmat121843.htm) | 0096761 | https://www.youtube.com/watch?v=hino6ZRyATw | `memorias/dia-21-02-easter-2012/` | `output/memorias-aventura-dia-21-02-easter-2012` |
 
 ## Próximos
 
