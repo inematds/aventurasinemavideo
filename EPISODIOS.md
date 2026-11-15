@@ -198,6 +198,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 197 | 15/11/2026 | Estrela — a 2ª etapa do Gaúcho de Corrida de Aventura (2012) | [idmat122029](https://aventura.inema.club/mat/idmat122029.htm) | 0096972 | https://www.youtube.com/watch?v=TpHozKQzrvo | `memorias/2a-etapa-do-campeonato-2012/` | `output/memorias-aventura-2a-etapa-do-campeonato-2012` |
 | 198 | 15/11/2026 | Congonhas — os campeões da Copa Internacional de MTB (2010) | [idmat116403](https://aventura.inema.club/mat/idmat116403.htm) | 0086297 | https://www.youtube.com/watch?v=ypPiSOfMbT0 | `memorias/copa-confira-todos-os-campeoes-2010/` | `output/memorias-aventura-copa-confira-todos-os-campeoes-2010` |
 | 199 | 15/11/2026 | Nei Maldaner — A manhã na Ilha de Páscoa (2012) | [idmat121843](https://aventura.inema.club/mat/idmat121843.htm) | 0096761 | https://www.youtube.com/watch?v=hino6ZRyATw | `memorias/dia-21-02-easter-2012/` | `output/memorias-aventura-dia-21-02-easter-2012` |
+| 200 | 15/11/2026 | Lenira e a turma — de moto de Porto Alegre a Montevidéu (2006) | [idmat081213](https://aventura.inema.club/mat/idmat081213.htm) | 0069060 | https://www.youtube.com/watch?v=LyeEn5bhPNg | `memorias/lenira-motos-no-uruguay-2006/` | `output/memorias-aventura-lenira-motos-no-uruguay-2006` |
 
 ## Próximos
 
