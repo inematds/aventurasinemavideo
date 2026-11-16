@@ -203,6 +203,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 202 | 16/11/2026 | Model Circus — acrobacia aérea com aeromodelos em Canela (2002) | [idmat014560](https://aventura.inema.club/mat/idmat014560.htm) | 0017743 | https://www.youtube.com/watch?v=BO2ZkU3LIQA | `memorias/model-model-circus-de-canela-2002/` | `output/memorias-aventura-model-model-circus-de-canela-2002` |
 | 203 | 16/11/2026 | Tony Provesano — a 1ª corrida de aventura e o alerta do resgate (2005) | [idmat067648](https://aventura.inema.club/mat/idmat067648.htm) | 0020916 | https://www.youtube.com/watch?v=nxboU3tSP5I | `memorias/tony-resgate-em-corridas-de-2005/` | `output/memorias-aventura-tony-resgate-em-corridas-de-2005` |
 | 204 | 16/11/2026 | Vicente e o grupo — Caminos del Sur, de moto do Brasil ao Uruguai (2004) | [idmat034492](https://aventura.inema.club/mat/idmat034492.htm) | 0041188 | https://www.youtube.com/watch?v=cnGLWl1IsPg | `memorias/vicente-caminos-del-sur-2004/` | `output/memorias-aventura-vicente-caminos-del-sur-2004` |
+| 205 | 16/11/2026 | A Abuela Goye e seus chocolates — San Martín de los Andes (2004) | [idmat034090](https://aventura.inema.club/mat/idmat034090.htm) | 0039955 | https://www.youtube.com/watch?v=pVlJ69oyT5A | `memorias/walter-abuela-goya-e-seus-2004/` | `output/memorias-aventura-walter-abuela-goya-e-seus-2004` |
 
 ## Próximos
 
