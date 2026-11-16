@@ -201,6 +201,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 200 | 15/11/2026 | Lenira e a turma — de moto de Porto Alegre a Montevidéu (2006) | [idmat081213](https://aventura.inema.club/mat/idmat081213.htm) | 0069060 | https://www.youtube.com/watch?v=LyeEn5bhPNg | `memorias/lenira-motos-no-uruguay-2006/` | `output/memorias-aventura-lenira-motos-no-uruguay-2006` |
 | 201 | 16/11/2026 | Priscila — o carinho pelos cavalos (2002) | [idmat012604](https://aventura.inema.club/mat/idmat012604.htm) | 0022289 | https://www.youtube.com/watch?v=kXVXyjg8Uvc | `memorias/keizo-priscila-e-o-carinho-2002/` | `output/memorias-aventura-keizo-priscila-e-o-carinho-2002` |
 | 202 | 16/11/2026 | Model Circus — acrobacia aérea com aeromodelos em Canela (2002) | [idmat014560](https://aventura.inema.club/mat/idmat014560.htm) | 0017743 | https://www.youtube.com/watch?v=BO2ZkU3LIQA | `memorias/model-model-circus-de-canela-2002/` | `output/memorias-aventura-model-model-circus-de-canela-2002` |
+| 203 | 16/11/2026 | Tony Provesano — a 1ª corrida de aventura e o alerta do resgate (2005) | [idmat067648](https://aventura.inema.club/mat/idmat067648.htm) | 0020916 | https://www.youtube.com/watch?v=nxboU3tSP5I | `memorias/tony-resgate-em-corridas-de-2005/` | `output/memorias-aventura-tony-resgate-em-corridas-de-2005` |
 
 ## Próximos
 
