@@ -12,3 +12,7 @@ jose-antonio-ferreira/
 natan-smaniotto/
 planos-aventuras/
 __pycache__/
+
+# Telemetria local e trava do configurador
+ia-execucoes.jsonl
+auto/ia.lock

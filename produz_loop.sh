@@ -1,7 +1,7 @@
 #!/bin/bash
 # Produtor contínuo da série Memórias de Aventura (pedido do Nei, 12/10/2026: "um runtime rodando sem parar").
 # Enquanto a fila de publicação tiver menos de ALVO episódios, escolhe a próxima matéria (escolhe.py, sem IA),
-# manda um `claude -p` (assinatura) seguir o PRODUZIR.md, passa o portão (verifica_ep.py) e põe na fila.
+# usa auto/ia.yaml (assinatura Claude/Codex) para seguir o PRODUZIR.md, passa o portão (verifica_ep.py) e põe na fila.
 # Erro nunca para calado: avisa no bot v3 (regra de 12/10) e segue para a próxima matéria.
 # Unit: ~/.config/systemd/user/aventuras-produz.service (Restart=always).
 cd "$(dirname "$0")" || exit 1
@@ -13,15 +13,18 @@ TAREFAS=privado/tarefas
 ALVO=${ALVO:-12}          # 2 dias de publicação adiantados (6 por dia desde 22/10/2026)
 TETO_H=${TETO_H:-4}       # tempo máximo de um episódio
 MEM=${MEM:-48G}
-# Padrão: Opus 5.5 com esforço medium (decisão do Nei em 13/10/2026, depois do teste Opus × Sonnet × Haiku: ver RELATORIO-MODELOS-2026-10-13.md)
-# Teste de modelo (Nei, 13/10/2026): MODELO=sonnet|haiku UMA=1 NA_FILA=0 ./produz_loop.sh faz 1 episódio fora da fila
-MODELO=${MODELO:-}
+# Motor/modelo/esforço em auto/ia.yaml; sem herdar seletores globais.
+# Teste isolado: UMA=1 NA_FILA=0 ./produz_loop.sh (configuração explícita no YAML).
+# MODELO/ESFORCO antigos não escolhem IA nem marcam candidatos como testes.
+MODELO=""
+ESFORCO=""
 UMA=${UMA:-0}
 NA_FILA=${NA_FILA:-1}
-ESFORCO=${ESFORCO:-}      # low|medium|high|xhigh|max; vazio = medium
 EXTRA=${EXTRA:-}          # regra a mais no pedido (ex.: duração mínima)
 TRAVA=privado/.candidatos.lock
 mkdir -p "$TAREFAS"
+# Validar antes de reservar qualquer matéria.
+python3 auto/ia_motor.py validar >> "$LOG" 2>&1 || exit 1
 falhas=0
 
 log() { echo "$(date '+%F %T') $*" >> "$LOG"; }
@@ -97,6 +100,7 @@ json.dump(c,open(p+'.tmp','w'),ensure_ascii=False); os.replace(p+'.tmp',p)"
     echo "- Se a pasta já tiver trabalho (retomada), continue de onde parou; não refaça o que está certo."
     echo "- EPISODIO.json: use exatamente n=$n e idmat=$idmat; \"notificar\" = a lista da tarefa."
     echo "- NÃO publique, NÃO suba no B2, NÃO mande e-mail, NÃO mexa em privado/candidatos.json nem em privado/fila_publicar.txt, NÃO faça commit. O laço cuida disso."
+    echo "- Classificação das fotos: use a etapa classificacao de auto/ia.yaml conforme PRODUZIR.md; não fixe Haiku ou outro modelo. Imagens restauradas continuam sempre Codex assinatura."
     echo "- Quem está na matéria recebe e-mail automático depois (todas as pessoas ligadas, menos o Nei)."
     [ -n "$EXTRA" ] && echo "- $EXTRA"
     echo "- Se a matéria não render um episódio honesto (relato fraco, fotos de outro assunto), escreva o motivo em $pasta/DESISTI.txt e pare."
@@ -106,12 +110,21 @@ json.dump(c,open(p+'.tmp','w'),ensure_ascii=False); os.replace(p+'.tmp',p)"
 
   t0=$(date +%s)
   timeout "${TETO_H}h" systemd-run --user --scope -q -p MemoryMax="$MEM" \
-    claude -p --permission-mode bypassPermissions --max-turns 400 --output-format json \
-    --model "${MODELO:-claude-opus-5-5}" --effort "${ESFORCO:-medium}" \
+    python3 auto/produzir.py \
     < "$TAREFAS/$slug.prompt.md" > "$TAREFAS/$slug.log" 2>&1
   rc=$?
   min=$(( ($(date +%s) - t0) / 60 ))
-  custo=$(python3 -c "import json;d=json.load(open('$TAREFAS/$slug.log'));print(round(d.get('total_cost_usd',0),2))" 2>/dev/null)
+
+  # Falha de execução/cota/login/timeout não é reprovação editorial da matéria.
+  # Manter em_producao para retomar os mesmos arquivos na próxima tentativa.
+  if [ "$rc" -ne 0 ]; then
+    falhas=$((falhas + 1))
+    log "#$n $slug motor indisponível (rc=$rc, ${min} min); matéria preservada para retomada"
+    "$AVISA" "🚨 Produtor Aventuras: falha do motor (rc=$rc) no #$n ($slug). Matéria preservada; nova tentativa em 30 min. Confira auto/ia.yaml e $TAREFAS/$slug.log." >/dev/null 2>&1
+    [ "$UMA" = 1 ] && exit "$rc"
+    sleep 1800
+    continue
+  fi
 
   if [ -f "$pasta/DESISTI.txt" ]; then
     motivo=$(head -c 300 "$pasta/DESISTI.txt")
@@ -123,9 +136,9 @@ json.dump(c,open(p+'.tmp','w'),ensure_ascii=False); os.replace(p+'.tmp',p)"
   if [ "${portao#OK}" != "$portao" ]; then
     marca "$idmat" produzido
     if [ "$NA_FILA" = 1 ]; then
-      echo "$pasta" >> "$FILA"; log "#$n $slug pronto em ${min} min, US\$ ${custo:-?} → fila ($portao)"
+      echo "$pasta" >> "$FILA"; log "#$n $slug pronto em ${min} min, assinatura → fila ($portao)"
     else
-      log "#$n $slug pronto em ${min} min${MODELO:+ ($MODELO)}, US\$ ${custo:-?}, FORA da fila para avaliação ($portao)"
+      log "#$n $slug pronto em ${min} min${MODELO:+ ($MODELO)}, assinatura, FORA da fila para avaliação ($portao)"
     fi
     [ $falhas -gt 0 ] && "$AVISA" "✅ Produtor Aventuras voltou a produzir (#$n $slug) depois de $falhas falha(s)." >/dev/null 2>&1
     falhas=0

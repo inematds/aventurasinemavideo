@@ -13,7 +13,8 @@ Não publica no YouTube, não sobe no B2 e não manda e-mail. Quem faz isso é o
 2. **Texto**: `~/projetos/aventurasinemavideo/privado/textos/<idmat>.txt`. Se a matéria tiver "Parte 2…", junte as partes.
 3. **Fotos**: `~/projetos/inemabk/rclone/rclone copy b2:inemaaventura/albuns/<album>/al1/ fotos-all/` (apague `Album.txt`).
    **Fotos principais = as que aparecem na própria matéria** (`<img>` em https://f005.backblazeb2.com/file/inemaaventura/mat/idmatXXXXXX.htm, versão grande em `al1/`): use TODAS. Outras fotos do álbum ou de álbuns vizinhos do mesmo evento entram só como enfeite (fundo, mosaico, faixa). Regra do Nei, 10/10/2026.
-   Classifique as fotos com um subagente `model: haiku` (categorias da história + nota 1–3 + "ruim") → `classificacao.json`.
+   Classifique as fotos pela etapa `classificacao` de `auto/ia.yaml` (categorias da história + nota 1–3 + "ruim") → `classificacao.json`.
+   Use o executor do projeto (caminho absoluto): `python3 ~/projetos/aventurasinemavideo/auto/ia_motor.py executar classificacao --pasta "$PWD" --imagem /caminho/foto.jpg --saida classificacao.json`, recebendo o pedido pela entrada padrão; repita `--imagem` para lotes pequenos e consolide o JSON. Informe os nomes dos arquivos no pedido. Não fixe modelo nem use um subagente Haiku por fora da configuração. A remasterização continua Codex assinatura.
 4. **roteiro.md**: de 9 a 15 blocos (B01 = gancho com o ganho/emoção da história; último bloco = "…continua guardada no acervo do INEMA Aventura").
    Use só fatos do relato e o que as fotos mostram. Não invente nome de lugar nem de pessoa.
    Na fala, anos e números vão por extenso ("dois mil e oito", "dez mil quilômetros"). Frases curtas.

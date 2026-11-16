@@ -1,0 +1,12 @@
+[Unit]
+Description=Aventuras INEMA: produtor contínuo de episódios Memórias de Aventura (motor independente, assinatura Claude/Codex)
+
+[Service]
+ExecStart=/home/nmaldaner/projetos/aventurasinemavideo/produz_loop.sh
+Restart=always
+RestartSec=120
+KillMode=control-group
+TimeoutStopSec=30
+
+[Install]
+WantedBy=default.target
