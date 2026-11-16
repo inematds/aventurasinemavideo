@@ -200,6 +200,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 199 | 15/11/2026 | Nei Maldaner — A manhã na Ilha de Páscoa (2012) | [idmat121843](https://aventura.inema.club/mat/idmat121843.htm) | 0096761 | https://www.youtube.com/watch?v=hino6ZRyATw | `memorias/dia-21-02-easter-2012/` | `output/memorias-aventura-dia-21-02-easter-2012` |
 | 200 | 15/11/2026 | Lenira e a turma — de moto de Porto Alegre a Montevidéu (2006) | [idmat081213](https://aventura.inema.club/mat/idmat081213.htm) | 0069060 | https://www.youtube.com/watch?v=LyeEn5bhPNg | `memorias/lenira-motos-no-uruguay-2006/` | `output/memorias-aventura-lenira-motos-no-uruguay-2006` |
 | 201 | 16/11/2026 | Priscila — o carinho pelos cavalos (2002) | [idmat012604](https://aventura.inema.club/mat/idmat012604.htm) | 0022289 | https://www.youtube.com/watch?v=kXVXyjg8Uvc | `memorias/keizo-priscila-e-o-carinho-2002/` | `output/memorias-aventura-keizo-priscila-e-o-carinho-2002` |
+| 202 | 16/11/2026 | Model Circus — acrobacia aérea com aeromodelos em Canela (2002) | [idmat014560](https://aventura.inema.club/mat/idmat014560.htm) | 0017743 | https://www.youtube.com/watch?v=BO2ZkU3LIQA | `memorias/model-model-circus-de-canela-2002/` | `output/memorias-aventura-model-model-circus-de-canela-2002` |
 
 ## Próximos
 
