@@ -208,6 +208,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 207 | 17/11/2026 | Gustavo Pereira — surf trip ao Peru (2003) | [idmat020699](https://aventura.inema.club/mat/idmat020699.htm) | 0020255 | https://www.youtube.com/watch?v=1JUC0TcODSI | `memorias/gustavo-surf-trip-peru-2003/` | `output/memorias-aventura-gustavo-surf-trip-peru-2003` |
 | 208 | 17/11/2026 | Edgardo Pelaez — o Audax gaúcho e a equipe rumo a Campinas (2004) | [idmat026375](https://aventura.inema.club/mat/idmat026375.htm) | 0039716 | https://www.youtube.com/watch?v=nfc8mVF2mLM | `memorias/edgardo-desafio-ciclistico-audax-2004/` | `output/memorias-aventura-edgardo-desafio-ciclistico-audax-2004` |
 | 209 | 17/11/2026 | Vias Naturais — rios e cachoeiras de Jaguariaíva (2004) | [idmat031816](https://aventura.inema.club/mat/idmat031816.htm) | 0040445 | https://www.youtube.com/watch?v=BKlUF-ilX7E | `memorias/vias-vias-naturais-e-aventura-2004/` | `output/memorias-aventura-vias-vias-naturais-e-aventura-2004` |
+| 210 | 17/11/2026 | Luis Gustavo — Viagem ao Chile (2003) | [idmat020761](https://aventura.inema.club/mat/idmat020761.htm) | 0039045 | https://www.youtube.com/watch?v=loF9-rNFu9w | `memorias/luis-viagem-ao-chile-2003-2/` | `output/memorias-aventura-luis-viagem-ao-chile-2003-2` |
 
 ## Próximos
 
