@@ -206,6 +206,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 205 | 16/11/2026 | A Abuela Goye e seus chocolates — San Martín de los Andes (2004) | [idmat034090](https://aventura.inema.club/mat/idmat034090.htm) | 0039955 | https://www.youtube.com/watch?v=pVlJ69oyT5A | `memorias/walter-abuela-goya-e-seus-2004/` | `output/memorias-aventura-walter-abuela-goya-e-seus-2004` |
 | 206 | 16/11/2026 | Edmárcio e Lézia de moto pelas ilhas gregas (2003) | [idmat021357](https://aventura.inema.club/mat/idmat021357.htm) | 0020403 | https://www.youtube.com/watch?v=FcUeyPbEqYw | `memorias/edmarcio-viajando-de-moto-pelas-2003/` | `output/memorias-aventura-edmarcio-viajando-de-moto-pelas-2003` |
 | 207 | 17/11/2026 | Gustavo Pereira — surf trip ao Peru (2003) | [idmat020699](https://aventura.inema.club/mat/idmat020699.htm) | 0020255 | https://www.youtube.com/watch?v=1JUC0TcODSI | `memorias/gustavo-surf-trip-peru-2003/` | `output/memorias-aventura-gustavo-surf-trip-peru-2003` |
+| 208 | 17/11/2026 | Edgardo Pelaez — o Audax gaúcho e a equipe rumo a Campinas (2004) | [idmat026375](https://aventura.inema.club/mat/idmat026375.htm) | 0039716 | https://www.youtube.com/watch?v=nfc8mVF2mLM | `memorias/edgardo-desafio-ciclistico-audax-2004/` | `output/memorias-aventura-edgardo-desafio-ciclistico-audax-2004` |
 
 ## Próximos
 
