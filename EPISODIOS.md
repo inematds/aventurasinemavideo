@@ -209,6 +209,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 208 | 17/11/2026 | Edgardo Pelaez — o Audax gaúcho e a equipe rumo a Campinas (2004) | [idmat026375](https://aventura.inema.club/mat/idmat026375.htm) | 0039716 | https://www.youtube.com/watch?v=nfc8mVF2mLM | `memorias/edgardo-desafio-ciclistico-audax-2004/` | `output/memorias-aventura-edgardo-desafio-ciclistico-audax-2004` |
 | 209 | 17/11/2026 | Vias Naturais — rios e cachoeiras de Jaguariaíva (2004) | [idmat031816](https://aventura.inema.club/mat/idmat031816.htm) | 0040445 | https://www.youtube.com/watch?v=BKlUF-ilX7E | `memorias/vias-vias-naturais-e-aventura-2004/` | `output/memorias-aventura-vias-vias-naturais-e-aventura-2004` |
 | 210 | 17/11/2026 | Luis Gustavo — Viagem ao Chile (2003) | [idmat020761](https://aventura.inema.club/mat/idmat020761.htm) | 0039045 | https://www.youtube.com/watch?v=loF9-rNFu9w | `memorias/luis-viagem-ao-chile-2003-2/` | `output/memorias-aventura-luis-viagem-ao-chile-2003-2` |
+| 211 | 17/11/2026 | Jorge Monteiro — 7º Abraçando o Rio Grande com chuva (2007) | [idmat091797](https://aventura.inema.club/mat/idmat091797.htm) | 0074975 | https://www.youtube.com/watch?v=VPNcOojInX0 | `memorias/jorge-7o-abracando-o-rio-2007/` | `output/memorias-aventura-jorge-7o-abracando-o-rio-2007` |
 
 ## Próximos
 
