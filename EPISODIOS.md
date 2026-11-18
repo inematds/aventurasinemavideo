@@ -211,6 +211,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 210 | 17/11/2026 | Luis Gustavo — Viagem ao Chile (2003) | [idmat020761](https://aventura.inema.club/mat/idmat020761.htm) | 0039045 | https://www.youtube.com/watch?v=loF9-rNFu9w | `memorias/luis-viagem-ao-chile-2003-2/` | `output/memorias-aventura-luis-viagem-ao-chile-2003-2` |
 | 211 | 17/11/2026 | Jorge Monteiro — 7º Abraçando o Rio Grande com chuva (2007) | [idmat091797](https://aventura.inema.club/mat/idmat091797.htm) | 0074975 | https://www.youtube.com/watch?v=VPNcOojInX0 | `memorias/jorge-7o-abracando-o-rio-2007/` | `output/memorias-aventura-jorge-7o-abracando-o-rio-2007` |
 | 212 | 17/11/2026 | Nei — embarque em St. Johns (2008) | [idmat100738](https://aventura.inema.club/mat/idmat100738.htm) | 0080729 | https://www.youtube.com/watch?v=x68js58STjM | `memorias/nei-no-labrador-explorer-2008-3/` | `output/memorias-aventura-nei-no-labrador-explorer-2008-3` |
+| 213 | 18/11/2026 | Foffão — de moto e barco até Boa Vista (2005) | [idmat080054](https://aventura.inema.club/mat/idmat080054.htm) | 0068173 | https://www.youtube.com/watch?v=HqhBInweSEc | `memorias/foffao-viajando-pelo-brasil-foffao-2006/` | `output/memorias-aventura-foffao-viajando-pelo-brasil-foffao-2006` |
 
 ## Próximos
 
