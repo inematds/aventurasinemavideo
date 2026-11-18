@@ -212,6 +212,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 211 | 17/11/2026 | Jorge Monteiro — 7º Abraçando o Rio Grande com chuva (2007) | [idmat091797](https://aventura.inema.club/mat/idmat091797.htm) | 0074975 | https://www.youtube.com/watch?v=VPNcOojInX0 | `memorias/jorge-7o-abracando-o-rio-2007/` | `output/memorias-aventura-jorge-7o-abracando-o-rio-2007` |
 | 212 | 17/11/2026 | Nei — embarque em St. Johns (2008) | [idmat100738](https://aventura.inema.club/mat/idmat100738.htm) | 0080729 | https://www.youtube.com/watch?v=x68js58STjM | `memorias/nei-no-labrador-explorer-2008-3/` | `output/memorias-aventura-nei-no-labrador-explorer-2008-3` |
 | 213 | 18/11/2026 | Foffão — de moto e barco até Boa Vista (2005) | [idmat080054](https://aventura.inema.club/mat/idmat080054.htm) | 0068173 | https://www.youtube.com/watch?v=HqhBInweSEc | `memorias/foffao-viajando-pelo-brasil-foffao-2006/` | `output/memorias-aventura-foffao-viajando-pelo-brasil-foffao-2006` |
+| 214 | 18/11/2026 | Carlos — o dia das panes rumo ao Atacama (2005) | [idmat091735](https://aventura.inema.club/mat/idmat091735.htm) | 0074961 | https://www.youtube.com/watch?v=RPIzyb7dkyw | `memorias/carlos-viagem-ao-deserto-de-2007/` | `output/memorias-aventura-carlos-viagem-ao-deserto-de-2007` |
 
 ## Próximos
 
