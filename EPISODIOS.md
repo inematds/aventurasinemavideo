@@ -216,6 +216,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 215 | 18/11/2026 | Carlos e família — Expedição Transandina Dakar 2009 (2009) | [idmat105057](https://aventura.inema.club/mat/idmat105057.htm) | 0084021 | https://www.youtube.com/watch?v=uEm8cUZ19r0 | `memorias/carlos-expedicao-transandina-dakar-2009-2009/` | `output/memorias-aventura-carlos-expedicao-transandina-dakar-2009-2009` |
 | 216 | 18/11/2026 | Maurício Torino — a importância da amizade (2009) | [idmat107509](https://aventura.inema.club/mat/idmat107509.htm) | 0086105 | https://www.youtube.com/watch?v=4F3b26cdOoY | `memorias/mauricio-a-importancia-da-amizade-2009/` | `output/memorias-aventura-mauricio-a-importancia-da-amizade-2009` |
 | 217 | 19/11/2026 | Nei — a despedida em Iqaluit (2008) | [idmat101052](https://aventura.inema.club/mat/idmat101052.htm) | 0080947 | https://www.youtube.com/watch?v=uL3TrwErfLM | `memorias/nei-no-labrador-explorer-2008-4/` | `output/memorias-aventura-nei-no-labrador-explorer-2008-4` |
+| 218 | 19/11/2026 | Moacir — Epopeia Peruana (2011) | [idmat119588](https://aventura.inema.club/mat/idmat119588.htm) | 0094607 | https://www.youtube.com/watch?v=HskcNRk-6Kk | `memorias/epopeia-peruana-do-projeto-2011/` | `output/memorias-aventura-epopeia-peruana-do-projeto-2011` |
 
 ## Próximos
 
