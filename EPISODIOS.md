@@ -218,6 +218,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 217 | 19/11/2026 | Nei — a despedida em Iqaluit (2008) | [idmat101052](https://aventura.inema.club/mat/idmat101052.htm) | 0080947 | https://www.youtube.com/watch?v=uL3TrwErfLM | `memorias/nei-no-labrador-explorer-2008-4/` | `output/memorias-aventura-nei-no-labrador-explorer-2008-4` |
 | 218 | 19/11/2026 | Moacir — Epopeia Peruana (2011) | [idmat119588](https://aventura.inema.club/mat/idmat119588.htm) | 0094607 | https://www.youtube.com/watch?v=HskcNRk-6Kk | `memorias/epopeia-peruana-do-projeto-2011/` | `output/memorias-aventura-epopeia-peruana-do-projeto-2011` |
 | 219 | 19/11/2026 | Contagem — III Endurance Trial (2003) | [idmat018267](https://aventura.inema.club/mat/idmat018267.htm) | 0038600 | https://www.youtube.com/watch?v=NmEi-rd49pY | `memorias/radical-iii-endurance-trial-2003/` | `output/memorias-aventura-radical-iii-endurance-trial-2003` |
+| 220 | 19/11/2026 | Maurício e Viviane — Travessia Argentina–Chile (relato de 2004) | [idmat029643](https://aventura.inema.club/mat/idmat029643.htm) | 0040250 | https://www.youtube.com/watch?v=pmbr8TbCrn4 | `memorias/mauricio-travessia-argentina-chile-2004/` | `output/memorias-aventura-mauricio-travessia-argentina-chile-2004` |
 
 ## Próximos
 
