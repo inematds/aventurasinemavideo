@@ -224,6 +224,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 223 | 20/11/2026 | Fórmula Truck — os caminhos dos pilotos (2003) | [idmat021642](https://aventura.inema.club/mat/idmat021642.htm) | 0039263 | https://www.youtube.com/watch?v=8TNDPXnt5lw | `memorias/r-conheca-alguns-pilotos-da-2003/` | `output/memorias-aventura-r-conheca-alguns-pilotos-da-2003` |
 | 224 | 20/11/2026 | Marcelo Coutinho — bicampeão universitário (2006) | [idmat080200](https://aventura.inema.club/mat/idmat080200.htm) | 0068376 | https://www.youtube.com/watch?v=yYnJE47qbik | `memorias/associacao-marcelo-coutinho-e-bicampeao-2006/` | `output/memorias-aventura-associacao-marcelo-coutinho-e-bicampeao-2006` |
 | 225 | 20/11/2026 | Lucas Lacaz Ruiz — Projeto Rota Sul (2004) | [idmat023221](https://aventura.inema.club/mat/idmat023221.htm) | 0023004 | https://www.youtube.com/watch?v=pBoJQiAi7Ig | `memorias/lucas-projeto-rota-sul-2004/` | `output/memorias-aventura-lucas-projeto-rota-sul-2004` |
+| 226 | 20/11/2026 | Kevin Cullen — aventura e bastidores da TV (2006) | [idmat079765](https://aventura.inema.club/mat/idmat079765.htm) | 0069029 | https://www.youtube.com/watch?v=F2LsbxPhdE0 | `memorias/kevin-a-vida-cheia-de-2007/` | `output/memorias-aventura-kevin-a-vida-cheia-de-2007` |
 
 ## Próximos
 
