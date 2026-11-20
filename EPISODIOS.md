@@ -220,6 +220,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 219 | 19/11/2026 | Contagem — III Endurance Trial (2003) | [idmat018267](https://aventura.inema.club/mat/idmat018267.htm) | 0038600 | https://www.youtube.com/watch?v=NmEi-rd49pY | `memorias/radical-iii-endurance-trial-2003/` | `output/memorias-aventura-radical-iii-endurance-trial-2003` |
 | 220 | 19/11/2026 | Maurício e Viviane — Travessia Argentina–Chile (relato de 2004) | [idmat029643](https://aventura.inema.club/mat/idmat029643.htm) | 0040250 | https://www.youtube.com/watch?v=pmbr8TbCrn4 | `memorias/mauricio-travessia-argentina-chile-2004/` | `output/memorias-aventura-mauricio-travessia-argentina-chile-2004` |
 | 221 | 19/11/2026 | Nilo — de Uberaba a Redenção de moto (2004) | [idmat029365](https://aventura.inema.club/mat/idmat029365.htm) | 0040232 | https://www.youtube.com/watch?v=4iXoF0abDHs | `memorias/nilo-motoviagem-uberaba-mg-a-redencao-pa-2004/` | `output/memorias-aventura-nilo-motoviagem-uberaba-mg-a-redencao-pa-2004` |
+| 222 | 20/11/2026 | MC Cano Quente — 11º Motoneve (2006) | [idmat076874](https://aventura.inema.club/mat/idmat076874.htm) | 0066216 | https://www.youtube.com/watch?v=2oG8peozqcg | `memorias/alexandre-mc-cano-quente-participa-2006/` | `output/memorias-aventura-alexandre-mc-cano-quente-participa-2006` |
 
 ## Próximos
 
