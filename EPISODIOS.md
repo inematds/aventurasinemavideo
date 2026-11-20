@@ -222,6 +222,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 221 | 19/11/2026 | Nilo — de Uberaba a Redenção de moto (2004) | [idmat029365](https://aventura.inema.club/mat/idmat029365.htm) | 0040232 | https://www.youtube.com/watch?v=4iXoF0abDHs | `memorias/nilo-motoviagem-uberaba-mg-a-redencao-pa-2004/` | `output/memorias-aventura-nilo-motoviagem-uberaba-mg-a-redencao-pa-2004` |
 | 222 | 20/11/2026 | MC Cano Quente — 11º Motoneve (2006) | [idmat076874](https://aventura.inema.club/mat/idmat076874.htm) | 0066216 | https://www.youtube.com/watch?v=2oG8peozqcg | `memorias/alexandre-mc-cano-quente-participa-2006/` | `output/memorias-aventura-alexandre-mc-cano-quente-participa-2006` |
 | 223 | 20/11/2026 | Fórmula Truck — os caminhos dos pilotos (2003) | [idmat021642](https://aventura.inema.club/mat/idmat021642.htm) | 0039263 | https://www.youtube.com/watch?v=8TNDPXnt5lw | `memorias/r-conheca-alguns-pilotos-da-2003/` | `output/memorias-aventura-r-conheca-alguns-pilotos-da-2003` |
+| 224 | 20/11/2026 | Marcelo Coutinho — bicampeão universitário (2006) | [idmat080200](https://aventura.inema.club/mat/idmat080200.htm) | 0068376 | https://www.youtube.com/watch?v=yYnJE47qbik | `memorias/associacao-marcelo-coutinho-e-bicampeao-2006/` | `output/memorias-aventura-associacao-marcelo-coutinho-e-bicampeao-2006` |
 
 ## Próximos
 
