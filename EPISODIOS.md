@@ -227,6 +227,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 226 | 20/11/2026 | Kevin Cullen — aventura e bastidores da TV (2006) | [idmat079765](https://aventura.inema.club/mat/idmat079765.htm) | 0069029 | https://www.youtube.com/watch?v=F2LsbxPhdE0 | `memorias/kevin-a-vida-cheia-de-2007/` | `output/memorias-aventura-kevin-a-vida-cheia-de-2007` |
 | 227 | 21/11/2026 | DIVER-FREE — Clean Up Day nos Ingleses (2008) | [idmat102075](https://aventura.inema.club/mat/idmat102075.htm) | 0082025 | https://www.youtube.com/watch?v=jnahdLbbK9E | `memorias/diver-free-clean-up-day-2008-2008/` | `output/memorias-aventura-diver-free-clean-up-day-2008-2008` |
 | 228 | 21/11/2026 | Claci — um sonho na Itália (2008) | [idmat099987](https://aventura.inema.club/mat/idmat099987.htm) | 0079311 | https://www.youtube.com/watch?v=VS8eKRb-vEM | `memorias/claci-claci-leichtweis-na-europa-2008/` | `output/memorias-aventura-claci-claci-leichtweis-na-europa-2008` |
+| 229 | 21/11/2026 | Alexandre Cappi — Trabalhando com a Aventura (2004) | [idmat031973](https://aventura.inema.club/mat/idmat031973.htm) | 0018911 | https://www.youtube.com/watch?v=PJ3G4eMEzSI | `memorias/alexandre-trabalhando-com-a-aventura-2005/` | `output/memorias-aventura-alexandre-trabalhando-com-a-aventura-2005` |
 
 ## Próximos
 
