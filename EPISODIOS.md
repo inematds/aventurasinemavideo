@@ -225,6 +225,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 224 | 20/11/2026 | Marcelo Coutinho — bicampeão universitário (2006) | [idmat080200](https://aventura.inema.club/mat/idmat080200.htm) | 0068376 | https://www.youtube.com/watch?v=yYnJE47qbik | `memorias/associacao-marcelo-coutinho-e-bicampeao-2006/` | `output/memorias-aventura-associacao-marcelo-coutinho-e-bicampeao-2006` |
 | 225 | 20/11/2026 | Lucas Lacaz Ruiz — Projeto Rota Sul (2004) | [idmat023221](https://aventura.inema.club/mat/idmat023221.htm) | 0023004 | https://www.youtube.com/watch?v=pBoJQiAi7Ig | `memorias/lucas-projeto-rota-sul-2004/` | `output/memorias-aventura-lucas-projeto-rota-sul-2004` |
 | 226 | 20/11/2026 | Kevin Cullen — aventura e bastidores da TV (2006) | [idmat079765](https://aventura.inema.club/mat/idmat079765.htm) | 0069029 | https://www.youtube.com/watch?v=F2LsbxPhdE0 | `memorias/kevin-a-vida-cheia-de-2007/` | `output/memorias-aventura-kevin-a-vida-cheia-de-2007` |
+| 227 | 21/11/2026 | DIVER-FREE — Clean Up Day nos Ingleses (2008) | [idmat102075](https://aventura.inema.club/mat/idmat102075.htm) | 0082025 | https://www.youtube.com/watch?v=jnahdLbbK9E | `memorias/diver-free-clean-up-day-2008-2008/` | `output/memorias-aventura-diver-free-clean-up-day-2008-2008` |
 
 ## Próximos
 
