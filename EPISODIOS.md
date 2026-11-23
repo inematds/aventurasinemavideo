@@ -232,6 +232,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 231 | 22/11/2026 | Alexandre Cappi — Trabalhando com a Aventura (2004) | [idmat031973](https://aventura.inema.club/mat/idmat031973.htm) | 0018911 | https://www.youtube.com/watch?v=jaWRqX9WVRQ | `memorias/alexandre-trabalhando-com-a-aventura-2005-3/` | `output/memorias-aventura-alexandre-trabalhando-com-a-aventura-2005-3` |
 | 232 | 22/11/2026 | Alexandre Cappi — Trabalhando com a Aventura (2004) | [idmat031973](https://aventura.inema.club/mat/idmat031973.htm) | 0018911 | https://www.youtube.com/watch?v=yQQ3UmtAf_Q | `memorias/alexandre-trabalhando-com-a-aventura-2005-4/` | `output/memorias-aventura-alexandre-trabalhando-com-a-aventura-2005-4` |
 | 233 | 23/11/2026 | Alexandre Cappi — Trabalhando com a Aventura (2004) | [idmat031973](https://aventura.inema.club/mat/idmat031973.htm) | 0018911 | https://www.youtube.com/watch?v=9t10UI0YbnU | `memorias/alexandre-trabalhando-com-a-aventura-2005-5/` | `output/memorias-aventura-alexandre-trabalhando-com-a-aventura-2005-5` |
+| 234 | 23/11/2026 | José Claudio — Trilha Inca (2004) | [idmat031922](https://aventura.inema.club/mat/idmat031922.htm) | 0020058 | https://www.youtube.com/watch?v=FU4p7wTKMUQ | `memorias/jose-trilha-inca-2005/` | `output/memorias-aventura-jose-trilha-inca-2005` |
 
 ## Próximos
 
