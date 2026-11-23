@@ -231,6 +231,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 230 | 22/11/2026 | Alexandre Cappi — Trabalhando com a Aventura (2004) | [idmat031973](https://aventura.inema.club/mat/idmat031973.htm) | 0018911 | https://www.youtube.com/watch?v=RWSHTRWrS4I | `memorias/alexandre-trabalhando-com-a-aventura-2005-2/` | `output/memorias-aventura-alexandre-trabalhando-com-a-aventura-2005-2` |
 | 231 | 22/11/2026 | Alexandre Cappi — Trabalhando com a Aventura (2004) | [idmat031973](https://aventura.inema.club/mat/idmat031973.htm) | 0018911 | https://www.youtube.com/watch?v=jaWRqX9WVRQ | `memorias/alexandre-trabalhando-com-a-aventura-2005-3/` | `output/memorias-aventura-alexandre-trabalhando-com-a-aventura-2005-3` |
 | 232 | 22/11/2026 | Alexandre Cappi — Trabalhando com a Aventura (2004) | [idmat031973](https://aventura.inema.club/mat/idmat031973.htm) | 0018911 | https://www.youtube.com/watch?v=yQQ3UmtAf_Q | `memorias/alexandre-trabalhando-com-a-aventura-2005-4/` | `output/memorias-aventura-alexandre-trabalhando-com-a-aventura-2005-4` |
+| 233 | 23/11/2026 | Alexandre Cappi — Trabalhando com a Aventura (2004) | [idmat031973](https://aventura.inema.club/mat/idmat031973.htm) | 0018911 | https://www.youtube.com/watch?v=9t10UI0YbnU | `memorias/alexandre-trabalhando-com-a-aventura-2005-5/` | `output/memorias-aventura-alexandre-trabalhando-com-a-aventura-2005-5` |
 
 ## Próximos
 
