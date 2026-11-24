@@ -240,6 +240,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 239 | 24/11/2026 | Paulo — Saudade da terra e da cavalgada (2005) | [idmat064155](https://aventura.inema.club/mat/idmat064155.htm) | 0057068 | https://www.youtube.com/watch?v=t-DEoYjXzlg | `memorias/paulo-saudade-cavalgada-2005/` | `output/memorias-aventura-paulo-saudade-cavalgada-2005` |
 | 240 | 24/11/2026 | José Claudio — Trilha Inca (2004) | [idmat031922](https://aventura.inema.club/mat/idmat031922.htm) | 0020058 | https://www.youtube.com/watch?v=F44xYWs690g | `memorias/jose-trilha-inca-2005-4/` | `output/memorias-aventura-jose-trilha-inca-2005-4` |
 | 241 | 24/11/2026 | José Claudio — Trilha Inca (2004) | [idmat031922](https://aventura.inema.club/mat/idmat031922.htm) | 0020058 | https://www.youtube.com/watch?v=mZj4VWPlGlY | `memorias/jose-trilha-inca-2005-5/` | `output/memorias-aventura-jose-trilha-inca-2005-5` |
+| 242 | 24/11/2026 | Pedro Oliva — da Califórnia ao Green River (2006) | [idmat080223](https://aventura.inema.club/mat/idmat080223.htm) | 0068281 | https://www.youtube.com/watch?v=XTytr7Jdk-E | `memorias/pedro-pedro-criscuolo-na-california-2006-2/` | `output/memorias-aventura-pedro-pedro-criscuolo-na-california-2006-2` |
 
 ## Próximos
 
