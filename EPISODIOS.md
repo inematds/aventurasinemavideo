@@ -238,6 +238,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 237 | 23/11/2026 | Paulo Garcia — Desfile dos CTG em Nova York (2008) | [idmat100906](https://aventura.inema.club/mat/idmat100906.htm) | 0080967 | https://www.youtube.com/watch?v=9gOtjf0CPC4 | `memorias/paulo-desfile-ctg-nova-york-2008/` | `output/memorias-aventura-paulo-desfile-ctg-nova-york-2008` |
 | 238 | 23/11/2026 | Paulo Roberto Garcia — Canadá 2008 | [idmat100911](https://aventura.inema.club/mat/idmat100911.htm) | 0080967 | https://www.youtube.com/watch?v=LQ8iwMyqqk4 | `memorias/paulo-canada-2008/` | `output/memorias-aventura-paulo-canada-2008` |
 | 239 | 24/11/2026 | Paulo — Saudade da terra e da cavalgada (2005) | [idmat064155](https://aventura.inema.club/mat/idmat064155.htm) | 0057068 | https://www.youtube.com/watch?v=t-DEoYjXzlg | `memorias/paulo-saudade-cavalgada-2005/` | `output/memorias-aventura-paulo-saudade-cavalgada-2005` |
+| 240 | 24/11/2026 | José Claudio — Trilha Inca (2004) | [idmat031922](https://aventura.inema.club/mat/idmat031922.htm) | 0020058 | https://www.youtube.com/watch?v=F44xYWs690g | `memorias/jose-trilha-inca-2005-4/` | `output/memorias-aventura-jose-trilha-inca-2005-4` |
 
 ## Próximos
 
