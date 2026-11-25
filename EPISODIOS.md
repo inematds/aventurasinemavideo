@@ -245,6 +245,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 244 | 25/11/2026 | Giani — 4º Encontro da Família Maldaner (2003) | [idmat015681](https://aventura.inema.club/mat/idmat015681.htm) | 0038086 | https://www.youtube.com/watch?v=db4ISqPxi7U | `memorias/giani-4-encontro-da-familia-2003/` | `output/memorias-aventura-giani-4-encontro-da-familia-2003` |
 | 245 | 25/11/2026 | Nanda — III Corrida Canela Aventura (2004) | [idmat026247](https://aventura.inema.club/mat/idmat026247.htm) | 0039819 | https://www.youtube.com/watch?v=FuRc_8T1PPQ | `memorias/nanda-iii-c-canela-aventura-2004/` | `output/memorias-aventura-nanda-iii-c-canela-aventura-2004` |
 | 246 | 25/11/2026 | Nanda — III Corrida Canela Aventura (2004) | [idmat026247](https://aventura.inema.club/mat/idmat026247.htm) | 0039819 | https://www.youtube.com/watch?v=7yv6emmNmIg | `memorias/nanda-iii-c-canela-aventura-2004-2/` | `output/memorias-aventura-nanda-iii-c-canela-aventura-2004-2` |
+| 247 | 25/11/2026 | Nanda — III Corrida Canela Aventura (2004) | [idmat026247](https://aventura.inema.club/mat/idmat026247.htm) | 0039819 | https://www.youtube.com/watch?v=5X9f6JGosE4 | `memorias/nanda-iii-c-canela-aventura-2004-3/` | `output/memorias-aventura-nanda-iii-c-canela-aventura-2004-3` |
 
 ## Próximos
 
