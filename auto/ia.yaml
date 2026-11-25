@@ -32,8 +32,8 @@ etapas:
   producao:
     tipo: assinatura
     motor: codex
-    modelo: gpt-6.1-sol
-    esforco: medium
+    modelo: EXECUTOR
+    esforco: EXECUTOR
     capacidade: agente
     timeout: 14400
     max_tokens: 12000
@@ -41,8 +41,8 @@ etapas:
   classificacao:
     tipo: assinatura
     motor: codex
-    modelo: gpt-6.1-sol
-    esforco: medium
+    modelo: EXECUTOR
+    esforco: EXECUTOR
     capacidade: visao
     timeout: 900
     max_tokens: 12000
