@@ -234,7 +234,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 239 | 24/11/2026 | Paulo — Saudade da terra e da cavalgada (2005) | [idmat064155](https://aventura.inema.club/mat/idmat064155.htm) | 0057068 | https://www.youtube.com/watch?v=t-DEoYjXzlg | `memorias/paulo-saudade-cavalgada-2005/` | `output/memorias-aventura-paulo-saudade-cavalgada-2005` |
 | 242 | 24/11/2026 | Pedro Oliva — da Califórnia ao Green River (2006) | [idmat080223](https://aventura.inema.club/mat/idmat080223.htm) | 0068281 | https://www.youtube.com/watch?v=XTytr7Jdk-E | `memorias/pedro-pedro-criscuolo-na-california-2006-2/` | `output/memorias-aventura-pedro-pedro-criscuolo-na-california-2006-2` |
 | 244 | 25/11/2026 | Giani — 4º Encontro da Família Maldaner (2003) | [idmat015681](https://aventura.inema.club/mat/idmat015681.htm) | 0038086 | https://www.youtube.com/watch?v=db4ISqPxi7U | `memorias/giani-4-encontro-da-familia-2003/` | `output/memorias-aventura-giani-4-encontro-da-familia-2003` |
-| 245 | 25/11/2026 | Nanda — III Corrida Canela Aventura (2004) | [idmat026247](https://aventura.inema.club/mat/idmat026247.htm) | 0039819 | https://www.youtube.com/watch?v=FuRc_8T1PPQ | `memorias/nanda-iii-c-canela-aventura-2004/` | `output/memorias-aventura-nanda-iii-c-canela-aventura-2004` |
+| 245 | 27/11/2026 | Nanda — III Corrida Canela Aventura (2004) | [idmat026247](https://aventura.inema.club/mat/idmat026247.htm) | 0039819 | https://www.youtube.com/watch?v=LJzRqVpHlOA | `memorias/nanda-iii-c-canela-aventura-2004/` | `output/memorias-aventura-nanda-iii-c-canela-aventura-2004` |
 
 ## Próximos
 
