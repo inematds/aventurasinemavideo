@@ -237,6 +237,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 245 | 27/11/2026 | Nanda — III Corrida Canela Aventura (2004) | [idmat026247](https://aventura.inema.club/mat/idmat026247.htm) | 0039819 | https://www.youtube.com/watch?v=LJzRqVpHlOA | `memorias/nanda-iii-c-canela-aventura-2004/` | `output/memorias-aventura-nanda-iii-c-canela-aventura-2004` |
 | 250 | 27/11/2026 | Família Goldschmidt — Cusco, a capital do Império Inca (2012) | [idmat121966](https://aventura.inema.club/mat/idmat121966.htm) | 0096904 | https://www.youtube.com/watch?v=wfv6Lc-tXh4 | `memorias/familia-cusco-a-capital-2012/` | `output/memorias-aventura-familia-cusco-a-capital-2012` |
 | 251 | 27/11/2026 | Adilson Kilka — Rally Rota Sul (2003) | [idmat018041](https://aventura.inema.club/mat/idmat018041.htm) | 0038172 | https://www.youtube.com/watch?v=FYCrz_UusEg | `memorias/adilson-rally-rota-sul-2003/` | `output/memorias-aventura-adilson-rally-rota-sul-2003` |
+| 254 | 27/11/2026 | Cláudio e Valério — 36 horas de adrenalina na Bolívia (2006) | [idmat078876](https://aventura.inema.club/mat/idmat078876.htm) | 0067508 | https://www.youtube.com/watch?v=jFkC76PCBwI | `memorias/claudio-36-hs-de-adrenalina-2006/` | `output/memorias-aventura-claudio-36-hs-de-adrenalina-2006` |
 
 ## Próximos
 
