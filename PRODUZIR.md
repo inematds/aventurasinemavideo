@@ -23,7 +23,7 @@ Não publica no YouTube, não sobe no B2 e não manda e-mail. Quem faz isso é o
    B01 sempre com foto. Só a matéria SEM relato (só fotos) narra o que as fotos mostram.
    Não invente nome de lugar nem de pessoa nem fato fora do relato.
    Na fala, anos e números vão por extenso ("dois mil e oito", "dez mil quilômetros"). Frases curtas.
-5. **Voz**: `tts.sh` (chatterbox, voz `nei`, 0.6/0.6), depois `pos_voz.py`. Confira a transcrição do Whisper bloco a bloco.
+5. **Voz**: `tts.sh` (chatterbox, voz `nei5`, 0.6/0.6; Nei escolheu em 27/11/2026), depois `pos_voz.py`. Confira a transcrição do Whisper bloco a bloco.
    Se uma palavra saiu errada ou gaguejada, reescreva a frase e gere de novo só aquele bloco. O Whisper devolve número em dígito: use `Wd(b,'12')`.
 6. `linha.py` → `mixar_trilha.sh` → `remaster_codex.py` (~12 fotos mais fortes, Codex pela assinatura) → `preparar_rm.py`
    (prefixo do slug) → `gerar_depth.mjs` → escreva o `filme.py` (beats Pilha/Faixa/Mosaico/Prof, letreiros sincronizados por `Wd`) e renderize.
