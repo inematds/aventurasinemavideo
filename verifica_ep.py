@@ -40,6 +40,42 @@ if (vid.get("width"), vid.get("height")) != (1920, 1080):
     falha(f"resolução {vid.get('width')}x{vid.get('height')}, esperado 1920x1080")
 if not os.path.isfile(f"{pasta}/roteiro.md"):
     falha("sem roteiro.md")
+# Roteiro (Nei, 27/11/2026): B01 diz a aventura; cada bloco tem "TELA: … · FOTOS: …" com categoria existente ou galeria
+import re
+import unicodedata
+
+
+def _norm(s):
+    return unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
+
+
+rot = open(f"{pasta}/roteiro.md").read().splitlines()
+blocos = [(i, re.match(r"^(B\d\d)[^—]*— (.+)$", l)) for i, l in enumerate(rot)]
+blocos = [(i, m.group(1), m.group(2)) for i, m in blocos if m]
+if not blocos:
+    falha("roteiro.md sem blocos 'Bxx — fala'")
+try:
+    cats = {x["cat"] for x in json.load(open(f"{pasta}/classificacao.json")) if x.get("cat") != "ruim"}
+except (OSError, ValueError):
+    cats = set()
+for i, b, _ in blocos:
+    meta = rot[i + 1] if i + 1 < len(rot) else ""
+    m = re.search(r"TELA:\s*(.+?)\s*·\s*FOTOS:\s*(.+)$", meta)
+    if not m or not m.group(1).strip():
+        falha(f"{b} sem a linha 'TELA: <assunto> · FOTOS: <categorias>|galeria' logo abaixo")
+    for c in [x.strip() for x in re.split(r"[,|]", m.group(2)) if x.strip()]:
+        if _norm(c) != "galeria" and c not in cats:
+            falha(f"{b}: categoria de foto '{c}' não existe na classificacao.json ({', '.join(sorted(cats))})")
+GENERICAS = {"aventura", "aventuras", "parte", "familia", "trajetoria", "capital", "imperio", "adrenalina"}
+try:
+    assunto = next(c["assunto"] for c in json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                                                     "privado", "candidatos.json")))
+                   if c["idmat"] == idmat)
+except (OSError, ValueError, StopIteration):
+    assunto = ep.get("assunto", "")
+chaves = {w for w in re.findall(r"[a-z]{4,}", _norm(assunto)) if w not in GENERICAS}
+if chaves and not any(w in _norm(blocos[0][2]) for w in chaves):
+    falha(f"B01 não diz a aventura (nenhuma de {sorted(chaves)} na fala; regra: todo início fala da aventura)")
 # áudio não pode ser silêncio
 r = subprocess.run(["ffmpeg", "-v", "info", "-i", v, "-af", "volumedetect", "-vn", "-f", "null", "-"],
                    capture_output=True, text=True)

@@ -42,6 +42,8 @@ EOF
 }
 
 while true; do
+  # Pausa manual (27/11/2026): com privado/PAUSAR_PRODUTOR não começa episódio novo (Restart=always religaria o serviço)
+  if [ -f privado/PAUSAR_PRODUTOR ]; then sleep 300; continue; fi
   # disco: / vive cheio; episódio novo vai para o HD de 8 TB, mas TTS/render usam /tmp e o cache
   livre_raiz=$(df --output=avail -BG / | tail -1 | tr -dc 0-9)
   livre_hd=$(df --output=avail -BG /mnt/hd8t 2>/dev/null | tail -1 | tr -dc 0-9)
@@ -155,5 +157,7 @@ Log: ~/projetos/aventurasinemavideo/$TAREFAS/$slug.log
 Sigo para a próxima matéria$([ $falhas -ge 3 ] && echo ' depois de 30 min de pausa')." >/dev/null 2>&1
     [ $falhas -ge 3 ] && sleep 1800
   fi
+  # Piloto (27/11/2026): com privado/PILOTO_UM faz só este episódio e pausa para o Nei aprovar
+  if [ -f privado/PILOTO_UM ]; then rm -f privado/PILOTO_UM; touch privado/PAUSAR_PRODUTOR; log "piloto feito, produtor pausado (privado/PAUSAR_PRODUTOR)"; fi
   [ "$UMA" = 1 ] && exit 0
 done

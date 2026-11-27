@@ -15,19 +15,31 @@ Não publica no YouTube, não sobe no B2 e não manda e-mail. Quem faz isso é o
    **Fotos principais = as que aparecem na própria matéria** (`<img>` em https://f005.backblazeb2.com/file/inemaaventura/mat/idmatXXXXXX.htm, versão grande em `al1/`): use TODAS. Outras fotos do álbum ou de álbuns vizinhos do mesmo evento entram só como enfeite (fundo, mosaico, faixa). Regra do Nei, 10/10/2026.
    Classifique as fotos pela etapa `classificacao` de `auto/ia.yaml` (categorias da história + nota 1–3 + "ruim") → `classificacao.json`.
    Use o executor do projeto (caminho absoluto): `python3 ~/projetos/aventurasinemavideo/auto/ia_motor.py executar classificacao --pasta "$PWD" --imagem /caminho/foto.jpg --saida classificacao.json`, recebendo o pedido pela entrada padrão; repita `--imagem` para lotes pequenos e consolide o JSON. Informe os nomes dos arquivos no pedido. Não fixe modelo nem use um subagente Haiku por fora da configuração. A remasterização continua Codex assinatura.
-4. **roteiro.md**: de 9 a 15 blocos (B01 = gancho com o ganho/emoção da história; último bloco = "…continua guardada no acervo do INEMA Aventura").
+4. **roteiro.md**: de 9 a 15 blocos (B01 = apresenta a aventura e promete o que vem, ver abaixo; último bloco = "…continua guardada no acervo do INEMA Aventura").
    **Com relato, a narração conta a HISTÓRIA do texto e as fotos complementam (regra do Nei, 27/11/2026).** A voz não
    descreve a foto ("a vista compensou o esforço" sobre a foto da vista): conta o que aconteceu, o que a pessoa sentiu,
    o antes e o depois. Fato sem foto própria também é narrado, e na tela entram fotos reais da mesma matéria (galeria,
    faixa, fundo desfocado) sem afirmar que mostram aquele instante. Nunca tela só com texto em fundo escuro; o gancho
    B01 sempre com foto. Só a matéria SEM relato (só fotos) narra o que as fotos mostram.
    Não invente nome de lugar nem de pessoa nem fato fora do relato.
-   **Arco do roteiro (27/11/2026):** B01 gancho = o momento mais forte do relato (com foto) · B02 contexto curto (quem,
-   quando, onde) num bloco só · meio = decisões, sustos, sensações e frases da própria pessoa ("ela contou que…"),
-   não inventário de trechos ("o grupo avançou pelas pedras") · virada e desfecho · fecho fixo. Duração pelo relato:
-   relato longo até 3 min; relato curto ~1,5 min, sem encher.
-   **Letreiro não repete a fala (27/11/2026):** só o que a voz não diz — lugar, data, número, nome, etapa. Nunca copiar
-   a frase narrada na tela.
+   **B01 apresenta a aventura (Nei, 27/11/2026: "todo início tem que falar da aventura").** A primeira frase diz QUAL é
+   a aventura (o nome da prova/viagem/evento como está na matéria), quem, quando e onde, já com a promessa do que vem.
+   Ex.: "Em abril de dois mil e quatro, Nanda Brenner encarou dez horas da Corrida Canela Aventura, e a prova guardava
+   um penhasco, um rapel e uma chegada decidida em cinco segundos." Nunca começar no meio da ação sem dizer a aventura.
+   Letreiro do B01 = nome da aventura + ano.
+   **Meio:** decisões, sustos, sensações e frases da própria pessoa ("ela contou que…"), não inventário de trechos.
+   Virada, desfecho e fecho fixo. Duração pelo relato: longo até 3 min; curto ~1,5 min, sem encher.
+   **Palavra do assunto na tela (Nei, 27/11/2026: "uma palavra sobre o que é, não precisa legenda").** Cada momento
+   ganha um letreiro de 2 a 4 palavras dizendo DO QUE se fala ("NATAÇÃO NO LAGO", "SERROTE NA PRAÇA", "RAPEL NA
+   CASCATA", "PNEU FURADO"), entrando quando a voz chega nele (`Wd`). Não é legenda nem cópia da frase. Dado (PC 7,
+   903 m, 10h15) só como linha pequena de apoio.
+   **A foto acompanha a fala (Nei, 27/11/2026: "buscar as fotos apropriadas para a fala").** Escolha as fotos de cada
+   bloco pela `classificacao.json` (categoria + descrição) do assunto falado, trocando de foto quando a fala muda de
+   assunto. Sem foto daquele momento: galeria do evento passando (Faixa/Mosaico), nunca tela vazia.
+   **Formato obrigatório do roteiro.md:** logo abaixo de cada linha `Bxx — <fala>`, uma linha
+   `  TELA: <assunto em 2–4 palavras>[ / <outro assunto quando a fala muda>] · FOTOS: <categoria(s) da classificacao.json, separadas por vírgula> | galeria`.
+   O `filme.py` usa exatamente essas categorias. O portão (`verifica_ep.py`) reprova bloco sem TELA/FOTOS, categoria
+   inexistente e B01 sem o nome da aventura.
    Na fala, anos e números vão por extenso ("dois mil e oito", "dez mil quilômetros"). Frases curtas.
 5. **Voz**: `tts.sh` (chatterbox, voz `nei5`, 0.6/0.6; Nei escolheu em 27/11/2026), depois `pos_voz.py`. Confira a transcrição do Whisper bloco a bloco.
    Se uma palavra saiu errada ou gaguejada, reescreva a frase e gere de novo só aquele bloco. O Whisper devolve número em dígito: use `Wd(b,'12')`.
