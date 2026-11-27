@@ -146,6 +146,12 @@ def registrar_md(ep):
     linha = (f"| {ep['n']} | {ep['data']} | {ep['titulo_curto']} | [idmat{ep['idmat']:06d}](https://aventura.inema.club/mat/idmat{ep['idmat']:06d}.htm)"
              f" | {ep['album']} | {ep['yt']} | `memorias/{ep['slug']}/` | `output/memorias-aventura-{ep['slug']}` |\n")
     s = open(f'{D}/EPISODIOS.md').read()
+    marca = f"`output/memorias-aventura-{ep['slug']}`"
+    velha = next((l for l in s.split('\n') if l.endswith(marca + ' |')), None)
+    if velha and ep['yt'] not in velha:  # refeito: a linha do episódio passa a apontar para o vídeo novo
+        s = s.replace(velha, linha.rstrip('\n'))
+        open(f'{D}/EPISODIOS.md', 'w').write(s)
+        return
     if ep['yt'] not in s:
         i = s.index('\n## Próximos')
         s = s[:i].rstrip('\n') + '\n' + linha + s[i:]
@@ -222,8 +228,12 @@ def publicar(pasta, sem_email=False, so_aviso=False):
         jsave(f'{P}/estado_pub.json', est)
     if not sem_email:
         avisar(c, ep, s, est, s['yt'])
-    if not any(e['slug'] == ep['slug'] for e in eps):
+    antigo = next((e for e in eps if e['slug'] == ep['slug']), None)
+    if not antigo:
         eps.append(ep_reg)
+        jsave(f'{P}/episodios.json', eps)
+    elif antigo.get('yt') != ep_reg['yt']:  # episódio refeito e republicado (27/11/2026): troca o link
+        antigo.update(yt=ep_reg['yt'], data=ep_reg['data'], titulo_curto=ep_reg['titulo_curto'])
         jsave(f'{P}/episodios.json', eps)
     registrar_md(ep_reg)
     if c:
