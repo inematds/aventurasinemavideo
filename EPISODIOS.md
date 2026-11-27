@@ -235,6 +235,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 242 | 24/11/2026 | Pedro Oliva — da Califórnia ao Green River (2006) | [idmat080223](https://aventura.inema.club/mat/idmat080223.htm) | 0068281 | https://www.youtube.com/watch?v=XTytr7Jdk-E | `memorias/pedro-pedro-criscuolo-na-california-2006-2/` | `output/memorias-aventura-pedro-pedro-criscuolo-na-california-2006-2` |
 | 244 | 25/11/2026 | Giani — 4º Encontro da Família Maldaner (2003) | [idmat015681](https://aventura.inema.club/mat/idmat015681.htm) | 0038086 | https://www.youtube.com/watch?v=db4ISqPxi7U | `memorias/giani-4-encontro-da-familia-2003/` | `output/memorias-aventura-giani-4-encontro-da-familia-2003` |
 | 245 | 27/11/2026 | Nanda — III Corrida Canela Aventura (2004) | [idmat026247](https://aventura.inema.club/mat/idmat026247.htm) | 0039819 | https://www.youtube.com/watch?v=LJzRqVpHlOA | `memorias/nanda-iii-c-canela-aventura-2004/` | `output/memorias-aventura-nanda-iii-c-canela-aventura-2004` |
+| 250 | 27/11/2026 | Família Goldschmidt — Cusco, a capital do Império Inca (2012) | [idmat121966](https://aventura.inema.club/mat/idmat121966.htm) | 0096904 | https://www.youtube.com/watch?v=wfv6Lc-tXh4 | `memorias/familia-cusco-a-capital-2012/` | `output/memorias-aventura-familia-cusco-a-capital-2012` |
 
 ## Próximos
 
