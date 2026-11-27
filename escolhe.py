@@ -47,6 +47,18 @@ def proximo_n(cands):
     return max(ns + [0]) + 1
 
 
+def idmats_com_episodio():
+    """Matérias que já viraram episódio (publicado ou na fila), sem confiar no status do candidatos.json,
+    que já foi sobrescrito por cópia antiga e fez a mesma matéria render 5 vezes (26/11/2026)."""
+    ids = {int(e.get("idmat", 0) or 0) for e in jload(f"{P}/episodios.json", [])}
+    for f in glob(f"{OUT}/memorias-aventura-*/EPISODIO.json"):
+        try:
+            ids.add(int(jload(f, {}).get("idmat", 0) or 0))
+        except (TypeError, ValueError):
+            pass
+    return ids - {0}
+
+
 def fotos(album):
     r = subprocess.run([RCLONE, "lsf", f"b2:inemaaventura/albuns/{album}/al1/"],
                        capture_output=True, text=True, timeout=180)
@@ -63,9 +75,12 @@ def main():
     recentes = sorted(usados, key=lambda c: c.get("n", 0))[-8:]
     areas_recentes = [c.get("area") for c in recentes[-3:]]
     quer_assinante = sum(1 for c in recentes if c.get("assinante")) < 2
+    ja_feitas = idmats_com_episodio()
 
     def ok(c):
         if c.get("status") != "pendente" or c.get("palavras", 0) < 250 or not c.get("album"):
+            return False
+        if c["idmat"] in ja_feitas:
             return False
         if c.get("assinante"):
             return True

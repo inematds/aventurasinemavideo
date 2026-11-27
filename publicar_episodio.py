@@ -19,7 +19,14 @@ NUM = [('dois mil e onze', '2011'), ('dois mil e dez', '2010'), ('dois mil e nov
        ('dois mil e três', '2003'), ('dois mil e dois', '2002'), ('dois mil e um', '2001'), ('dois mil', '2000')]
 
 
+ESPERA_X3 = 6 * 3600
+
+
 class Limite(Exception):
+    pass
+
+
+class Duplicado(Exception):  # matéria já publicada: a fila tira o episódio e segue (saída 65)
     pass
 
 
@@ -30,6 +37,22 @@ def jload(p, padrao):
 def jsave(p, obj):
     txt = json.dumps(obj, ensure_ascii=False, indent=1)
     open(p, 'w').write(txt)
+
+
+def marcar_feito(idmat):
+    """Relê candidatos.json sob a trava do produtor e muda só esta matéria (26/11/2026).
+    Antes gravava a cópia lida no início, horas antes (espera do x3), e devolvia a 'pendente' a matéria que o
+    produtor acabara de reservar/produzir: Trilha Inca, Alexandre e Nanda viraram 5 episódios cada."""
+    import fcntl
+    with open(f'{P}/.candidatos.lock', 'a') as trava:
+        fcntl.flock(trava, fcntl.LOCK_EX)
+        p = f'{P}/candidatos.json'
+        cands = jload(p, [])
+        for x in cands:
+            if x['idmat'] == idmat:
+                x['status'] = 'feito'
+        json.dump(cands, open(p + '.tmp', 'w'), ensure_ascii=False)
+        os.replace(p + '.tmp', p)
 
 
 def narracao(pasta):
@@ -54,6 +77,21 @@ def yt(*args, timeout=1500):
     if re.search(r'uploadLimitExceeded|quotaExceeded|dailyLimitExceeded', out):
         raise Limite(out[-300:])
     return out
+
+
+def entregar_x3(ep, plano):
+    """Nei, 18/11/2026: o episódio longo entra na fila de clipes do x3 (lives26) e o x3 publica no horário."""
+    s = json.load(open(plano))['youtube']['snippet']
+    p = subprocess.run([os.path.expanduser('~/projetos/yt-pub-x3/yt-pub-x3'), 'enviar-arquivo', ep['video'], '--canal', 'lives26',
+                        '--titulo', s['title'], '--descricao', s['description'], '--tags', ','.join(s.get('tags') or []),
+                        '--sem-capa', '--origem', f"aventuras/{ep['slug']}", '--esperar', str(ESPERA_X3)],
+                       capture_output=True, text=True, timeout=ESPERA_X3 + 600)
+    m = re.search(r'Publicado: (\S+)', p.stdout)
+    if m:
+        return m.group(1)
+    if p.returncode == 4:
+        raise Limite('ainda na fila do x3')
+    raise SystemExit('x3 não publicou: ' + (p.stdout + p.stderr)[-400:])
 
 
 def descricao(ep, plano_txt, outros):
@@ -131,6 +169,11 @@ def publicar(pasta, sem_email=False, so_aviso=False):
     ep['notificar'] = [int(i) for i in ep.get('notificar', [])] or None
     if ep['notificar'] is None:
         ep.pop('notificar')
+    repetido = [e for e in jload(f'{P}/episodios.json', [])
+                if int(e.get('idmat', 0) or 0) == ep['idmat'] and e['slug'] != ep['slug']]
+    if repetido:  # 26/11/2026: a mesma matéria saiu 5 vezes no canal; nunca publicar de novo
+        raise Duplicado(f"matéria {ep['idmat']} já publicada como #{repetido[0]['n']} {repetido[0]['slug']} "
+                        f"({repetido[0].get('yt', '')})")
     cand = {c['idmat']: c for c in jload(f'{P}/candidatos.json', [])}
     c = cand.get(ep['idmat'], {})
     ep.setdefault('assunto', c.get('assunto', ep['titulo_curto']))
@@ -159,8 +202,7 @@ def publicar(pasta, sem_email=False, so_aviso=False):
                 raise SystemExit('dry-run sem plano: ' + out[-400:])
             s['plano'] = m.group(1)
             jsave(f'{P}/estado_pub.json', est)
-        yt('publicar', ep['video'], '--canal', 'aventuras', '--sem-thumb', '--plano', s['plano'])
-        s['yt'] = url_publicada(ep['video'])
+        s['yt'] = entregar_x3(ep, s['plano'])
         if not s['yt']:
             raise SystemExit('publicação sem URL no histórico')
         jsave(f'{P}/estado_pub.json', est)
@@ -185,8 +227,7 @@ def publicar(pasta, sem_email=False, so_aviso=False):
         jsave(f'{P}/episodios.json', eps)
     registrar_md(ep_reg)
     if c:
-        c['status'] = 'feito'
-        jsave(f'{P}/candidatos.json', list(cand.values()))
+        marcar_feito(ep['idmat'])
     if not s.get('avisado'):
         telegram(f"Memórias de Aventura #{ep['n']} publicado no Aventuras INEMA: {s['yt']}")
         s['avisado'] = True
@@ -200,3 +241,6 @@ if __name__ == '__main__':
     except Limite as e:
         print('LIMITE do YouTube, tentar depois:', e)
         sys.exit(75)
+    except Duplicado as e:
+        print('DUPLICADO, fora da fila:', e)
+        sys.exit(65)
