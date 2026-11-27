@@ -16,7 +16,12 @@ Não publica no YouTube, não sobe no B2 e não manda e-mail. Quem faz isso é o
    Classifique as fotos pela etapa `classificacao` de `auto/ia.yaml` (categorias da história + nota 1–3 + "ruim") → `classificacao.json`.
    Use o executor do projeto (caminho absoluto): `python3 ~/projetos/aventurasinemavideo/auto/ia_motor.py executar classificacao --pasta "$PWD" --imagem /caminho/foto.jpg --saida classificacao.json`, recebendo o pedido pela entrada padrão; repita `--imagem` para lotes pequenos e consolide o JSON. Informe os nomes dos arquivos no pedido. Não fixe modelo nem use um subagente Haiku por fora da configuração. A remasterização continua Codex assinatura.
 4. **roteiro.md**: de 9 a 15 blocos (B01 = gancho com o ganho/emoção da história; último bloco = "…continua guardada no acervo do INEMA Aventura").
-   Use só fatos do relato e o que as fotos mostram. Não invente nome de lugar nem de pessoa.
+   **Com relato, a narração conta a HISTÓRIA do texto e as fotos complementam (regra do Nei, 27/11/2026).** A voz não
+   descreve a foto ("a vista compensou o esforço" sobre a foto da vista): conta o que aconteceu, o que a pessoa sentiu,
+   o antes e o depois. Fato sem foto própria também é narrado, e na tela entram fotos reais da mesma matéria (galeria,
+   faixa, fundo desfocado) sem afirmar que mostram aquele instante. Nunca tela só com texto em fundo escuro; o gancho
+   B01 sempre com foto. Só a matéria SEM relato (só fotos) narra o que as fotos mostram.
+   Não invente nome de lugar nem de pessoa nem fato fora do relato.
    Na fala, anos e números vão por extenso ("dois mil e oito", "dez mil quilômetros"). Frases curtas.
 5. **Voz**: `tts.sh` (chatterbox, voz `nei`, 0.6/0.6), depois `pos_voz.py`. Confira a transcrição do Whisper bloco a bloco.
    Se uma palavra saiu errada ou gaguejada, reescreva a frase e gere de novo só aquele bloco. O Whisper devolve número em dígito: use `Wd(b,'12')`.

@@ -43,7 +43,7 @@ Ficam em `privado/DECISOES.md` (fora do git: dizem quem é assinante).
 Pasta `~/projetos/output/memorias-aventura-<slug>/`, copiada de um episódio pronto (ex.: Ana ou Guilherme):
 
 1. **Levantamento**: matéria (texto) + álbum `al1/` (fotos). Um subagente Haiku classifica as fotos (categorias + nota) em `classificacao.json`.
-2. **roteiro.md**: 9–15 blocos, a partir do relato, sem inventar nada além do texto e das fotos. Anos e números por extenso na fala.
+2. **roteiro.md**: 9–15 blocos. A narração conta a história do relato; as fotos complementam, a voz não as descreve (Nei, 27/11/2026). Nada inventado fora do texto. Anos e números por extenso na fala.
 3. **Narração**: `tts.sh` (chatterbox, voz `nei`, 0.6/0.6) → `pos_voz.py` (corte, atempo 1,06, loudnorm, Whisper) → conferir a transcrição. Palavra errada = reescrever a frase.
 4. `linha.py` → `mixar_trilha.sh` → `remaster_codex.py` (Codex image_gen pela assinatura, 4 em paralelo, ~12 fotos) → `preparar_rm.py` → `gerar_depth.mjs` → `filme.py`.
 5. **Conferir**: frames de cada bloco e duração. Depois enviar ao **inemaytbot** (`enviar_bot.py`). Toda mensagem da série (vídeo pronto, aviso de publicação) vai para o inemaytbot, nunca para o bot v3 (regra do Nei, 11/10/2026).

@@ -21,6 +21,7 @@ Aventuras INEMA). Antes de qualquer episódio, ler `PLANO.md` (regras do Nei, pi
 When I correct you, or you catch yourself making a mistake: before continuing, add the lesson as a one-line rule under ## Lessons, so it never happens again.
 
 ## Lessons
+- Nei (27/11/2026): "se tem texto use a história e as fotos devem complementar a história". Esta regra vence as lições abaixo que pedem fundo neutro/quadro neutro: fato sem foto própria é narrado com fotos reais da matéria na tela, sem dizer que mostram aquele instante; nunca tela só com texto; a voz não descreve a foto. Ver PRODUZIR.md passo 4.
 - Quem grava `privado/candidatos.json` relê sob `privado/.candidatos.lock` e muda só o seu idmat; nunca regravar uma cópia lida antes de uma espera longa. A gravação velha do publicador fez a mesma matéria sair 5 vezes (19–25/11). Se precisar saber se uma matéria já foi usada, olhar `episodios.json`/EPISODIO.json, não o status. (26/11/2026)
 - #259: as quatro partes de Maui usam o mesmo álbum, com 63 imagens distintas nas páginas. Deduplicar pelo nome decodificado, conferir cobertura no plano e preservar inteiro o mapa fotografado, que tem legenda no rodapé. Depois de um erro no portão da montagem, validar os 12 segmentos com ffprobe permitiu remontar sem refazer o render. (25/11/2026)
 - #258: em fotos com placas pequenas, conferir a inscrição no JPEG original antes de posicionar. A placa de São Tiago foi classificada como São Tomé, e a de Morro do Ferro saiu sob Bonfim no B04. A classificação foi corrigida e só B04 foi renderizado novamente. (25/11/2026)
