@@ -22,6 +22,12 @@ Não publica no YouTube, não sobe no B2 e não manda e-mail. Quem faz isso é o
    faixa, fundo desfocado) sem afirmar que mostram aquele instante. Nunca tela só com texto em fundo escuro; o gancho
    B01 sempre com foto. Só a matéria SEM relato (só fotos) narra o que as fotos mostram.
    Não invente nome de lugar nem de pessoa nem fato fora do relato.
+   **Arco do roteiro (27/11/2026):** B01 gancho = o momento mais forte do relato (com foto) · B02 contexto curto (quem,
+   quando, onde) num bloco só · meio = decisões, sustos, sensações e frases da própria pessoa ("ela contou que…"),
+   não inventário de trechos ("o grupo avançou pelas pedras") · virada e desfecho · fecho fixo. Duração pelo relato:
+   relato longo até 3 min; relato curto ~1,5 min, sem encher.
+   **Letreiro não repete a fala (27/11/2026):** só o que a voz não diz — lugar, data, número, nome, etapa. Nunca copiar
+   a frase narrada na tela.
    Na fala, anos e números vão por extenso ("dois mil e oito", "dez mil quilômetros"). Frases curtas.
 5. **Voz**: `tts.sh` (chatterbox, voz `nei5`, 0.6/0.6; Nei escolheu em 27/11/2026), depois `pos_voz.py`. Confira a transcrição do Whisper bloco a bloco.
    Se uma palavra saiu errada ou gaguejada, reescreva a frase e gere de novo só aquele bloco. O Whisper devolve número em dígito: use `Wd(b,'12')`.

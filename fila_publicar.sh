@@ -10,6 +10,9 @@ falhas=0
 FILA=privado/fila_publicar.txt
 LOG=privado/fila_publicar.log
 while true; do
+  # Trava manual (27/11/2026): com privado/SEGURAR_FILA a fila não publica nada (refação das narrações;
+  # o produtor religa este serviço a cada episódio pronto, por isso parar o serviço não basta)
+  if [ -f privado/SEGURAR_FILA ]; then sleep 600; continue; fi
   pasta=$(grep -v '^\s*$' "$FILA" 2>/dev/null | head -1)
   # Fila vazia não encerra (12/10/2026): o produtor contínuo (produz_loop.sh) vai repondo
   [ -z "$pasta" ] && { sleep 600; continue; }

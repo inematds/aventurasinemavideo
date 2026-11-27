@@ -46,4 +46,20 @@ r = subprocess.run(["ffmpeg", "-v", "info", "-i", v, "-af", "volumedetect", "-vn
 media = next((float(l.split(":")[1].split()[0]) for l in r.stderr.splitlines() if "mean_volume" in l), -99)
 if media < -40:
     falha(f"áudio quase mudo (média {media} dB)")
+# Nunca tela só com texto em fundo escuro (Nei, 27/11/2026). Quadro "escuro" = ≥ 75% dos pixels com canal máximo < 45
+# (o fundo_escuro do motor vai até RGB 37/29/22). Reprova sequência de ≥ 2,5 s fora dos 4 s finais (fade do fecho).
+# Calibrado em 27/11: Nanda #245 antigo 67 s escuro, Cláudio #254 44 s; Ivan #259 só quadros soltos (passa).
+import numpy as np
+raw = subprocess.run(["ffmpeg", "-v", "error", "-i", v, "-vf", "fps=2,scale=96:54", "-f", "rawvideo",
+                      "-pix_fmt", "rgb24", "-"], capture_output=True).stdout
+esc = (np.frombuffer(raw, np.uint8).reshape(-1, 54, 96, 3).max(axis=3) < 45).mean(axis=(1, 2)) >= .75
+seq, ini = 0, 0
+for i, e in enumerate(esc):
+    if i / 2 > dur - 4:
+        break
+    seq = seq + 1 if e else 0
+    if seq == 1:
+        ini = i / 2
+    if seq >= 5:
+        falha(f"tela escura sem foto por ≥ 2,5 s a partir de {ini:.1f} s (regra: nunca tela só com texto)")
 print(f"OK #{n} {ep['titulo_curto']} — {dur:.0f} s")

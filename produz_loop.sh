@@ -60,7 +60,7 @@ while true; do
   [ "$UMA" = 0 ] && tarefa=$(python3 -c "
 import json,os
 fila=open('$FILA').read() if os.path.exists('$FILA') else ''
-for c in json.load(open('privado/candidatos.json')):
+for c in sorted(json.load(open('privado/candidatos.json')), key=lambda c: c.get('n') or 0):  # menor n primeiro (27/11/2026)
     if c.get('status')=='em_producao' and not c.get('teste'):  # episódio de teste de modelo é do outro processo
         pasta=os.path.expanduser('~/projetos/output/memorias-aventura-'+c['slug'])
         if pasta not in fila:
@@ -103,6 +103,7 @@ json.dump(c,open(p+'.tmp','w'),ensure_ascii=False); os.replace(p+'.tmp',p)"
     echo "- Classificação das fotos: use a etapa classificacao de auto/ia.yaml conforme PRODUZIR.md; não fixe Haiku ou outro modelo. Imagens restauradas continuam sempre Codex assinatura."
     echo "- Quem está na matéria recebe e-mail automático depois (todas as pessoas ligadas, menos o Nei)."
     [ -n "$EXTRA" ] && echo "- $EXTRA"
+    [ -f "$pasta/REFAZER.md" ] && { echo; cat "$pasta/REFAZER.md"; }  # refação: vence o "continue de onde parou"
     echo "- Se a matéria não render um episódio honesto (relato fraco, fotos de outro assunto), escreva o motivo em $pasta/DESISTI.txt e pare."
     echo
     cat PRODUZIR.md
