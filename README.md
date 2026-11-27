@@ -41,6 +41,8 @@ voz do Nei. O autor da história recebe o vídeo por e-mail.
 | `enviar_email.py` | aviso por e-mail ao autor (Resend) |
 
 Publicação no YouTube pelo [yt-pubx](https://github.com/inematds/yt-pubx) (`--canal aventuras`).
+
+Cada matéria vira um episódio só: o `escolhe.py` pula matéria que já tem episódio, e o `publicar_episodio.py` recusa a que já foi publicada (saída 65). A fila a tira para `privado/fila_duplicados.txt` e segue.
 Para autorizar um canal novo, veja o [passo a passo sem termos técnicos](https://github.com/inematds/yt-pubx/blob/main/docs/autorizar-canal.md).
 
 ## Dados pessoais
