@@ -240,6 +240,7 @@ Mais recente no fim. Quem é assinante fica em `privado/` (fora do git).
 | 254 | 27/11/2026 | Cláudio e Valério — 36 horas de adrenalina na Bolívia (2006) | [idmat078876](https://aventura.inema.club/mat/idmat078876.htm) | 0067508 | https://www.youtube.com/watch?v=jFkC76PCBwI | `memorias/claudio-36-hs-de-adrenalina-2006/` | `output/memorias-aventura-claudio-36-hs-de-adrenalina-2006` |
 | 255 | 27/11/2026 | Festa da Uva — Trajetória (2002) | [idmat008211](https://aventura.inema.club/mat/idmat008211.htm) | 0036987 | https://www.youtube.com/watch?v=6E7yHLWJNvU | `memorias/festa-festa-da-uva-2002-2002/` | `output/memorias-aventura-festa-festa-da-uva-2002-2002` |
 | 256 | 27/11/2026 | Irmãos Paradeda — Campeonato Brasileiro de 470 (2002) | [idmat007367](https://aventura.inema.club/mat/idmat007367.htm) | 0036837 | https://www.youtube.com/watch?v=6qcx8vJASfU | `memorias/clube-campeonato-brasileiro-de-470-2002-2/` | `output/memorias-aventura-clube-campeonato-brasileiro-de-470-2002-2` |
+| 257 | 28/11/2026 | Chico Brendler — a Toy Fair dos modelos elétricos (2004) | [idmat023544](https://aventura.inema.club/mat/idmat023544.htm) | 0018471 | https://www.youtube.com/watch?v=9uA80DWKsTM | `memorias/chico-chico-blender-na-alemanha-2004/` | `output/memorias-aventura-chico-chico-blender-na-alemanha-2004` |
 
 ## Próximos
 
